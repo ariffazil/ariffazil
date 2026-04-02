@@ -8,3 +8,15 @@ assets/
 .ruff_cache/
 telemetry/
 tmp/
+
+# Agent Configs & Secrets
+.gemini/
+.env*
+_archive/
+
+
+.gemini/
+_archive/
+.env*
+node_modules/
+
