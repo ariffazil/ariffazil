@@ -77,8 +77,8 @@ All agents operating in this repository **must** adhere to the following mandate
 
 - `000/` — Core Constitution, law, and philosophical foundations.
 - `arifOS/` — The primary "MIND" repository containing all logic.
-    - `arifosmcp/` — The implementation kernel (FastAPI/MCP server).
-    - `core/` — The governance kernel, pipeline, and "organs" (AGI, ASI, APEX).
+    - `arifosmcp/` — The canonical implementation kernel (FastAPI/MCP server). **All governance logic lives here** — organs (AGI, ASI, APEX), pipeline, vault, intelligence, memory.
+    - `core/` — ⚠️ **ARCHIVED (2026.04.05)** — formerly the governance kernel. Fully migrated into `arifosmcp/`. Do not write new code here.
     - `data/` — Knowledge bases, including the `philosophy_atlas.json`.
     - `tests/` — Comprehensive test suite for constitutional floors.
 - `arif-site/` — The "SOUL" (Human Anchor) containing the public web presence.
@@ -88,12 +88,12 @@ All agents operating in this repository **must** adhere to the following mandate
 
 ## 📝 Contribution & Quality Standards
 
-- **Coding Style:** Strictly follow `ruff` and `black` formatting. Use `mypy` for type checking (stricter in `core/`).
+- **Coding Style:** Strictly follow `ruff` and `black` formatting. Use `mypy` for type checking (strict mode applies to `arifosmcp/` core modules).
 - **Testing:** New features **must** include a corresponding test case in `tests/` and pass the 13-floor compliance check.
 - **Versioning:** Use the `YYYY.MM.DD` format in `pyproject.toml` and `CHANGELOG.md`.
 - **Transparency:** Never log or commit API keys. Use `.env.example` as a template.
 
 ---
 
-*Sealed by: 888_JUDGE | 2026.04.02*
+*Sealed by: 888_JUDGE | 2026.04.05*
 *Ditempa Bukan Diberi*
