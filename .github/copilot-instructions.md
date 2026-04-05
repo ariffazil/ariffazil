@@ -13,7 +13,7 @@ This workspace is a **Constitutional AI Governance System**. All AI agent action
 | `arifOS/` | Primary codebase — governance kernel, MCP server, Trinity engines, tests |
 | `arif-site/` | Public web presence (Human Anchor / Soul) |
 | `GEOX/` | Geoscientific data integration and MCP server |
-| `arifosmcp/` | Symlink / staging mirror of `arifOS/arifosmcp` |
+| `arifosmcp/` | Separate `arifosmcp` package repo (submodule) |
 
 The main development target is **`arifOS/`**. All commands below assume `cd arifOS/` unless stated otherwise.
 
@@ -69,10 +69,10 @@ The governance pipeline routes every action through three organs:
     → 555_EMPATHY → 666_ALIGN → 777_FORGE → 888_JUDGE → 999_SEAL
 ```
 
-- **`core/governance_kernel.py`** — facade; canonical logic lives in `arifos_mcp/core/governance/`
+- **`core/governance_kernel.py`** — facade; canonical logic lives in `arifosmcp/core/governance/`
 - **`core/pipeline.py`** — execution pipeline
-- **`arifos_mcp/core/`** — modular governance implementation (canonical)
-- **`arifos_mcp/`** — FastAPI + FastMCP tool surface (11 mega-tools, 37 modes)
+- **`arifosmcp/core/`** — modular governance implementation (canonical)
+- **`arifosmcp/`** — FastAPI + FastMCP tool surface (11 mega-tools, 37 modes)
 
 ### VAULT999
 
@@ -100,7 +100,7 @@ Format: `YYYY.MM.DD` in `pyproject.toml` and `CHANGELOG.md` (e.g., `2026.03.25`)
 async def my_tool(...):
     ...
 ```
-Confirm the current tool list in `arifos_mcp/` before adding or editing tools — tool consolidation has happened multiple times.
+Confirm the current tool list in `arifosmcp/` before adding or editing tools — tool consolidation has happened multiple times.
 
 ### Imports
 - Use `arifosmcp.transport` for local code; `mcp` is the external SDK — do not shadow it.
