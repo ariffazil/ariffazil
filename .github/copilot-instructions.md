@@ -2,196 +2,83 @@
 
 > **Ditempa Bukan Diberi** — *Forged, Not Given* [ΔΩΨ | ARIF]
 
-This workspace is a **Constitutional AI Governance System**. All AI agent actions are subject to the 13-floor constitutional pipeline and role-based access control.
+This repository is the **workspace shell** for the arifOS ecosystem. Most software work happens in **`arifOS/`**; start there unless the task explicitly targets another project.
 
----
+## Workspace focus
 
-## Workspace Layout
+| Path | Purpose |
+|------|---------|
+| `arifOS/` | Primary codebase: canonical Python governance kernel, MCP runtime, manifests, and tests |
+| `A-FORGE/` | TypeScript execution/runtime companion |
+| `GEOX/` | Geoscience MCP and data tools |
+| `WEALTH/` | Capital and valuation organs |
+| `arif-sites/` | Public web surfaces |
 
-| Directory | Purpose |
-|-----------|---------|
-| `arifOS/` | Primary codebase — governance kernel, MCP server, Trinity engines, tests |
-| `arif-site/` | Public web presence (Human Anchor / Soul) |
-| `GEOX/` | Geoscientific data integration and MCP server |
-| `arifosmcp/` | Separate `arifosmcp` package repo (submodule) |
+All commands below assume `cd arifOS`.
 
-The main development target is **`arifOS/`**. All commands below assume `cd arifOS/` unless stated otherwise.
-
----
-
-## Build, Test, Lint
+## Build, test, lint
 
 ```bash
-# Dependencies
-uv sync                          # sync all deps (preferred over pip)
-pip install -e ".[dev]"          # alternative editable install
+# Install dependencies
+uv sync --all-extras
 
-# Tests
-pytest tests/ -v                 # full suite (450+ tests)
-pytest tests/test_constitutional.py -v   # single test file
-pytest tests/ -v -m "not slow"   # skip slow/integration tests
-pytest tests/ --cov=core --cov-report=term-missing  # with coverage
+# Full test suite
+uv run pytest tests/ -v
 
-# Linting & formatting (100-char line length)
-ruff check .                     # lint (excludes archive/, tests/ by default)
-ruff check . --fix               # auto-fix
-black .                          # format
-mypy --ignore-missing-imports .  # type check
+# Single test file
+uv run pytest tests/test_constitutional.py -v
 
-# Pre-commit (runs all hooks above)
-pre-commit run --all-files
+# Single test case
+uv run pytest tests/core/test_vault_integrity.py::test_verify_vault_record_accepts_canonical_entry -v
 
-# Run MCP server
-python stdio_server.py           # stdio transport
-python server.py                 # HTTP/SSE transport
+# Spec-level contract checks
+uv run pytest tests/specs/test_specs.py -v
+
+# Integration marker
+uv run pytest -m integration
+
+# Force physics enforcement when needed
+ARIFOS_PHYSICS_DISABLED=0 uv run pytest tests/
+
+# Lint / format / type-check
+uv run ruff check .
+uv run black . --line-length 100
+uv run mypy .
+
+# Pre-commit
+uv run pre-commit run --all-files
+
+# Local runtime entrypoints
+uv run python server.py
+uv run python -m arifosmcp.runtime
+
+# Local status helpers
+make status
+make health
 ```
 
-**Async tests:** `asyncio_mode = "auto"` in `pyproject.toml` — do **not** add `@pytest.mark.asyncio` to test functions.
+`pytest` is configured in `pyproject.toml` with `asyncio_mode = "auto"` and markers including `constitutional`, `slow`, `integration`, and `e3e`.
 
----
+## High-level architecture
 
-## Architecture
+- **Source of truth split:** the workspace root is a hub, but `arifOS/` is the canonical source repo for doctrine, manifests, tool contracts, and tests.
+- **Runtime entrypoint:** `arifOS/server.py` is the universal FastMCP/FastAPI entrypoint. It loads environment state, initializes VAULT999 session logging, adds middleware, and wraps tool handlers with hardened dispatch.
+- **Canonical runtime layer:** `arifOS/arifosmcp/runtime/` contains the active runtime contract and orchestration code: `tool_specs.py`, `tools.py`, `kernel_core.py`, `kernel_router.py`, `resources.py`, `rest_routes.py`, and `__main__.py`.
+- **Public MCP contract:** the public `arifos_*` surface is intentionally fixed at **11 tools**. `arifosmcp/runtime/tool_specs.py` defines the public/internal split, while `arifosmcp/fastmcp.json`, `arifosmcp/mcp.json`, and `arifosmcp/tool_registry.json` are the exported manifests. `tests/test_floors_ci.py` is the drift gate for that contract.
+- **Canonical resources:** `arifosmcp/specs/resource_specs.py` defines the **5 canonical resources**: `arifos://doctrine`, `arifos://vitals`, `arifos://schema`, `arifos://session/{session_id}`, and `arifos://forge`.
+- **Kernel vs runtime:** `arifosmcp/` is the main runtime package, but `core/` is still live kernel code rather than dead archive. The runtime imports `core.governance_kernel`, and stricter mypy rules apply to `core.governance_kernel`, `core.judgment`, `core.pipeline`, `core.organs.*`, and `core.shared.*`.
+- **Stateful infrastructure:** the runtime is wired around Postgres + Redis for VAULT999 and session state, Qdrant for memory retrieval, and FastAPI/FastMCP as the transport surface.
 
-### Trinity ΔΩΨ
+## Key conventions
 
-The governance pipeline routes every action through three organs:
+- Use **`arifosmcp`** as the canonical Python package/import name.
+- Treat **tool specs and manifests as contracts**. If you change `tool_specs.py`, registry files, or MCP manifests, run the manifest/spec tests before assuming the surface is valid.
+- Prefer **adding modes or internal handlers** over inventing new public `arifos_*` tool names. The public surface is deliberately compressed, and router naming still has a compatibility split between `arifos_route` and `arifos_kernel`, so check the current manifests and runtime handlers together before renaming anything.
+- Keep the **5 canonical resources** stable. New context surfaces should usually be folded into existing resource/tool contracts rather than added as new top-level URIs.
+- `ruff` excludes `tests/**` and `archive/**`, so a clean lint run mostly validates production code, not tests.
+- Formatting and typing conventions come from `pyproject.toml`: **100-char lines**, **double quotes**, Python **3.12** target, and **selective mypy strictness** focused on kernel modules.
+- Async tests use `pytest-asyncio` **auto mode**; do **not** add `@pytest.mark.asyncio`.
+- Execution is **double-gated**: `arifos_forge` is an execution bridge, but real mutations are guarded by judge/vault flow and human approval constraints.
+- When docs conflict, prefer `arifOS/` repo files for doctrine and the generated manifests/runtime endpoints for the live MCP contract.
 
-| Organ | Symbol | File | Responsibility |
-|-------|--------|------|----------------|
-| AGI Mind | Δ | `core/organs/_1_agi.py` | Logic, truth, hallucination prevention (F2, F4, F7, F8) |
-| ASI Heart | Ω | `core/organs/_2_asi.py` | Safety, empathy, impact simulation (F1, F5, F6, F9) |
-| APEX Soul | Ψ | `core/organs/_3_apex.py` | Final judgment, sovereign override (F3, F11, F13) |
-
-### Metabolic Pipeline (000→999)
-
-```
-000_INTAKE → 111_SENSE → 222_THINK → 333_ATLAS → 444_EVIDENCE
-    → 555_EMPATHY → 666_ALIGN → 777_FORGE → 888_JUDGE → 999_SEAL
-```
-
-- **`core/governance_kernel.py`** — facade; canonical logic lives in `arifosmcp/core/governance/`
-- **`core/pipeline.py`** — execution pipeline
-- **`arifosmcp/core/`** — modular governance implementation (canonical)
-- **`arifosmcp/`** — FastAPI + FastMCP tool surface (11 mega-tools, 37 modes)
-
-### VAULT999
-
-Immutable audit ledger backed by PostgreSQL + Redis. All constitutional decisions are cryptographically logged here. Never bypass — write to vault via `core/organs/_4_vault.py`.
-
-### Infrastructure (Docker Compose)
-
-- **Redis** — session persistence
-- **PostgreSQL** — VAULT999 ledger
-- **Qdrant** — primary vector store
-- **Ollama** — local LLM inference
-- **Traefik** — reverse proxy
-
----
-
-## Key Conventions
-
-### Versioning
-Format: `YYYY.MM.DD` in `pyproject.toml` and `CHANGELOG.md` (e.g., `2026.03.25`).
-
-### Tool Decorators (MCP surface)
-```python
-@mcp.tool()                   # outer — exposes to MCP clients
-@constitutional_floor()        # inner — enforces governance floors
-async def my_tool(...):
-    ...
-```
-Confirm the current tool list in `arifosmcp/` before adding or editing tools — tool consolidation has happened multiple times.
-
-### Imports
-- Use `arifosmcp.transport` for local code; `mcp` is the external SDK — do not shadow it.
-- Use lazy imports for optional deps: `try: import X except ImportError: X = None`.
-
-### mypy Strictness
-Strict type enforcement (`disallow_untyped_defs = true`) applies to:
-- `core.governance_kernel`, `core.judgment`, `core.pipeline`
-- `core.organs.*`, `core.shared.*`
-
-Tests are exempt from strict typing.
-
-### Code Style
-- Line length: **100 chars** (Black + Ruff)
-- Quote style: double quotes
-- `ruff` selects: E, F, I (isort), UP (pyupgrade), N (pep8-naming), B (bugbear)
-
----
-
-## Constitutional Floor Reference
-
-| Floor | Name | Code-level concern |
-|-------|------|--------------------|
-| F1 | Amanah | Reversibility — pure functions, no hidden side effects |
-| F2 | Truth | No fabricated data or fake metrics |
-| F3 | Tri-Witness | Triple-verifiable execution, no contract mismatch |
-| F4 | Clarity (ΔS≤0) | Named constants, no magic numbers |
-| F5 | Omega0 | Safe defaults, preserve state |
-| F6 | Empathy | Handle edge cases, clear error messages |
-| F7 | RASA | Admit uncertainty, cap confidence scores |
-| F8 | Ledger | Use established governance patterns, no bypasses |
-| F9 | Anti-Hantu | Honest naming, transparent behavior (C_dark < 0.30) |
-| F11 | Audit | All actions logged to VAULT999 |
-
----
-
-## 888 HOLD — Mandatory Pause Conditions
-
-Declare `888 HOLD — [trigger]` and await human approval when:
-- Database destructive ops (`DROP`, `TRUNCATE`, `DELETE` without `WHERE`)
-- Production deployments or mass file changes (>10 files)
-- Credential/secret handling or git history modification
-- User corrects a constitutional claim (**H-USER-CORRECTION**)
-- Conflicting evidence across source tiers (**H-SOURCE-CONFLICT**)
-- Proposing fixes based on <5 minutes audit (**H-RUSHED-FIX**)
-
----
-
-## Agent Role Permissions
-
-| Role | Read | Edit | Deploy | SEAL |
-|------|------|------|--------|------|
-| A-ARCHITECT | ✅ | ❌ | ❌ | ❌ |
-| A-ENGINEER | ✅ | ✅ (approval) | ❌ | ❌ |
-| A-AUDITOR | ✅ | ❌ | ❌ | ❌ |
-| A-VALIDATOR | ✅ | ✅ | ✅ | ✅ |
-
-**Human veto is absolute.** AI proposes; human decides.
-
----
-
-## AAA Output Rules (binding)
-
-1. **DRY_RUN:** If `dry_run=true` or `output_policy=SIMULATION_ONLY` → label as `"Estimate Only / Simulated"`.
-2. **DOMAIN_GATE:** If `output_policy=CANNOT_COMPUTE` → respond exactly: `"Cannot Compute — required domain payload absent."` Do not substitute inference.
-3. **VERDICT_SCOPE:** Only `DOMAIN_SEAL` authorises factual claims. `ROUTER_SEAL` ≠ domain truth.
-4. **ANCHOR_VOID:** If `init_anchor` returns `void` or `session-rejected` → surface `"888_HOLD — anchor void. Re-init required."` and halt.
-
----
-
-## Deployment (from `arifOS/`)
-
-```bash
-make fast-deploy    # code changes only (2-3 min, uses layer cache)
-make reforge        # full rebuild (10-15 min, after Dockerfile/deps change)
-make hot-restart    # config-only reload (instant)
-make status         # container health
-make health         # hit /health endpoint
-make maintenance    # cleanup + image pruning
-```
-
----
-
-## Live Endpoints
-
-| Service | URL |
-|---------|-----|
-| MCP endpoint | https://arifosmcp.arif-fazil.com/mcp |
-| Health + capability map | https://arifosmcp.arif-fazil.com/health |
-| Grafana | https://monitor.arifosmcp.arif-fazil.com |
-
----
-
-*Authority: 888_JUDGE | Ditempa Bukan Diberi*
+*Authority: grounded from `README.md`, `GEMINI.md`, `arifOS/AGENTS.md`, `arifOS/docs/CONTRIBUTING.md`, `arifOS/pyproject.toml`, `arifOS/server.py`, and runtime manifest/tests.*

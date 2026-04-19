@@ -24,7 +24,7 @@
 
 This repository is the digital home of my professional journey and the **Human Anchor (THE SOUL)** of the **arifOS** ecosystem. It is the surface where geoscientific discipline meets architectural intent. 
 
-I am a **Senior Exploration Geoscientist** with 13+ years in the offshore hydrocarbon basins of Peninsular Malaysia. My life's work involves listening to the Earth—interpreting the subtle, often fragmented signals of the subsurface to make high-stakes decisions under profound uncertainty. This same discipline—the constant need for grounding, verification, and humility in the face of the unknown—is what birthed **arifOS**.
+I am a **Senior Exploration Geoscientist** with 13+ years in the offshore hydrocarbon basins of Peninsular Malaysia. My life's work involves listening to the Earth—interpreting the subtle, often fragmented signals of the subsurface to make high-stakes decisions under profound uncertainty. This same discipline—the constant need for grounding, verification, and humility in the face of the unknown—is what birthed **arifOS**. Refer to [Ω-Wiki](wiki/index.md) for deep technical specifications, theoretical foundations (ToAC), and constitutional governance standards.
 
 ---
 
@@ -45,6 +45,11 @@ I find the most satisfaction in the quiet successes—the wells matured through 
 |---|---|---|
 | **BEKANTAN-1** | Structural | Hydrocarbon discovery in a basin widely considered mature. Proved remaining potential through fresh prospect evaluation. |
 | **PUTERI BASEMENT-1** | Fractured Basement | Basement play matured through structural analysis. Demonstrated the viability of pre-Tertiary reservoirs in the Malay Basin. |
+- `/arifos/geox/`: Modular sovereign core (physics, tools, contracts).
+- `/geox-gui/`: React/TypeScript sovereign web shell source.
+- `/wiki/`: The Ω-Wiki — Canonical knowledge base (ToAC, RATLAS, 13 Floors).
+- `/legacy/`, `/stash/`: Archived artifacts and stashed tools.
+- `/tests/`: Comprehensive test suite.
 | **LEBAH EMAS-1** | New Play Concept | Wildcat well in Block PM6/12, offshore Terengganu. Discovery that opened a new geological play and challenged the perception of Peninsular Malaysia as an exhausted basin. |
 | **BUNGA TASBIH-1** | Structural / Stratigraphic | Contributed to a Discovered Resource Opportunity cluster. Field subsequently awarded under a Small Field Asset PSC via Malaysia Bid Round Plus (MBR+) Round I, July 2024. |
 
