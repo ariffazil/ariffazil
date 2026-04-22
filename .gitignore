@@ -1,7 +1,7 @@
 node_modules/
 dist/
 assets/
-.env
+.env*
 .DS_Store
 *.log
 .pytest_cache/
@@ -9,14 +9,21 @@ assets/
 telemetry/
 tmp/
 
-# Agent Configs & Secrets
+# Agent & local tool configs
 .gemini/
-.env*
+.agents/
+.claude/
+
+# Archived / retired content (lives on disk, not in repo)
 _archive/
+VAULT/
 
+# Standalone sovereign MCPs (own repos, not submodules here)
+GEOX/
+WEALTH/
 
-.gemini/
-_archive/
-.env*
-node_modules/
+# Empty dirs
+skills/
 
+# Windows noise
+nul
