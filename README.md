@@ -82,6 +82,28 @@ Selected links:
 
 ---
 
+## Federation Organ Map
+
+The repositories here form a governed AI federation under the arifOS constitutional kernel:
+
+| Organ | Repo / Surface | Role |
+|-------|---------------|------|
+| **arifOS** | `ariffazil/arifos` | Constitutional runtime kernel — F1–F13, 888_JUDGE, MCP server |
+| **AAA-HF** | [HF dataset `ariffazil/AAA`](https://hf.co/datasets/ariffazil/AAA) | Doctrine corpus — floors, verdicts, schemas, gold eval records |
+| **AAA-Cockpit** | `ariffazil/AAA` | Control plane — A2A gateway, agent registry, mission control |
+| **GEOX** | `ariffazil/geox` | Earth intelligence — wells, seismic, petrophysics, prospect risk |
+| **WEALTH** | `ariffazil/wealth` | Capital intelligence — thermodynamic economics, EMV, valuation |
+| **WELL** | `ariffazil/well` | Substrate intelligence — human readiness, vitality, dignity |
+| **A-FORGE** | `ariffazil/A-FORGE` | Execution shell — builds, deploys, orchestrates governed workloads |
+| **Supabase** | (external ledger) | Constitutional court record — records what happened under doctrine |
+| **VAULT999** | (in arifOS) | Sealed archive — immutable final rulings |
+| **Arif** | (me) | F13 sovereign — final veto authority |
+
+> AAA is polymorphic by design.  
+> AAA-HF is the law book. AAA-Cockpit is the control tower. arifOS is the judge.
+
+---
+
 ## Writing
 
 I write about geology, uncertainty, evidence, systems, and the strange discipline of staying grounded when the world wants clean answers.
