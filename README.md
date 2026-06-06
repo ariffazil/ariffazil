@@ -129,3 +129,6 @@ Some themes:
 
 DITEMPA BUKAN DIBERI
 *Forged, Not Given.*
+## Changelog
+
+- **v2026.06.06-LAW-SEAL** (2026-06-06): 13 Constitutional Laws (L01-L13) canonically named in arifOS. 7-organ federation unified. Bare-metal deploy verified.
