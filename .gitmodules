@@ -1,8 +1,0 @@
-
-[submodule "arifOS"]
-	path = arifOS
-	url = https://github.com/ariffazil/arifOS.git
-
-[submodule "arif-sites"]
-	path = arif-sites
-	url = https://github.com/ariffazil/arif-sites.git
