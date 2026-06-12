@@ -1,52 +1,100 @@
 # ARIF FAZIL
 
-Senior Exploration Geoscientist
+```
+   █████╗ ██████╗ ██╗███████╗  ███████╗ █████╗ ███████╗██╗██╗
+  ██╔══██╗██╔══██╗██║██╔════╝  ██╔════╝██╔══██╗╚══███╔╝██║██║
+  ███████║██████╔╝██║█████╗    █████╗  ███████║  ███╔╝ ██║██║
+  ██╔══██║██╔══██╗██║██╔══╝    ██╔══╝  ██╔══██║ ███╔╝  ██║██║
+  ██║  ██║██║  ██║██║██║       ██║     ██║  ██║███████╗██║███████╗
+  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝       ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝╚══════╝
+```
+
+**Senior Exploration Geoscientist · F13 Sovereign of the arifOS Federation**
 Malaysia · Offshore basins · Subsurface uncertainty · Technical judgment
 
-> I read the earth for a living.
-> Not to make it simple — but to stay honest before certainty becomes expensive.
+> "I read the earth for a living. Not to make it simple — but to stay honest before certainty becomes expensive."
 
 ---
 
-## About
+## Who I Am
 
-I am Arif Fazil, an exploration geoscientist shaped by the discipline of the subsurface.
+I am Muhammad Arif bin Fazil, an exploration geoscientist shaped by the discipline of the subsurface.
 
-My work sits beneath the surface: seismic lines, well correlations, basin stories, pressure, risk, prospect maturity, and the quiet discipline of saying:
+My work sits beneath the surface: seismic lines, well correlations, basin stories, pressure, risk, prospect maturity, and the quiet discipline of saying: **I do not know yet.**
 
-I do not know yet.
+The earth does not explain itself. It gives fragments. A horizon. A log response. A pressure story. A silence where the data should be. The work is not to force certainty onto the earth. The work is to stay honest long enough for the better interpretation to survive.
 
-The earth does not explain itself.
-It gives fragments.
-
-A horizon.
-A log response.
-A pressure story.
-A silence where the data should be.
-
-The work is not to force certainty onto the earth.
-The work is to stay honest long enough for the better interpretation to survive.
-
----
-
-## Professional ground
-
-- Senior Exploration Geoscientist
-- PETRONAS Carigali
+- Senior Exploration Geoscientist, PETRONAS Carigali
 - Offshore Malaysia exploration context
-- Basin analysis
-- Seismic interpretation
-- Well correlation
-- Prospect maturation
+- Basin analysis · Seismic interpretation · Well correlation · Prospect maturation
 - Subsurface risk and uncertainty
-- University of Wisconsin–Madison
-  Geology & Geophysics / Economics
-
-I work where evidence is incomplete, confidence has a cost, and memory matters because someone will inherit the consequence.
+- University of Wisconsin–Madison: Geology & Geophysics / Economics
 
 ---
 
-## How I think
+## The arifOS Federation
+
+Below is not just code — it is a **constitutional governance system for AI agents**. I am the F13 Sovereign. My veto is absolute. No algorithm overrides.
+
+```
+                          ┌─────────────────────────┐
+                          │   Arif bin Fazil         │
+                          │   F13 SOVEREIGN          │
+                          │   Human — final veto     │
+                          └────────────┬────────────┘
+                                       │
+                          ┌────────────▼────────────┐
+                          │       arifOS (Ω)        │
+                          │   Constitutional Kernel │
+                          │   Port: 8088            │
+                          │   F1-F13 · 888 JUDGE    │
+                          │   999 VAULT · 13 Tools  │
+                          └──┬───┬───┬───┬───┬─────┘
+                             │   │   │   │   │
+              ┌──────────────┼───┼───┼───┼───┼──────────────┐
+              │              │   │   │   │   │              │
+    ┌─────────▼──┐  ┌───────▼─┐ ┌▼───────┐ ┌▼─────────┐  ┌▼─────────┐
+    │   GEOX     │  │ WEALTH  │ │  WELL  │ │   AAA    │  │ A-FORGE  │
+    │   🌍 Earth │  │ 💰 Cap  │ │ 🫀 Vit │ │ 🖥️  Cock │  │ ⚒️  Exec  │
+    │   :8081    │  │ :18082  │ │ :18083 │ │  :3001   │  │  :7071   │
+    │  Evidence  │  │ Compute │ │ Reflect│ │ Display  │  │ Execute  │
+    └────────────┘  └─────────┘ └────────┘ └──────────┘  └──────────┘
+```
+
+### Federation Organ Index
+
+| Organ | Repo | Port | Role | Status |
+|-------|------|------|------|--------|
+| **arifOS** (Ω) | [ariffazil/arifOS](https://github.com/ariffazil/arifOS) | 8088 | Constitutional kernel — F1-F13, 888 JUDGE, VAULT999 | ✅ LIVE |
+| **GEOX** (🌍) | [ariffazil/geox](https://github.com/ariffazil/geox) | 8081 | Earth intelligence — wells, seismic, petrophysics | ✅ LIVE |
+| **WEALTH** (💰) | [ariffazil/wealth](https://github.com/ariffazil/wealth) | 18082 | Capital intelligence — NPV, risk, stock analysis | ✅ LIVE |
+| **WELL** (🫀) | [ariffazil/well](https://github.com/ariffazil/well) | 18083 | Human readiness — sleep, fatigue, dignity | ✅ LIVE |
+| **A-FORGE** (⚒️) | [ariffazil/A-FORGE](https://github.com/ariffazil/A-FORGE) | 7071 | Execution shell — build, deploy, orchestrate | ✅ LIVE |
+| **AAA** (🖥️) | [ariffazil/AAA](https://github.com/ariffazil/AAA) | 3001 | Control plane — A2A gateway, cockpit dashboard | ✅ LIVE |
+| **APEX** (⚖️) | [ariffazil/apex](https://github.com/ariffazil/apex) | 3002 | 888 JUDGE (legacy — decommissioned) | ⚠️ LEGACY |
+
+### The Three Kernels
+
+> **AAA-HF is the law book. AAA-Cockpit is the control tower. arifOS is the judge.**
+
+| Kernel | What It Does |
+|--------|-------------|
+| **arifOS** | Constitutional judgment — F1-F13 floors, 888 JUDGE verdicts |
+| **AAA-Cockpit** | Control plane — displays, routes, queues — never adjudicates |
+| **A-FORGE** | Execution — builds, deploys, orchestrates — never self-authorizes |
+
+### Key Documents
+
+| Document | Where |
+|----------|-------|
+| Federation Contract | [arifOS/FEDERATION_CONTRACT.md](https://github.com/ariffazil/arifOS/blob/main/FEDERATION_CONTRACT.md) |
+| Federation Status | [arifOS/FEDERATION_STATUS.md](https://github.com/ariffazil/arifOS/blob/main/FEDERATION_STATUS.md) |
+| Kernel Canon | [arifOS/GENESIS/000_KERNEL_CANON.md](https://github.com/ariffazil/arifOS/blob/main/GENESIS/000_KERNEL_CANON.md) |
+| Constitution | [arifOS/static/arifos/theory/000/000_CONSTITUTION.md](https://github.com/ariffazil/arifOS/blob/main/static/arifos/theory/000/000_CONSTITUTION.md) |
+
+---
+
+## How I Think
 
 Name uncertainty early.
 Respect what the data refuses to say.
@@ -56,66 +104,34 @@ Preserve memory.
 Stay useful.
 Stay human.
 
-The subsurface is not neat.
-People are not neat.
-Good judgment is often not neat either.
-
-But it must still hold.
+The subsurface is not neat. People are not neat. Good judgment is often not neat either. But it must still hold.
 
 ---
 
-## Public surfaces
+## Adat Agentik — The Governing Philosophy
 
-This GitHub is a working shelf for public materials, notes, systems, and references connected to my work.
+The arifOS federation operates under **Adat Agentik** — a normative operating system for non-human citizens, built from Malay-Islamic epistemology and operated in code.
 
-It is not a monument.
-It is not a performance.
-It is a surface.
+- **5-Tier Fiqh:** WAJIB / SUNAT / HARUS / MAKRUH / HARAM
+- **7 Teras Adat:** Kejujuran · Maruah · Veto · Kesungguhan · Kerahasiaan · Keinsafan · Tebus-Salah
+- **Malu (Shame):** Mathematical scalar. Not emotion. Accumulates. Demotes.
+- **Darjat (Citizen Tier):** BIRTH → APPRENTICE → WARGA → ELDER
 
-Selected links:
-
-- Website: [arif-fazil.com](https://arif-fazil.com)
-- Knowledge wiki: [wiki.arif-fazil.com](https://wiki.arif-fazil.com)
-- Geoscience systems: [geox.arif-fazil.com](https://geox.arif-fazil.com)
-- Systems architecture: [arifos.arif-fazil.com](https://arifos.arif-fazil.com)
-- LinkedIn: [linkedin.com/in/ariffazil](https://linkedin.com/in/ariffazil)
+> *"Bukan dipagar — dididik. Bukan disekat — dipaksa jujur. Bukan patuh — **arif**."*
 
 ---
 
-## Federation Organ Map
+## Public Surfaces
 
-The repositories here form a governed AI federation under the arifOS constitutional kernel:
-
-| Organ | Repo / Surface | Role |
-|-------|---------------|------|
-| **arifOS** | `ariffazil/arifos` | Constitutional runtime kernel — F1–F13, 888_JUDGE, MCP server |
-| **AAA-HF** | [HF dataset `ariffazil/AAA`](https://hf.co/datasets/ariffazil/AAA) | Doctrine corpus — floors, verdicts, schemas, gold eval records |
-| **AAA-Cockpit** | `ariffazil/AAA` | Control plane — A2A gateway, agent registry, mission control |
-| **GEOX** | `ariffazil/geox` | Earth intelligence — wells, seismic, petrophysics, prospect risk |
-| **WEALTH** | `ariffazil/wealth` | Capital intelligence — thermodynamic economics, EMV, valuation |
-| **WELL** | `ariffazil/well` | Substrate intelligence — human readiness, vitality, dignity |
-| **A-FORGE** | `ariffazil/A-FORGE` | Execution shell — builds, deploys, orchestrates governed workloads |
-| **Supabase** | (external ledger) | Constitutional court record — records what happened under doctrine |
-| **VAULT999** | (in arifOS) | Sealed archive — immutable final rulings |
-| **Arif** | (me) | F13 sovereign — final veto authority |
-
-> AAA is polymorphic by design.  
-> AAA-HF is the law book. AAA-Cockpit is the control tower. arifOS is the judge.
-
----
-
-## Writing
-
-I write about geology, uncertainty, evidence, systems, and the strange discipline of staying grounded when the world wants clean answers.
-
-Some themes:
-
-- subsurface uncertainty
-- field memory
-- technical judgment
-- evidence versus story
-- consequence under incomplete data
-- human systems under pressure
+| Surface | URL | Purpose |
+|---------|-----|---------|
+| Website | [arif-fazil.com](https://arif-fazil.com) | Personal site |
+| arifOS MCP | [arifos.arif-fazil.com](https://arifos.arif-fazil.com) | Constitutional kernel API |
+| GEOX MCP | [geox.arif-fazil.com](https://geox.arif-fazil.com) | Earth intelligence API |
+| WEALTH MCP | [wealth.arif-fazil.com](https://wealth.arif-fazil.com) | Capital intelligence API |
+| WELL MCP | [well.arif-fazil.com](https://well.arif-fazil.com) | Human readiness API |
+| AAA Cockpit | [aaa.arif-fazil.com](https://aaa.arif-fazil.com) | Federation dashboard |
+| Knowledge Wiki | [wiki.arif-fazil.com](https://wiki.arif-fazil.com) | Documentation |
 
 ---
 
@@ -127,8 +143,16 @@ Some themes:
 
 ---
 
-DITEMPA BUKAN DIBERI
-*Forged, Not Given.*
-## Changelog
+<div align="center">
 
-- **v2026.06.06-LAW-SEAL** (2026-06-06): 13 Constitutional Laws (L01-L13) canonically named in arifOS. 7-organ federation unified. Bare-metal deploy verified.
+```
+╔══════════════════════════════════════════════════════════╗
+║  arifOS Federation · 7 Organs · 1 Sovereign              ║
+║  F13: Arif Fazil · Veto Absolute · No Algorithm Overrides║
+║                                                          ║
+║  DITEMPA BUKAN DIBERI — Forged, Not Given.              ║
+║  999 SEAL ALIVE                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+</div>
