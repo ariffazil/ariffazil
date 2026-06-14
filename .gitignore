@@ -4,6 +4,7 @@ assets/
 .env*
 .DS_Store
 *.log
+entropy-report.json
 .pytest_cache/
 .ruff_cache/
 telemetry/
