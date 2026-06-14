@@ -12,6 +12,9 @@
 **Senior Exploration Geoscientist · F13 Sovereign of the arifOS Federation**
 Malaysia · Offshore basins · Subsurface uncertainty · Technical judgment
 
+[![Federation Contract](https://img.shields.io/badge/Federation%20Contract-ariffazil%2Farifos-blue)](https://github.com/ariffazil/arifos/blob/main/FEDERATION_CONTRACT.md)
+[![Federation Status](https://img.shields.io/badge/Federation%20Status-LIVE-green)](https://github.com/ariffazil/arifos/blob/main/FEDERATION_STATUS.md)
+
 > "I read the earth for a living. Not to make it simple — but to stay honest before certainty becomes expensive."
 
 [![Geoscientist](https://img.shields.io/badge/role-Senior%20Exploration%20Geoscientist-0891b2)](https://linkedin.com/in/ariffazil)
@@ -41,63 +44,16 @@ The earth does not explain itself. It gives fragments. A horizon. A log response
 
 ## The arifOS Federation
 
-Below is not just code — it is a **constitutional governance system for AI agents**. I am the F13 Sovereign. My veto is absolute. No algorithm overrides.
+The **arifOS Federation** is a constitutional governance system for AI agents: seven independent organs bound by thirteen enforced floors (F1–F13), with me as the F13 Sovereign holding final veto. The canonical topology, organ boundaries, and live status are maintained in the arifOS repo, not here.
 
-```
-                          ┌─────────────────────────┐
-                          │   Arif bin Fazil         │
-                          │   F13 SOVEREIGN          │
-                          │   Human — final veto     │
-                          └────────────┬────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │       arifOS (Ω)        │
-                          │   Constitutional Kernel │
-                          │   Port: 8088            │
-                          │   F1-F13 · 888 JUDGE    │
-                          │   999 VAULT · 13 Tools  │
-                          └──┬───┬───┬───┬───┬─────┘
-                             │   │   │   │   │
-              ┌──────────────┼───┼───┼───┼───┼──────────────┐
-              │              │   │   │   │   │              │
-    ┌─────────▼──┐  ┌───────▼─┐ ┌▼───────┐ ┌▼─────────┐  ┌▼─────────┐
-    │   GEOX     │  │ WEALTH  │ │  WELL  │ │   AAA    │  │ A-FORGE  │
-    │   🌍 Earth │  │ 💰 Cap  │ │ 🫀 Vit │ │ 🖥️  Cock │  │ ⚒️  Exec  │
-    │   :8081    │  │ :18082  │ │ :18083 │ │  :3001   │  │  :7071   │
-    │  Evidence  │  │ Compute │ │ Reflect│ │ Display  │  │ Execute  │
-    └────────────┘  └─────────┘ └────────┘ └──────────┘  └──────────┘
-```
+| Document | Canonical location |
+|----------|-------------------|
+| Federation Contract | [`ariffazil/arifos/FEDERATION_CONTRACT.md`](https://github.com/ariffazil/arifos/blob/main/FEDERATION_CONTRACT.md) |
+| Federation Status | [`ariffazil/arifos/FEDERATION_STATUS.md`](https://github.com/ariffazil/arifos/blob/main/FEDERATION_STATUS.md) |
+| Kernel Canon | [`ariffazil/arifos/GENESIS/000_KERNEL_CANON.md`](https://github.com/ariffazil/arifos/blob/main/GENESIS/000_KERNEL_CANON.md) |
+| Constitution | [`ariffazil/arifos/static/arifos/theory/000/000_CONSTITUTION.md`](https://github.com/ariffazil/arifos/blob/main/static/arifos/theory/000/000_CONSTITUTION.md) |
 
-### Federation Organ Index
-
-| Organ | Repo | Port | Role | Status |
-|-------|------|------|------|--------|
-| **arifOS** (Ω) | [ariffazil/arifOS](https://github.com/ariffazil/arifOS) | 8088 | Constitutional kernel — F1-F13, 888 JUDGE, VAULT999 | ✅ LIVE |
-| **GEOX** (🌍) | [ariffazil/geox](https://github.com/ariffazil/geox) | 8081 | Earth intelligence — wells, seismic, petrophysics | ✅ LIVE |
-| **WEALTH** (💰) | [ariffazil/wealth](https://github.com/ariffazil/wealth) | 18082 | Capital intelligence — NPV, risk, stock analysis | ✅ LIVE |
-| **WELL** (🫀) | [ariffazil/well](https://github.com/ariffazil/well) | 18083 | Human readiness — sleep, fatigue, dignity | ✅ LIVE |
-| **A-FORGE** (⚒️) | [ariffazil/A-FORGE](https://github.com/ariffazil/A-FORGE) | 7071 | Execution shell — build, deploy, orchestrate | ✅ LIVE |
-| **AAA** (🖥️) | [ariffazil/AAA](https://github.com/ariffazil/AAA) | 3001 | Control plane — A2A gateway, cockpit dashboard | ✅ LIVE |
-| **APEX** (⚖️) | [ariffazil/apex](https://github.com/ariffazil/apex) | 3002 | 888 JUDGE (legacy — decommissioned) | ⚠️ LEGACY |
-
-### The Three Kernels
-
-> **AAA-HF is the law book. AAA-Cockpit is the control tower. arifOS is the judge.**
-
-| Kernel | What It Does |
-|--------|-------------|
-| **arifOS** | Constitutional judgment — F1-F13 floors, 888 JUDGE verdicts |
-| **AAA-Cockpit** | Control plane — displays, routes, queues — never adjudicates |
-| **A-FORGE** | Execution — builds, deploys, orchestrates — never self-authorizes |
-
-### Key Documents
-
-| Document | Where |
-|----------|-------|
-| Federation Contract | [arifOS/FEDERATION_CONTRACT.md](https://github.com/ariffazil/arifOS/blob/main/FEDERATION_CONTRACT.md) |
-| Federation Status | [arifOS/FEDERATION_STATUS.md](https://github.com/ariffazil/arifOS/blob/main/FEDERATION_STATUS.md) |
-| Kernel Canon | [arifOS/GENESIS/000_KERNEL_CANON.md](https://github.com/ariffazil/arifOS/blob/main/GENESIS/000_KERNEL_CANON.md) |
-| Constitution | [arifOS/static/arifos/theory/000/000_CONSTITUTION.md](https://github.com/ariffazil/arifOS/blob/main/static/arifos/theory/000/000_CONSTITUTION.md) |
+**Organ snapshot (canonical tool counts):** arifOS 13 · GEOX 39 · WEALTH 20 public + 34 hidden aliases · WELL 17. APEX is a legacy health probe only — deliberation has moved to the AAA a2a-server.
 
 ---
 
@@ -124,7 +80,7 @@ The arifOS federation operates under **Adat Agentik** — a normative operating 
 - **Malu (Shame):** Mathematical scalar. Not emotion. Accumulates. Demotes.
 - **Darjat (Citizen Tier):** BIRTH → APPRENTICE → WARGA → ELDER
 
-> *"Bukan dipagar — dididik. Bukan disekat — dipaksa jujur. Bukan patuh — **arif**."*
+> *"Bukan dipagar — dididik. Bukan disekat — dipaksa jujur. Bukan patuh — **arif**.*"
 
 ---
 
