@@ -14,6 +14,13 @@ Malaysia · Offshore basins · Subsurface uncertainty · Technical judgment
 
 > "I read the earth for a living. Not to make it simple — but to stay honest before certainty becomes expensive."
 
+[![Geoscientist](https://img.shields.io/badge/role-Senior%20Exploration%20Geoscientist-0891b2)](https://linkedin.com/in/ariffazil)
+[![Federation](https://img.shields.io/badge/arifOS-F13%20Sovereign-8B5CF6)](https://github.com/ariffazil/arifos)
+[![Location](https://img.shields.io/badge/location-Malaysia-2266cc)](https://en.wikipedia.org/wiki/Malaysia)
+[![GEOX](https://img.shields.io/badge/organ-GEOX%20Earth-f59e0b)](https://github.com/ariffazil/geox)
+[![WEALTH](https://img.shields.io/badge/organ-WEALTH%20Capital-10b981)](https://github.com/ariffazil/wealth)
+[![Being](https://img.shields.io/badge/being-human-f97316)](https://en.wikipedia.org/wiki/Homo_sapiens)
+
 ---
 
 ## Who I Am
