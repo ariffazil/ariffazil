@@ -28,3 +28,7 @@ skills/
 
 # Windows noise
 nul
+
+# Private directories containing personal records/telemetry
+HUMAN/
+
