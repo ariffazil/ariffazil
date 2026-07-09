@@ -195,6 +195,7 @@ Alive = lawful loop with receipts. Not mysticism.
 - APEX stack: `arifos/GENESIS/040_APEX_STACK.md`  
 - APA template: `A-FORGE/forge_work/2026-07-09/APA-GITHUB-SOVEREIGN-CONNECTOR.md`  
 - TREE777: `AAA/wiki/`  
+- **Systemd Ψ geometry (live unit map):** `A-FORGE/deploy/systemd/geometry.md` + `units-manifest.yaml`  
 
 ---
 
