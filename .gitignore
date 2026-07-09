@@ -29,6 +29,22 @@ skills/
 # Windows noise
 nul
 
-# Private directories containing personal records/telemetry
-HUMAN/
+# Private directories — human reality, never push to GitHub
+# HUMAN is fully private (WhatsApp transcripts, memory graphs)
+HUMAN/*
+!HUMAN/README.md
+
+# HAMPA, PROPA, LIFE, SOVEREIGNTY — private content, public placeholder README
+HAMPA/*
+!HAMPA/README.md
+
+PROPA/*
+!PROPA/README.md
+!PROPA/.gitignore
+
+LIFE/*
+!LIFE/README.md
+
+SOVEREIGNTY/*
+!SOVEREIGNTY/README.md
 

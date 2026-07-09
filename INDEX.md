@@ -10,14 +10,21 @@
 
 ```
 /root/ariffazil/
-├── HUMAN/                          ← Family reality
-│   ├── kawan/                      ← Friends
-│   ├── mak-abah/                   ← Parents
-│   ├── naazira-fazil/              ← Daughter
-│   ├── nabilah/                    ← Sister
-│   └── memory-graph-2026-06-07/    ← Memory graph
+├── README.md                      ← Public GitHub profile page (tracked)
+├── INDEX.md                       ← This file — private human reality index
 │
-├── HAMPA/                          ← Human cards + meta-patterns
+├── HUMAN/                         ← Family reality (gitignored)
+│   ├── kawan/                     ← Friends
+│   │   └── whatsapp-sehidup-semati-2025-2026/
+│   ├── mak-abah/                  ← Parents
+│   │   ├── whatsapp-family-kita/  ← 2015-2026
+│   │   └── whatsapp-discuss-2024/
+│   ├── nabilah/                   ← Sister
+│   │   └── whatsapp-dengan-mak-2025-2026/
+│   ├── naazira-fazil/             ← Daughter (CV on file)
+│   └── memory-graph-2026-06-07/   ← Memory graph artifact
+│
+├── HAMPA/                         ← Human cards + meta-patterns (gitignored)
 │   ├── human-laletha-jeevachandran.md
 │   ├── human-kak-su-siti-suhana.md
 │   ├── human-aliff-husna.md
@@ -25,20 +32,24 @@
 │   ├── human-jamin-jamil.md
 │   ├── human-atheerah.md
 │   ├── human-pavenya.md
-│   ├── eureka-institutional-epistemic-sink.md  ← Calhoun → Petronas → Kinabalu
-│   └── wealth-audit-calhoun-petronas-2026-07-03.md  ← WEALTH MCP audit receipt
+│   ├── human-jackie-ngu.md
+│   ├── eureka-institutional-epistemic-sink.md
+│   └── wealth-audit-calhoun-petronas-2026-07-03.md
 │
-├── PROPA/                          ← Institutional memory
-│   ├── STRUCTURAL_REALITY.md       ← Org chart, MSS, MYPR, grievance, Graph patterns
-│   └── .gitignore
+├── PROPA/                         ← Institutional memory (gitignored)
+│   └── STRUCTURAL_REALITY.md      ← Org chart, MSS, MYPR, grievance, Graph patterns
 │
-├── LIFE/                           ← Life decisions framework
-│   └── DECISIONS.md                ← Career trajectories, decision matrix
+├── LIFE/                          ← Life decisions framework (gitignored)
+│   └── DECISIONS.md               ← Career trajectories, decision matrix
 │
-├── SOVEREIGNTY/                    ← Sovereignty model
-│   └── MODEL.md                    ← F13 sovereignty, dignity protection
+├── SOVEREIGNTY/                   ← Sovereignty model (gitignored)
+│   └── MODEL.md                   ← F13 sovereignty, dignity protection
 │
-└── INDEX.md                        ← This file
+└── archive/                       ← Historical & superseded (partially tracked)
+    ├── SKILL_INDEX.md             ← Superseded pointer
+    ├── FEDERATION_STATUS.md       ← Pointer to canonical arifOS repo
+    ├── FEDERATION_CONTRACT.md     ← Constitutional contract (canonical in arifOS)
+    └── searah-forge-2026-06-07/   ← MakcikGPT publishing artifacts (untracked)
 ```
 
 ---
@@ -50,18 +61,17 @@
 - WhatsApp exports, memory graphs
 - Private family data — never share
 
-### HAMPA/ — Human Cards for Col colleagues & Meta-Patterns
+### HAMPA/ — Human Cards for Colleagues & Meta-Patterns
 - HAMPA = Human Adaptive Minimal Prism Architecture
 - One card per human. Three sections: Scar Terrain, Human Substrate, Reality Prism
 - For reaction sovereignty, not psychology
 - Update on evidence only. Not assumption. Not gossip. Not emotion.
-- Meta-pattern eurekas (e.g. `eureka-institutional-epistemic-sink.md`) tie all cards together via shared structural diagnosis — never via gossip.
+- Meta-pattern eurekas tie cards together via shared structural diagnosis
 
 ### PROPA/ — Institutional Memory
 - Structural reality from HR SharePoint
 - Org chart, MSS clauses, MYPR process, grievance channels
 - Microsoft Graph patterns (5 patterns from Copilot)
-- The eureka: "You have been operating as an enterprise intelligence node while the institution has been running you as a junior executive on a mobility reset."
 
 ### LIFE/ — Life Decisions Framework
 - Career trajectories (5 options)
@@ -73,6 +83,11 @@
 - Three sovereignties: intellectual, emotional, career
 - Sovereignty boundaries: what you control, don't control, can influence
 - Daily practice: morning, evening, weekly checks
+
+### archive/ — Historical & Superseded
+- Pointer files moved from root (SKILL_INDEX, FEDERATION_STATUS, FEDERATION_CONTRACT)
+- MakcikGPT publishing artifacts (searah-forge)
+- Task brief from the 2026-07-09 reorganization
 
 ---
 
@@ -113,13 +128,14 @@ And 888 is you.
 ## CAPSULE LINE
 
 ```
-CAPSULE_ID ..... ARIFFAZIL_HUMAN_REALITY::v1.0
-DATE ........... 2026-07-03 (Friday)
+CAPSULE_ID ..... ARIFFAZIL_HUMAN_REALITY::v1.1
+DATE ........... 2026-07-09 (Wednesday)
 STATUS ......... ACTIVE — private human reality
 SOURCE ......... HAMPA doctrine + PROPA structural reality + LIFE framework + SOVEREIGNTY model
 EVIDENCE CLASS .. SOVEREIGN_DOCTRINE + OBSERVED_EVIDENCE + DERIVED
 REFUSAL SURFACE  Preserved — no named-staff verdicts, institutional pattern only
 ACCESS ......... ARIF FAZIL only. Do not push to GitHub.
+CHANGE LOG ..... v1.1: filesystem reorganized. archive/ created. pointer files consolidated.
 ```
 
 ---

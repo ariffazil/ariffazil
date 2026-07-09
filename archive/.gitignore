@@ -1,0 +1,4 @@
+# archive/ — tracked pointer files stay, publishing artifacts are local-only
+# Ignore the searah-forge output and the task brief
+searah-forge-2026-06-07/
+_CONTEXT_BRIEF_FOR_OPENCODE.md
