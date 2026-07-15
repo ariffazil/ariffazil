@@ -199,4 +199,35 @@ Alive = lawful loop with receipts. Not mysticism.
 
 ---
 
-*Forged 2026-07-09. Product space frozen. DITEMPA BUKAN DIBERI.*
+---
+
+## 8. External Witness Protocol (Gödel Lock — FORGED 2026-07-15)
+
+> **No formal system can adjudicate itself. The witness must come from outside.**
+
+The arifOS kernel now refuses to self-validate SEAL-bound claims. This is the formal Gödel lock — see `arifOS/arifosmcp/runtime/godel_lock_enforcement.py`.
+
+**Witness roles (W³ = Human × AI × External):**
+
+| Channel | Owner | What it provides |
+|---------|-------|------------------|
+| **Human** | Arif (F13 SOVEREIGN) | Final veto, Φ_human attestation via Telegram/Hermes |
+| **AI** | arifOS kernel + agents (OpenCode, GEOX, WEALTH, WELL) | Internal reasoning, capability, judgment |
+| **External** | Third-party (Gemini, ChatGPT, Claude) OR another organ not in the judgment chain | Φ_external attestation for irreversible actions |
+
+**The Iron Rule (Gödel):** SEAL-bound claims without external witness get `Φ_effective = Φ × 0.5`. SEAL-bound + strong external witness (Φ_external ≥ 0.9) → full seal. SEAL-bound + weak external witness (Φ_external < 0.5) → HOLD, even if internal reasoning is perfect.
+
+**Anti-Calhoun gate:** Beautiful internal coherence without external witness is the Iblis trap. The kernel refuses coherence theatre.
+
+**Cross-repo enforcement:** Each organ's `AGENTS.md` carries the Gödel Lock section + `CODEOWNERS` protects `AGENTS.md` + `VAULT999/`. All PRs to `main` touching protected paths require external witness signature on the merge commit.
+
+**External witness agents (live):**
+- ChatGPT (used for chatgpt_external_witness attestation)
+- Gemini (used for gemini_external_witness attestation)
+- Hermes (used for hermes_external_witness — Arif via Telegram)
+
+**Receipt:** Every external witness attestation is sealed to VAULT999 with `kind: godel_witness` and the witness channel identifier.
+
+---
+
+*Forged 2026-07-09. Product space frozen. Gödel Lock appended 2026-07-15. DITEMPA BUKAN DIBERI.*
