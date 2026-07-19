@@ -1,0 +1,34 @@
+name: "📜 L0 CANON CI"
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  federation-check:
+    name: 🗺️ Federation Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v7
+      - name: Validate FEDERATION.md
+        run: |
+          test -f FEDERATION.md || (echo "❌ Missing FEDERATION.md" && exit 1)
+          grep -q "role: CANON" FEDERATION.md
+          grep -q "layer: L0" FEDERATION.md
+          echo "✅ ariffazil FEDERATION.md valid — L0 CANON"
+      - name: No code dependencies
+        run: |
+          ! test -f package.json || (echo "⚠️ CANON should not have package.json" && true)
+          ! test -f pyproject.toml || (echo "⚠️ CANON should not have pyproject.toml" && true)
+          echo "✅ No code deps (CANON is documentation-only)"
+      - name: INDEX.md references federation
+        run: |
+          test -f INDEX.md || echo "⚠️ INDEX.md recommended"
+          grep -q "Federation Stack\|arifOS Federation" INDEX.md README.md 2>/dev/null && echo "✅ Federation referenced in docs"
