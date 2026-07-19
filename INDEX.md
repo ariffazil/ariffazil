@@ -141,3 +141,23 @@ CHANGE LOG ..... v1.1: filesystem reorganized. archive/ created. pointer files c
 ---
 
 *DITEMPA BUKAN DIBERI. Hidup kau. Sovereignty kau. Reality kau.*
+
+---
+
+## 🗺️ Federation Stack
+
+`ariffazil/ariffazil` is **L0 CANON** of the arifOS Federation — 9 repos, 5 layers, 1 civilization stack.
+
+| Layer | Repo | Role |
+|-------|------|------|
+| L0 | `ariffazil/ariffazil` | CANON — APEX THEORY, identity, writings |
+| L1 | `ariffazil/arifOS` | ROOT — Constitutional kernel |
+| L1 | `ariffazil/AAA` | ROOT — State foundation |
+| L2 | `ariffazil/A-FORGE` | EXECUTIVE — Agentic forge |
+| L3 | `ariffazil/geox` | DOMAIN — Earth intelligence |
+| L3 | `ariffazil/wealth` | DOMAIN — Capital intelligence |
+| L3 | `ariffazil/well` | DOMAIN — Vitality guard |
+| L3 | `ariffazil/HERMES` | DOMAIN — Multi-modal bridge |
+| L4 | `ariffazil/arif-sites` | PUBLIC — Web surfaces |
+
+→ `FEDERATION.md` (this repo) · `AAA/docs/FEDERATION_MAP.md` (canonical topology)
