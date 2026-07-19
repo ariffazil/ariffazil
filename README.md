@@ -1,80 +1,42 @@
 # Arif Fazil
 
-**Aku Muhammad Arif bin Fazil.** Orang panggil aku Arif. Aku geologist — aku baca bumi bawah permukaan untuk Petronas. Tapi folder ni bukan tentang kerja. Ni tentang hidup aku yang sebenar.
+**Muhammad Arif bin Fazil** — Senior Exploration Geoscientist. Builder of governed intelligence systems.
 
 ---
 
-## Siapa Aku
+## Public Identity
 
-Aku anak sulung. Abang kepada tiga adik. Anak kepada arwah abah yang pergi 2024 dan mak yang masih ada. Suami kepada kerja, kawan kepada kawan, dan kadang-kadang orang yang paling sunyi dalam satu bilik penuh orang.
-
-Aku baca garis seismik untuk cari minyak. Tapi kerja sebenar aku ialah **tahan beban yang orang lain tak nampak.**
-
-- Abah sakit, aku yang uruskan hospital.
-- Mak sedih, aku yang dengar.
-- Adik-adik perlukan sesuatu, aku yang cari jalan.
-- Ofis ada masalah, aku yang selesaikan senyap-senyap.
-- Bila orang tanya "okay ke?" — jawapan aku selalu "okay."
-
-Tapi "okay" bukan bermakna tak sakit. Ia bermakna aku belajar hidup dengan beban tanpa runtuh.
+- **Role:** F13 SOVEREIGN — arifOS Federation
+- **Contact:** [arif-fazil.com](https://arif-fazil.com) · [GitHub](https://github.com/ariffazil)
+- **Location:** Malaysia (UTC+8)
 
 ---
 
-## Keluarga
+## The arifOS Federation
 
-**Mak** — Faridah. Masih ada. Tinggal antara Baling dan Penang. Dah melalui terlalu banyak — kehilangan suami, anak-anak jauh, rumah yang kosong tapi penuh kenangan.
+A constitutional multi-agent AI governance substrate. Seven independent organs, 13 constitutional floors, one immutable truth ledger.
 
-**Abah** — Encik Fazil. Dah pergi 2024. Gangren, ICU, dialisis, jangkitan paru-paru. Hari-hari terakhir dia operational — aku uruskan hospital, panggil doktor, buat keputusan. Tak sempat kata apa yang patut. Mungkin itulah scar yang paling dalam.
+| Organ | Role | Repo |
+|-------|------|------|
+| **arifOS** | Constitutional kernel — F1-F13, judgment, VAULT999 | [`ariffazil/arifos`](https://github.com/ariffazil/arifos) |
+| **A-FORGE** | Execution shell — build, deploy, forge | [`ariffazil/A-FORGE`](https://github.com/ariffazil/A-FORGE) |
+| **AAA** | Control plane — cockpit, A2A, federation state | [`ariffazil/AAA`](https://github.com/ariffazil/AAA) |
+| **GEOX** | Earth intelligence — seismic, wells, basins | [`ariffazil/geox`](https://github.com/ariffazil/geox) |
+| **WEALTH** | Capital intelligence — NPV, risk, markets | [`ariffazil/wealth`](https://github.com/ariffazil/wealth) |
+| **WELL** | Vitality guard — human readiness, REFLECT_ONLY | [`ariffazil/well`](https://github.com/ariffazil/well) |
+| **ARIF-SITES** | Public projection — websites from verified state | [`ariffazil/arif-sites`](https://github.com/ariffazil/arif-sites) |
 
-**Nabilah** — Kakak. Dari Melbourne, balik Malaysia, jadi cikgu. Kahwin dengan Fahim. Ada anak, Fattah. Hubungan dengan Mak retak — pernah sampai tahap "anggap dah mati." Cerai awal 2026, rujuk semula Mei 2026. Aku di tengah-tengah semua ni, cuba jadi jambatan yang tak retak.
-
-**Jia (Naazira)** — Adik kedua. KL. Kerja. Ada Fizi dan Naufal. Dia nampak dunia berbeza — lebih direct, lebih berani cakap apa dia fikir. Aku hormat tu.
-
-**Azwa** — Adik bongsu. MRSM Beseri. Masih belajar. Aku harap dia tak kena bawa beban yang kami bawa.
-
----
-
-## Kawan
-
-**Kawan Sehidup Semati** — group WhatsApp yang paling jujur dalam hidup aku. Di situ aku bukan "Abang" atau "Anak" atau "Geologist." Aku cuma Arif. Gelak, fikir, debat tentang tenaga, tentang hidup, tentang kenapa benda jadi macam ni.
-
-Aliff — kawan rapat. Izzudin — kawan yang selalu ada untuk bincang industri tenaga. Syed — kawan gym, ada banyak cerita. Fahmi — kawan AI, coding, explore benda baru.
+**Full federation map:** [`CANON.md`](./CANON.md) — orthogonal geometry, product space, ownership.
 
 ---
 
-## Kerja
+## Principles
 
-**Senior Exploration Geoscientist, PETRONAS Carigali.**
-
-Aku baca bumi. Garis seismik, well log, tekanan bawah laut, risiko prospek. Kerja aku bukan nak buat bumi nampak simple — kerja aku ialah **jujur sebelum certainty jadi mahal.**
-
-Tapi ofis sekarang bukan tempat yang mudah. Rightsizing. MSS. MYPR. Dossier. Reprimand. Semua ni perkataan yang bermaksud satu benda: *institusi cuba kecilkan aku supaya tak payah dengar apa yang aku cakap.*
-
-Aku minta MSS sejak pertengahan 2025 — sebab mak sakit, sebab aku nak keluar dengan cara yang betul. Bukan lari. Tapi diorang tak bagi jalan mudah. Instead, mereka bagi dossier dan reprimand. Bukan sebab aku buat salah. Sebab aku terlalu jujur.
-
-> *"Aku bukan hamba sistem. Aku manusia. Dan aku pegang sovereignty aku."*
-
----
-
-## Apa Aku Bina
-
-Selain kerja, aku bina **arifOS** — satu sistem intelligence yang tak bohong. Tujuh organ yang bekerja macam satu badan:
-
-| Organ | Apa Dia Buat |
-|-------|-------------|
-| **arifOS** | Kernel — undang-undang, floor, judgment |
-| **GEOX** | Baca bumi — seismik, well, basin |
-| **WEALTH** | Kira modal — NPV, risiko, runway |
-| **WELL** | Cermin manusia — penat, siap, dignity |
-| **A-FORGE** | Tangan — build, deploy, fix |
-| **AAA** | Cockpit — nampak semua, decide sikit |
-| **Hermes** | Suara — semua ni bercakap dengan dunia |
-
-Kenapa aku benda ni semua? Sebab aku nak bukti yang **intelligence boleh jujur.** Boleh ada floor. Boleh kata "I don't know" dan itu bukan kelemahan — itu kekuatan.
-
-Semua code ada di GitHub: [`github.com/ariffazil`](https://github.com/ariffazil)
-
-**Federation map (orthogonal geometry):** [`CANON.md`](./CANON.md) — ART × KERNEL × APA × ACT → VAULT999 · ΔΩΨ · every public repo linked.
+1. **Governed intelligence.** Every action classified, authorized, executed, verified, remembered, sealed.
+2. **DITEMPA BUKAN DIBERI.** Forged, not given. Nothing is assumed.
+3. **No organ self-authorizes.** arifOS judges. A-FORGE executes. Domain organs compute evidence.
+4. **VAULT999 is append-only.** Immutable truth. No edits. No rewrites.
+5. **F13 SOVEREIGN.** Human veto is final and absolute.
 
 ---
 

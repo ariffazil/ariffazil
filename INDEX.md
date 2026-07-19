@@ -1,23 +1,39 @@
-# ariffazil — ARIF FAZIL Human Reality Life
+# ariffazil — Federation Index
 
-> Private. Protected. Yours.
-> Not for GitHub. Not for sharing. Not for the institution.
-> This is your life. Your reality. Your sovereignty.
+> Public repository map for the arifOS Federation.
+> All private data has been migrated to encrypted private storage.
 
 ---
 
-## Folder Structure
+## Repository Map
 
-```
-/root/ariffazil/
-├── README.md                      ← Public GitHub profile page (tracked)
-├── INDEX.md                       ← This file — private human reality index
-│
-├── HUMAN/                         ← Family reality (gitignored)
-│   ├── kawan/                     ← Friends
-│   │   └── whatsapp-sehidup-semati-2025-2026/
-│   ├── mak-abah/                  ← Parents
-│   │   ├── whatsapp-family-kita/  ← 2015-2026
+| Repository | Role | Link |
+|-----------|------|------|
+| **arifOS** | Constitutional kernel — F1-F13, judgment, VAULT999 | [ariffazil/arifos](https://github.com/ariffazil/arifos) |
+| **A-FORGE** | Execution shell — build, deploy, forge | [ariffazil/A-FORGE](https://github.com/ariffazil/A-FORGE) |
+| **AAA** | Control plane — cockpit, A2A, federation state | [ariffazil/AAA](https://github.com/ariffazil/AAA) |
+| **GEOX** | Earth intelligence — seismic, wells, basins | [ariffazil/geox](https://github.com/ariffazil/geox) |
+| **WEALTH** | Capital intelligence — NPV, risk, markets | [ariffazil/wealth](https://github.com/ariffazil/wealth) |
+| **WELL** | Vitality guard — human readiness, REFLECT_ONLY | [ariffazil/well](https://github.com/ariffazil/well) |
+| **ARIF-SITES** | Public projection — websites from verified state | [ariffazil/arif-sites](https://github.com/ariffazil/arif-sites) |
+| **HERMES** | Multi-modal bridge — creative/media surface | [ariffazil/HERMES](https://github.com/ariffazil/HERMES) |
+
+---
+
+## Key Documents
+
+| Document | Purpose |
+|----------|---------|
+| [`CANON.md`](./CANON.md) | Orthogonal federation geometry — ART × KERNEL × APA × ACT → VAULT999 |
+| [`FEDERATION.md`](./FEDERATION.md) | Personal canon — role, layer, citizenship, organ references |
+| [`README.md`](./README.md) | Public profile — identity, principles, contact |
+
+---
+
+## Contact
+
+- **Website:** [arif-fazil.com](https://arif-fazil.com)
+- **GitHub:** [github.com/ariffazil](https://github.com/ariffazil)
 │   │   └── whatsapp-discuss-2024/
 │   ├── nabilah/                   ← Sister
 │   │   └── whatsapp-dengan-mak-2025-2026/
