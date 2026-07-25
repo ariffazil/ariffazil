@@ -48,3 +48,7 @@ LIFE/*
 SOVEREIGNTY/*
 !SOVEREIGNTY/README.md
 
+# Backup files with potential credentials — never commit
+*.bak-pre-purge*
+*.bak-*
+.openclaw/openclaw.json.bak*
