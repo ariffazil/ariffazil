@@ -190,7 +190,7 @@ Alive = lawful loop with receipts. Not mysticism.
 
 ## 7. Links for agents
 
-- Organ map: `AAA/docs/FEDERATION_ORGAN.md`  
+- Organ map: `AAA/docs/ORGAN.md`  
 - Trinity-33: `AAA/docs/TRINITY_33_REPOS.md`  
 - APEX stack: `arifos/GENESIS/040_APEX_STACK.md`  
 - APA template: `A-FORGE/forge_work/2026-07-09/APA-GITHUB-SOVEREIGN-CONNECTOR.md`  
