@@ -1,7 +1,8 @@
 # FEDERATION.md — arifOS Federation Map
 
 > **SOT:** 2026-07-26 | **Authority:** ARIF / F13 SOVEREIGN  
-> **Canon:** 9-node constitutional spine · 7-plane architecture
+> **Canon:** 7-plane governed intelligence architecture  
+> **Sealed:** `EUREKA_ZEN_SESSION_SEAL.md` · `RSI_BOOT_PROMPT.md`
 
 ---
 
@@ -109,6 +110,19 @@ Seven verbs. Seven owners. Zero overlap. This is the actual execution path.
 | **A4** | Verifiable-Reduction | Merge functions are deterministic + TRI_WITNESS auditable |
 | **A5** | Metabolic-Closure | Every run ends: cooling receipt, leases closed, no orphans |
 | **A6** | Flow Observes, Never Interprets | arifFLOW measures; ATLAS333/arifOS interpret |
+
+---
+
+## Canonical Artifacts
+
+| Artifact | Path | Purpose |
+|----------|------|---------|
+| **EUREKA_ZEN_SESSION_SEAL** | `EUREKA_ZEN_SESSION_SEAL.md` | 12 architectural insights, verb ownership, 7-plane ratification |
+| **RSI_BOOT_PROMPT** | `AAA/docs/RSI_BOOT_PROMPT.md` | 9-stage governed improvement loop, fail-closed |
+| **ARIFLOW_KERNEL_CANON** | `arifFlow/ARIFLOWKERNELCANON.md` | A1-A6 + F0-F6 invariants, super-step protocol |
+| **FIVE_PLANE_INFRA_MAP** | (this session — `AAA/docs/`) | 82-component infrastructure catalog |
+| **ARCHIVE_LABELING_STANDARD** | `AAA/docs/ARCHIVE_LABELING_STANDARD.md` | GitHub-standard archive conventions |
+| **FEDERATION_EUREKA_DISTILLATION** | `AAA/docs/FEDERATION_EUREKA_DISTILLATION_REPORT.md` | 30 insights, 24 SEALED, 6 VOID, 3 HOLD |
 
 ---
 
