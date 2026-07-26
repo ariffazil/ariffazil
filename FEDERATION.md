@@ -6,29 +6,52 @@ organ: ariffazil
 layer: L0
 citizenship: F13 SOVEREIGN
 canon: self
+topology: 9-node constitutional spine (5 runtime + 4 domain organs)
 
-references:
-  - repo: ariffazil/arifOS
-    role: Constitutional kernel — F1-F13, 000→999, VAULT999
-    why: Implements the governed cognition layer of APEX THEORY
+constitutional_spine:
+  - repo: ariffazil/arifos
+    function: Law
+    role: Constitutional kernel — F1–F13, identity, VAULT999
   - repo: ariffazil/AAA
-    role: State foundation — A2A, cockpit, seals, receipts
-    why: Implements the civilization state layer of APEX THEORY
+    function: Surface
+    role: Agent Surface Layer — cockpit, A2A, federation state
+  - repo: ariffazil/APEX
+    function: Judgment
+    role: Constitutional reasoning, verification, verdict engine
+  - repo: ariffazil/arifFlow
+    function: Coordination
+    role: Parallel execution and workflow fabric
   - repo: ariffazil/A-FORGE
-    role: Executive shell — agentic forge, MCP orchestration
-    why: Implements the autonomous execution layer of APEX THEORY
+    function: Execution
+    role: Infrastructure, deployment, orchestration
+
+sovereign_organs:
   - repo: ariffazil/geox
-    role: Earth intelligence organ
-    why: Domain organ — geoscience evidence for APEX THEORY's reality grounding
+    domain: Earth
+    role: Geoscience intelligence — evidence, not authority
   - repo: ariffazil/wealth
-    role: Capital intelligence organ
-    why: Domain organ — capital evidence for APEX THEORY's resource grounding
+    domain: Capital
+    role: Economic reasoning — compute, never allocate
   - repo: ariffazil/well
-    role: Vitality guard organ
-    why: Domain organ — human readiness for APEX THEORY's sovereignty grounding
+    domain: Human
+    role: Biological substrate governance — REFLECT_ONLY
   - repo: ariffazil/HERMES
-    role: Multi-modal bridge organ
-    why: External signal bridge for APEX THEORY's sensory grounding
+    domain: Multi-Modal
+    role: Federation I/O bridge, Telegram gateway
+
+federation_assets:
+  - ariffazil/arif-fazil.com   # Unified web surface
+  - ariffazil/web-canon        # Canonical registries
+  - ariffazil/compose          # Docker infrastructure
+  - ariffazil/searxng          # Self-hosted search
+  - ariffazil/A2B              # Benchmarks
+  - ariffazil/EEE              # Audit & recovery
+  - ariffazil/model-registry   # Model provenance
+
+archives:
+  - 1AGI · AGI_bot · AGI_ASI_bot
+  - arifosmcp · arifos-vid
+  - arif-sites-legacy
 
 mcp: N/A (personal canon — no MCP surface)
 
@@ -39,12 +62,11 @@ governance:
   sovereign: Muhammad Arif bin Fazil (F13)
 
 stack_role: |
-  ariffazil/ariffazil is L0 CANON — the top of the stack.
-  It holds APEX THEORY, the intelligence physics that governs the entire
-  federation: Δ clarity, Ω humility, Ψ vitality.
-  It is the identity root, the human writings, the civilization memory.
-  Every other repo implements a slice of APEX THEORY.
-  This repo documents the whole.
+  ariffazil/ariffazil is L0 CANON — the identity root.
+  9-node spine: Law → Surface → Judgment → Coordination → Execution
+  Domain organs: Earth · Capital · Human · Multi-Modal
+  Assets: Infrastructure · Registries · Research · Benchmarks
+  Archives: Memory, not death.
 
 entrypoints:
   - README: https://github.com/ariffazil/ariffazil
@@ -56,5 +78,4 @@ entrypoints:
 ---
 
 **DITEMPA BUKAN DIBERI — Forged, Not Given.**
-**This is L0 CANON. All other federation repos descend from here.**
-**See `/root/AAA/docs/FEDERATION_MAP.md` for canonical topology.**
+**This is L0 CANON. 9-node constitutional spine. All other federation repos descend from here.**
