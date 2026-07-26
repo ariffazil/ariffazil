@@ -230,4 +230,24 @@ The arifOS kernel now refuses to self-validate SEAL-bound claims. This is the fo
 
 ---
 
-*Forged 2026-07-09. Product space frozen. Gödel Lock appended 2026-07-15. DITEMPA BUKAN DIBERI.*
+---
+
+## 9. 000/999 Bifurcation — Origin and Seal
+
+> **FORGED 2026-07-26.** The public L0 CANON surface is bifurcated into two chambers:
+
+| Chamber | Purpose | Contains |
+|---------|---------|----------|
+| **[/000](./000/)** | Principal Origin — boot chamber | Principal Doctrine, L0 stack map, INIT protocol, identity |
+| **[/999](./999/)** | Public Seal Index — seal window | Public pointers, external witness protocol, seal summaries |
+| **Private** | Human reality (never pushed) | HUMAN/, HAMPA/, PROPA/, LIFE/, SOVEREIGNTY/ |
+| **Runtime** | Canonical VAULT999 (never GitHub) | VPS seal chain: `/root/.local/share/arifos/vault999/seal_chain.jsonl` |
+
+**000** is where agents boot. **999** is where the public can verify.
+Neither contains private human data, raw VAULT999 records, or canonical truth.
+
+This GitHub repo is the public projection of ARIFFAZIL L0 CANON — not the private sovereign reality.
+
+---
+
+*Forged 2026-07-09. Product space frozen. Gödel Lock appended 2026-07-15. 000/999 Bifurcation appended 2026-07-26. DITEMPA BUKAN DIBERI.*

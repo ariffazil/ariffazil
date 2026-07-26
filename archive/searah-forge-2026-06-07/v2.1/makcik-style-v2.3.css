@@ -1,0 +1,340 @@
+/* SEARAH Makcik v2.3 — Bahasa Melayu, WhatsApp-friendly
+   Strategy: Big friendly typography, emoji-as-icons, friendly callouts,
+              shareable aesthetics, conversational tone visuals
+*/
+@page {
+  size: A4;
+  margin: 1.5cm 1.4cm 2.0cm 1.4cm;
+  @top-right {
+    content: "CERITA SEARAH — untuk Makcik & Pakcik";
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 8.5pt;
+    color: #CC0000;
+    font-weight: bold;
+  }
+  @top-left {
+    content: "🌏 🇲🇾";
+    font-size: 11pt;
+  }
+  @bottom-right {
+    content: "Hal " counter(page) " / " counter(pages);
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 8.5pt;
+    color: #666;
+  }
+  @bottom-left {
+    content: "Kongsi kat WhatsApp! · SEARAH-CERITA-MAKCIK-v2.3 · 7 Jun 2026";
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 7.5pt;
+    color: #999;
+    font-style: italic;
+  }
+}
+
+body {
+  font-family: 'Liberation Serif', 'Georgia', serif;
+  font-size: 11pt;
+  line-height: 1.65;
+  color: #1a1a1a;
+  text-align: justify;
+  hyphens: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* COVER — friendly big-text */
+.cover {
+  background: #FFFAF0;
+  border: 2pt solid #CC0000;
+  border-radius: 8pt;
+  padding: 24pt 22pt;
+  margin: 0 0 20pt 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.cover-kicker {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 11pt;
+  color: #CC0000;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8pt;
+}
+.cover-title {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 28pt;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.1;
+  margin: 8pt 0;
+  letter-spacing: -0.3px;
+}
+.cover-subtitle {
+  font-family: 'Liberation Serif', serif;
+  font-size: 14pt;
+  font-style: italic;
+  color: #555;
+  line-height: 1.3;
+  margin: 8pt 0 14pt 0;
+}
+.cover-byline {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10pt;
+  color: #333;
+  border-top: 1pt solid #CC0000;
+  border-bottom: 1pt solid #CC0000;
+  padding: 6pt 0;
+  margin: 8pt 0;
+}
+.cover-emoji {
+  font-size: 36pt;
+  margin: 6pt 0;
+}
+
+/* HEADINGS — friendly hierarchy */
+h1 {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #CC0000;
+  margin: 1.4em 0 0.5em 0;
+  border-bottom: 2pt solid #CC0000;
+  padding-bottom: 0.15em;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #111;
+  margin: 1.2em 0 0.4em 0;
+  background: #fff8dc;
+  padding: 6pt 10pt;
+  border-left: 4pt solid #CC0000;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #CC0000;
+  margin: 1em 0 0.3em 0;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #333;
+  margin: 0.8em 0 0.3em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+p {
+  margin: 0 0 0.8em 0;
+  orphans: 3;
+  widows: 3;
+}
+
+/* PULL QUOTES — speech-bubble style */
+.pull-quote {
+  font-family: 'Liberation Serif', serif;
+  font-size: 14pt;
+  font-style: italic;
+  color: #111;
+  line-height: 1.4;
+  background: #FFFAF0;
+  border: 1.5pt solid #CC0000;
+  border-radius: 8pt;
+  padding: 12pt 16pt;
+  margin: 14pt 0;
+  page-break-inside: avoid;
+}
+.pull-quote::before {
+  content: "\201C";
+  font-size: 28pt;
+  color: #CC0000;
+  font-weight: bold;
+  vertical-align: -6pt;
+  margin-right: 4pt;
+}
+.pull-quote::after {
+  content: "\201D";
+  font-size: 28pt;
+  color: #CC0000;
+  font-weight: bold;
+  vertical-align: -6pt;
+  margin-left: 4pt;
+}
+.pull-quote .attribution {
+  display: block;
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  color: #666;
+  margin-top: 6pt;
+}
+
+/* FACT BOX — friendly */
+.fact-box {
+  background: #FFFAF0;
+  border: 1.5pt solid #CC0000;
+  border-radius: 6pt;
+  padding: 12pt 16pt;
+  margin: 14pt 0;
+  page-break-inside: avoid;
+}
+.fact-box-title {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #CC0000;
+  margin: 0 0 6pt 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.fact-box-content {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.5;
+}
+.fact-box-content .label {
+  font-weight: bold;
+  color: #111;
+  text-transform: uppercase;
+  font-size: 8.5pt;
+  display: inline-block;
+  min-width: 100pt;
+}
+
+/* BIG STAT — friendly version */
+.big-stat {
+  background: linear-gradient(135deg, #CC0000 0%, #990000 100%);
+  color: white;
+  padding: 16pt 20pt;
+  border-radius: 8pt;
+  margin: 16pt 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.big-stat .number {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 40pt;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+  display: block;
+  margin-bottom: 6pt;
+}
+.big-stat .label {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10pt;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+  display: block;
+  margin-bottom: 6pt;
+}
+.big-stat .context {
+  font-family: 'Liberation Serif', serif;
+  font-size: 10pt;
+  font-style: italic;
+  color: #ffeeee;
+  display: block;
+}
+
+/* CALLOUT — friendly */
+.callout {
+  background: #fff8dc;
+  border: 1.5pt solid #CC0000;
+  border-radius: 6pt;
+  padding: 12pt 16pt;
+  margin: 12pt 0;
+  font-size: 10pt;
+  page-break-inside: avoid;
+}
+.callout-title {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #CC0000;
+  margin-bottom: 6pt;
+}
+
+/* KEY NUMBERS */
+.key-numbers {
+  background: #FFFAF0;
+  border: 1pt solid #CC0000;
+  border-radius: 6pt;
+  padding: 10pt 14pt;
+  margin: 12pt 0;
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+.key-numbers .row {
+  display: block;
+  padding: 5pt 0;
+  border-bottom: 0.5pt dotted #CC0000;
+}
+.key-numbers .row:last-child { border-bottom: 0; }
+.key-numbers .row .v {
+  font-weight: bold;
+  color: #CC0000;
+  font-size: 12pt;
+  float: right;
+}
+.key-numbers .row .k { color: #333; }
+.key-numbers::after { content: ""; display: table; clear: both; }
+
+/* CHANGELOG */
+.changelog {
+  background: #fff8dc;
+  border: 1.5pt dashed #CC0000;
+  border-radius: 6pt;
+  padding: 14pt 16pt;
+  margin: 0 0 24pt 0;
+  page-break-inside: avoid;
+}
+.changelog-title {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #CC0000;
+  margin-bottom: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* TABLES */
+table { width: 100%; border-collapse: collapse; font-family: 'Liberation Sans', sans-serif; font-size: 9pt; margin: 0.8em 0 1.2em 0; page-break-inside: avoid; }
+th { background: #CC0000; color: white; padding: 6pt 8pt; text-align: left; }
+td { padding: 5pt 8pt; border: 0.5pt solid #ddd; vertical-align: top; }
+tr:nth-child(even) td { background: #FFFAF0; }
+
+/* MISC */
+hr { border: 0; height: 0; text-align: center; margin: 1.5em 0; }
+hr::after { content: "🌏 🇲🇾  🌏"; color: #CC0000; font-size: 14pt; letter-spacing: 8px; }
+
+strong { font-weight: bold; color: #CC0000; }
+em { font-style: italic; color: #333; }
+code { font-family: 'DejaVu Sans Mono', monospace; font-size: 8.5pt; background: #fff0d0; padding: 1pt 3pt; color: #CC0000; }
+blockquote {
+  border-left: 4pt solid #CC0000;
+  margin: 0.8em 0;
+  padding: 8pt 12pt;
+  font-style: italic;
+  color: #333;
+  background: #FFFAF0;
+  border-radius: 4pt;
+}
+
+ul, ol { margin: 0 0 0.8em 0; padding-left: 1.5em; }
+li { margin-bottom: 0.4em; line-height: 1.5; }
+
+.fact-box, .big-stat, .callout, .pull-quote, .key-numbers, .changelog, table { page-break-inside: avoid; }

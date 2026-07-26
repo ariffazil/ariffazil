@@ -1,42 +1,87 @@
-# Arif Fazil
+# ARIFFAZIL → arifOS Federation
 
-**Muhammad Arif bin Fazil** — Senior Exploration Geoscientist. Builder of governed intelligence systems.
+> **One mind. Many organs.** Constitutional multi-agent AI governance.  
+> 7 organs · 13 constitutional floors · 1 immutable truth ledger.  
+> **DITEMPA BUKAN DIBERI — Forged, Not Given.**
 
----
-
-## Public Identity
-
-- **Role:** F13 SOVEREIGN — arifOS Federation
-- **Contact:** [arif-fazil.com](https://arif-fazil.com) · [GitHub](https://github.com/ariffazil)
-- **Location:** Malaysia (UTC+8)
+**Muhammad Arif bin Fazil** — F13 SOVEREIGN. Senior Exploration Geoscientist. Builder of governed intelligence.
 
 ---
 
-## The arifOS Federation
+## 🧬 Federation Map — 9-Node Constitutional Spine
 
-A constitutional multi-agent AI governance substrate. Seven independent organs, 13 constitutional floors, one immutable truth ledger.
+```
+                 arifos (Law)
+                    │
+         ┌──────────┼──────────┐
+         │          │          │
+        AAA       APEX     arifFlow
+     (Surface)  (Judgment) (Coordination)
+         │          │          │
+         └──────A-FORGE────────┘
+              (Execution)
+                    │
+      ┌─────────────┼─────────────┐
+      │             │             │
+    GEOX         WEALTH         WELL
+   (Earth)      (Capital)      (Human)
+      │             │             │
+      └─────────HERMES────────────┘
+           (Multi-Modal Bridge)
+```
 
-| Organ | Role | Repo |
-|-------|------|------|
-| **arifOS** | Constitutional kernel — F1-F13, judgment, VAULT999 | [`ariffazil/arifos`](https://github.com/ariffazil/arifos) |
-| **A-FORGE** | Execution shell — build, deploy, forge | [`ariffazil/A-FORGE`](https://github.com/ariffazil/A-FORGE) |
-| **AAA** | Control plane — cockpit, A2A, federation state | [`ariffazil/AAA`](https://github.com/ariffazil/AAA) |
-| **GEOX** | Earth intelligence — seismic, wells, basins | [`ariffazil/geox`](https://github.com/ariffazil/geox) |
-| **WEALTH** | Capital intelligence — NPV, risk, markets | [`ariffazil/wealth`](https://github.com/ariffazil/wealth) |
-| **WELL** | Vitality guard — human readiness, REFLECT_ONLY | [`ariffazil/well`](https://github.com/ariffazil/well) |
-| **ARIF-SITES** | Public projection — websites from verified state | [`ariffazil/arif-sites`](https://github.com/ariffazil/arif-sites) |
+```
+L0  CONSTITUTIONAL     arifos                         Law
+L1  RUNTIME GOVERNANCE AAA · APEX · arifFlow · A-FORGE  Surface · Judgment · Coordination · Execution
+L2  SOVEREIGN ORGANS   GEOX · WEALTH · WELL · HERMES   Earth · Capital · Human · Bridge
+L3  FEDERATION ASSETS  arif-fazil.com · web-canon       Infrastructure · Registries · Research · Benchmarks
+                       compose · searxng · A2B · EEE
+                       model-registry
+L4  ARCHIVE            1AGI · AGI_bot · AGI_ASI_bot     Memory, not death
+                       arifosmcp · arifos-vid
+                       arif-sites-legacy
+```
 
-**Full federation map:** [`CANON.md`](./CANON.md) — orthogonal geometry, product space, ownership.
+| [CANON](./CANON.md) | [INDEX](./INDEX.md) | [FEDERATION](./FEDERATION.md) |
+|---|---|---|
+| Federation geometry | Full repository map | Stack roles & ownership |
 
 ---
 
-## Principles
+> ⚠️ **Privacy boundary:** HUMAN/, HAMPA/, PROPA/, LIFE/, and SOVEREIGNTY/ are gitignored — private human reality, not public content. VAULT999 is runtime-governed, off-GitHub, append-only.
 
-1. **Governed intelligence.** Every action classified, authorized, executed, verified, remembered, sealed.
-2. **DITEMPA BUKAN DIBERI.** Forged, not given. Nothing is assumed.
-3. **No organ self-authorizes.** arifOS judges. A-FORGE executes. Domain organs compute evidence.
-4. **VAULT999 is append-only.** Immutable truth. No edits. No rewrites.
-5. **F13 SOVEREIGN.** Human veto is final and absolute.
+---
+
+## 🏛️ Constitutional Spine (5) + Sovereign Organs (4)
+
+### L0–L1: Runtime Governance
+
+| Repo | Constitutional Function | Surface |
+|------|------------------------|---------|
+| **arifos** | Law — F1–F13, identity, VAULT999 | [`arif-fazil.com/arifos/`](https://arif-fazil.com/arifos/) |
+| **AAA** | Surface — cockpit, A2A, federation state | [`arif-fazil.com/aaa/`](https://arif-fazil.com/aaa/) |
+| **APEX** | Judgment — constitutional reasoning, verification | — |
+| **arifFlow** | Coordination — parallel execution fabric | — |
+| **A-FORGE** | Execution — build, deploy, orchestration | [`arif-fazil.com/forge/`](https://arif-fazil.com/forge/) |
+
+### L2: Sovereign Domain Organs
+
+| Organ | Domain | Surface |
+|-------|--------|---------|
+| **GEOX** | Earth intelligence | [`arif-fazil.com/geox/`](https://arif-fazil.com/geox/) |
+| **WEALTH** | Capital intelligence | [`arif-fazil.com/wealth/`](https://arif-fazil.com/wealth/) |
+| **WELL** | Human readiness | [`arif-fazil.com/well/`](https://arif-fazil.com/well/) |
+| **HERMES** | Multi-modal bridge | [t.me/arifos](https://t.me/arifos) |
+
+---
+
+## ⚖️ Principles
+
+1. **Governed intelligence.** Classify → Authorize → Execute → Verify → Remember → Seal.
+2. **No organ self-authorizes.** arifOS judges. A-FORGE executes. Organs compute evidence.
+3. **VAULT999 is append-only.** Immutable truth. No edits. No rewrites.
+4. **F13 SOVEREIGN.** Human veto is final and absolute.
+5. **Archive is memory.** Retired repos are preserved, not deleted.
 
 ---
 
