@@ -1,6 +1,21 @@
-# Arif Fazil
+# ARIFFAZIL
 
-**Muhammad Arif bin Fazil** — Senior Exploration Geoscientist. Builder of governed intelligence systems.
+> **L0 CANON — Principal origin. Federation identity root.**
+> **DITEMPA BUKAN DIBERI — Forged, Not Given.**
+
+**Muhammad Arif bin Fazil** — F13 SOVEREIGN. Senior Exploration Geoscientist. Builder of governed intelligence systems.
+
+---
+
+## ⚡ Quick Nav
+
+| [**/000**](./000/) | [**/999**](./999/) | [CANON](./CANON.md) | [INDEX](./INDEX.md) |
+|---|---|---|---|
+| Principal Origin · Boot Chamber | Public Seal Index · Witness Protocol | Federation Geometry · Product Space | Full Repository Map |
+
+---
+
+> ⚠️ **Privacy boundary:** Private human reality does NOT live in this public repo. HUMAN/, HAMPA/, PROPA/, LIFE/, and SOVEREIGNTY/ directories are gitignored and contain no public content. The canonical VAULT999 ledger is runtime-governed, off-GitHub, and append-only.
 
 ---
 
