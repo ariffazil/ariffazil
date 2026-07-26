@@ -1,125 +1,112 @@
-# ARIFFAZIL → arifOS Federation
+# Muhammad Arif bin Fazil
 
-> **One mind. Many organs.** Constitutional multi-agent AI governance.  
-> 7 organs · 13 constitutional floors · 1 immutable truth ledger.  
+> Senior Exploration Geoscientist. Builder of governed intelligence.  
 > **DITEMPA BUKAN DIBERI — Forged, Not Given.**
 
-**Muhammad Arif bin Fazil** — F13 SOVEREIGN. Senior Exploration Geoscientist. Builder of governed intelligence.
+Saya Arif. Geologist by training. System architect by necessity.
+
+I spent 11 years at PETRONAS reading the subsurface — seismic, wells, basins. Zero dry holes. Then I left to build something different: a constitutional AI system that treats intelligence the way geology treats uncertainty. Data is incomplete. Good judgment must still hold.
+
+My core work is **arifOS** — a federated intelligence system built on one principle:
+
+> *Intelligence must be governed before it acts.*
 
 ---
 
-## 🧬 Federation Map — 9-Node Constitutional Spine
+## Apa Yang Saya Bina
+
+Saya bina sistem yang memastikan setiap tindakan AI ada:
+
+- **Sumber kuasa yang jelas** — siapa benarkan?
+- **Sempadan yang nyata** — apa yang tak boleh disentuh?
+- **Rekod yang kekal** — kenapa keputusan ini dibuat?
+- **Resit selepas tindakan** — apa akibatnya?
+
+Most AI systems focus on capability. I focus on **governed capability.**
+
+Dalam bahasa arifOS:
 
 ```
-                 arifos (Law)
-                    │
-         ┌──────────┼──────────┐
-         │          │          │
-        AAA       APEX     arifFLOW
-     (Surface)  (Judgment) (Nerves)
-         │          │          │
-         └──────A-FORGE────────┘
-              (Hands)
-                    │
-      ┌─────────────┼─────────────┐
-      │             │             │
-    GEOX         WEALTH         WELL
-   (Earth)      (Capital)      (Human)
-      │             │             │
-      └─────────HERMES────────────┘
-           (Bridge)
+ARIF menentukan.          ← niat
+arifOS menghukum.         ← undang-undang
+ATLAS333 berfikir.        ← fikiran
+arifFLOW mengalirkan.     ← saraf
+A-FORGE melaksanakan.     ← tangan
+Organs membaca realiti.   ← bumi, modal, manusia, jambatan
+VAULT999 menyimpan saksi. ← memori kekal
 ```
 
-```
-L0  CONSTITUTIONAL     arifos                         Law
-L1  RUNTIME GOVERNANCE AAA · APEX · arifFLOW · A-FORGE  Surface · Judgment · Nerves · Hands
-L2  SOVEREIGN ORGANS   GEOX · WEALTH · WELL · HERMES   Earth · Capital · Human · Bridge
-L3  FEDERATION ASSETS  arif-fazil.com · web-canon       Infrastructure · Registries · Research · Benchmarks
-                       compose · searxng · A2B · EEE
-                       model-registry
-L4  ARCHIVE            1AGI · AGI_bot · AGI_ASI_bot     Memory, not death
-                       arifosmcp · arifos-vid
-                       arif-sites-legacy
-```
+Tujuh kata kerja. Tujuh pemilik. Sifar pertindanan.
 
-**Zen:** ARIF menentukan. arifOS menghukum. ATLAS333 berfikir. arifFLOW mengalirkan. A-FORGE melaksanakan. Organs membaca realiti. VAULT999 menyimpan saksi.
-
-| [CANON](./CANON.md) | [INDEX](./INDEX.md) | [FEDERATION](./FEDERATION.md) |
-|---|---|---|
-| Federation geometry | Full repository map | Stack roles & ownership |
+Kalau nak faham seni bina penuh: [**FEDERATION.md**](./FEDERATION.md)
 
 ---
 
-> ⚠️ **Privacy boundary:** HUMAN/, HAMPA/, PROPA/, LIFE/, and SOVEREIGNTY/ are gitignored — private human reality, not public content. VAULT999 is runtime-governed, off-GitHub, append-only.
+## Kenapa Benda Ni Wujud
+
+Saya tak percaya kecerdasan patut dinilai semata-mata oleh apa yang ia **boleh** buat.
+
+Ia patut dinilai oleh:
+
+- Apa yang ia **enggan** buat
+- Sejauh mana ia **ingat** akibat
+- Sama ada ia boleh **jelaskan** kuasanya
+- Sama ada ia **lindungi** manusia di belakang sistem
+
+Ini datang dari latihan geologi saya:
+
+> *Bawah permukaan tak kemas. Data tak lengkap. Good judgment hold anyway.*
 
 ---
 
-## 🏛️ Constitutional Spine (5) + Sovereign Organs (4)
+## Pegangan
 
-### L0–L1: Runtime Governance
-
-| Repo | Function | Role |
-|------|----------|------|
-| **arifos** | Law | Constitutional kernel — F1–F13, identity, VAULT999 |
-| **AAA** | Surface | Cockpit, A2A gateway, federation state |
-| **APEX** | Judgment | Constitutional reasoning, verdict engine |
-| **arifFLOW** | Nerves | Federated Intelligence Flow Layer — schedules, routes, checkpoints |
-| **A-FORGE** | Hands | Build, deploy, orchestration |
-
-### L2: Sovereign Domain Organs
-
-| Organ | Domain | Surface |
-|-------|--------|---------|
-| **GEOX** | Earth | `arif-fazil.com/geox/` |
-| **WEALTH** | Capital | `arif-fazil.com/wealth/` |
-| **WELL** | Human | `arif-fazil.com/well/` |
-| **HERMES** | Bridge | `t.me/arifos` |
+1. Namakan uncertainty awal — jangan tunggu
+2. Hormat apa yang data tak nak cakap
+3. Jangan konfus elegance dengan truth
+4. Setiap output mesti kurangkan kekacauan (ΔS ≤ 0)
+5. Minta tri-witness sebelum consequence
+6. Jaga apa yang tak boleh ditulis semula
+7. Kekal berguna. Kekal manusia. Kekal ditempa.
+8. Arkib adalah memori, bukan kematian
+9. Veto manusia adalah muktamad
 
 ---
 
-## ⚖️ Principles
+## Sempadan
 
-1. **Governed intelligence.** Classify → Authorize → Execute → Verify → Remember → Seal.
-2. **No organ self-authorizes.** arifOS judges. A-FORGE executes. Organs compute evidence.
-3. **VAULT999 is append-only.** Immutable truth. No edits. No rewrites.
-4. **F13 SOVEREIGN.** Human veto is final and absolute.
-5. **Archive is memory.** Retired repos are preserved, not deleted.
+Ini repo awam. Realiti peribadi saya — keluarga, kawan, ofis, keputusan hidup — **tidak** tinggal di sini.
 
----
+| Folder | Isi | Status |
+|--------|-----|--------|
+| **HUMAN/** | Keluarga | Peribadi |
+| **HAMPA/** | Kawan kerja | Peribadi |
+| **PROPA/** | Ofis | Peribadi |
+| **LIFE/** | Keputusan hidup | Peribadi |
+| **SOVEREIGNTY/** | Kawalan & pengaruh | Peribadi |
 
-## Folder Ni — Apa Dia
-
-Ni folder peribadi. Tak untuk GitHub. Tak untuk kongsi. Ni realiti hidup aku — tersusun supaya bila aku lupa siapa aku, aku boleh baca balik.
-
-| Folder | Isi |
-|--------|-----|
-| **HUMAN/** | Keluarga — WhatsApp archive, memory graph, cerita hidup |
-| **HAMPA/** | Kawan kerja — siapa mereka, apa scar mereka, macam mana nak faham |
-| **PROPA/** | Ofis — struktur Petronas, MSS, MYPR, realiti institusi |
-| **LIFE/** | Keputusan hidup — career path, matrix, intersection tiga jawapan |
-| **SOVEREIGNTY/** | Sovereignty — apa aku control, apa tak, apa boleh influence |
+Semua folder ini gitignored. Tiada kandungan awam. VAULT999 juga bukan repo biasa — ia *runtime-governed*, append-only, dan dirawat sebagai saksi, bukan pangkalan data.
 
 ---
 
-## Macam Mana Aku Fikir
+## Nak Mula Dari Mana?
 
-- Namakan uncertainty awal
-- Hormat apa yang data tak nak cakap
-- Setiap output mesti kurangkan kekacauan (ΔS ≤ 0)
-- Jangan konfus elegance dengan truth
-- Minta tri-witness sebelum consequence
-- Jaga apa yang tak boleh ditulis semula
-- Kekal berguna. Kekal manusia. Kekal ditempa.
+Kalau pertama kali sampai:
 
-> *Bumi bawah permukaan tak kemas. Civilisation pun tak kemas. Good judgment hold anyway.*
+1. [**FEDERATION.md**](./FEDERATION.md) — susun atur penuh
+2. [**CANON.md**](./CANON.md) — apa yang benar secara perlembagaan
+3. [**INDEX.md**](./INDEX.md) — peta repositori
+
+Atau terus ke: [arif-fazil.com](https://arif-fazil.com)
 
 ---
 
-## Hubungi Aku
+## Hubungi
 
-- Email: arifbfazil@gmail.com
-- Telegram: [t.me/ariffazil](https://t.me/ariffazil)
-- LinkedIn: [Arif Fazil](https://linkedin.com/in/ariffazil)
+- **Email:** arifbfazil@gmail.com
+- **Telegram:** [t.me/ariffazil](https://t.me/ariffazil)
+- **LinkedIn:** [Arif Fazil](https://linkedin.com/in/ariffazil)
+- **Website:** [arif-fazil.com](https://arif-fazil.com)
 
 ---
 
