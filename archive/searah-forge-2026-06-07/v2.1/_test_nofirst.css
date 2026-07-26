@@ -1,0 +1,16 @@
+@page { size: A4; margin: 1.5cm 1.6cm 2cm 1.6cm; }
+body { font-family: 'Liberation Serif', serif; font-size: 10.5pt; line-height: 1.55; color: #1a1a1a; }
+h1 { font-size: 24pt; font-weight: bold; border-bottom: 3pt solid #CC0000; padding-bottom: 0.15em; }
+h2 { font-size: 16pt; text-transform: uppercase; border-bottom: 1.5pt solid #111; }
+.masthead { border-top: 4pt solid #111; border-bottom: 1pt solid #111; padding: 12pt 0; }
+.masthead-title { font-size: 32pt; font-weight: bold; }
+.big-stat { background: #111; color: white; padding: 14pt 18pt; margin: 18pt 0; }
+.big-stat .number { color: #CC0000; font-size: 36pt; font-weight: bold; }
+.fact-box { border: 1pt solid #111; background: #fafafa; padding: 12pt 14pt; margin: 18pt 0; }
+.fact-box-title { color: #CC0000; font-weight: bold; }
+.pull-quote { border-left: 4pt solid #CC0000; padding: 12pt 16pt; margin: 18pt 0; background: #fafafa; font-style: italic; }
+.callout { background: #fff8dc; border-left: 4pt solid #CC0000; padding: 10pt 14pt; }
+.key-numbers { background: #f8f8f8; border: 0.5pt solid #ccc; padding: 10pt 14pt; }
+.changelog { border: 2pt dashed #CC0000; background: #fff8dc; padding: 14pt 16pt; }
+table { border-collapse: collapse; }
+th { background: #111; color: white; }

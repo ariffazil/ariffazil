@@ -8,37 +8,38 @@
 
 ---
 
-## 🧬 Federation Map (30 seconds)
+## 🧬 Federation Map — 9-Node Constitutional Spine
 
 ```
-arifOS Federation
-│
-├── 🧠 KERNEL
-│   ├── arifos          Constitutional kernel — F1–F13, judgment, VAULT999
-│   ├── AAA             Control plane — cockpit, A2A, identity
-│   └── A-FORGE         Execution shell — build, deploy, forge
-│
-├── 🌍 ORGANS (domain intelligence — compute, never adjudicate)
-│   ├── GEOX            Earth evidence — seismic, wells, basins
-│   ├── WEALTH          Capital computation — NPV, risk, markets
-│   ├── WELL            Human readiness — REFLECT_ONLY
-│   └── HERMES          Multi-modal bridge
-│
-├── 🔧 INFRASTRUCTURE
-│   ├── arif-fazil.com  Unified web surface (this site)
-│   ├── web-canon       Canonical registries
-│   ├── compose         Docker infrastructure
-│   └── arifFlow        Agent orchestration
-│
-├── 🔬 RESEARCH
-│   ├── A2B             Benchmarks
-│   ├── model-registry  Model provenance
-│   └── EEE             Audit & recovery
-│
-└── 📦 ARCHIVE (memory, not death)
-    ├── 1AGI · AGI_bot · AGI_ASI_bot
-    ├── arifosmcp · arifos-vid
-    └── APEX · arif-sites-legacy
+                 arifos (Law)
+                    │
+         ┌──────────┼──────────┐
+         │          │          │
+        AAA       APEX     arifFlow
+     (Surface)  (Judgment) (Coordination)
+         │          │          │
+         └──────A-FORGE────────┘
+              (Execution)
+                    │
+      ┌─────────────┼─────────────┐
+      │             │             │
+    GEOX         WEALTH         WELL
+   (Earth)      (Capital)      (Human)
+      │             │             │
+      └─────────HERMES────────────┘
+           (Multi-Modal Bridge)
+```
+
+```
+L0  CONSTITUTIONAL     arifos                         Law
+L1  RUNTIME GOVERNANCE AAA · APEX · arifFlow · A-FORGE  Surface · Judgment · Coordination · Execution
+L2  SOVEREIGN ORGANS   GEOX · WEALTH · WELL · HERMES   Earth · Capital · Human · Bridge
+L3  FEDERATION ASSETS  arif-fazil.com · web-canon       Infrastructure · Registries · Research · Benchmarks
+                       compose · searxng · A2B · EEE
+                       model-registry
+L4  ARCHIVE            1AGI · AGI_bot · AGI_ASI_bot     Memory, not death
+                       arifosmcp · arifos-vid
+                       arif-sites-legacy
 ```
 
 | [CANON](./CANON.md) | [INDEX](./INDEX.md) | [FEDERATION](./FEDERATION.md) |
@@ -51,16 +52,25 @@ arifOS Federation
 
 ---
 
-## 🏛️ The Seven Organs
+## 🏛️ Constitutional Spine (5) + Sovereign Organs (4)
 
-| Organ | Role | Surface |
-|-------|------|---------|
-| **arifOS** | Constitutional kernel | [`arif-fazil.com/arifos/`](https://arif-fazil.com/arifos/) |
-| **AAA** | Control plane | [`arif-fazil.com/aaa/`](https://arif-fazil.com/aaa/) |
-| **A-FORGE** | Execution shell | [`arif-fazil.com/forge/`](https://arif-fazil.com/forge/) |
+### L0–L1: Runtime Governance
+
+| Repo | Constitutional Function | Surface |
+|------|------------------------|---------|
+| **arifos** | Law — F1–F13, identity, VAULT999 | [`arif-fazil.com/arifos/`](https://arif-fazil.com/arifos/) |
+| **AAA** | Surface — cockpit, A2A, federation state | [`arif-fazil.com/aaa/`](https://arif-fazil.com/aaa/) |
+| **APEX** | Judgment — constitutional reasoning, verification | — |
+| **arifFlow** | Coordination — parallel execution fabric | — |
+| **A-FORGE** | Execution — build, deploy, orchestration | [`arif-fazil.com/forge/`](https://arif-fazil.com/forge/) |
+
+### L2: Sovereign Domain Organs
+
+| Organ | Domain | Surface |
+|-------|--------|---------|
 | **GEOX** | Earth intelligence | [`arif-fazil.com/geox/`](https://arif-fazil.com/geox/) |
 | **WEALTH** | Capital intelligence | [`arif-fazil.com/wealth/`](https://arif-fazil.com/wealth/) |
-| **WELL** | Vitality guard | [`arif-fazil.com/well/`](https://arif-fazil.com/well/) |
+| **WELL** | Human readiness | [`arif-fazil.com/well/`](https://arif-fazil.com/well/) |
 | **HERMES** | Multi-modal bridge | [t.me/arifos](https://t.me/arifos) |
 
 ---

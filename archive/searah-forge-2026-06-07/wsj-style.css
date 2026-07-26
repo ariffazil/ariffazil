@@ -1,0 +1,199 @@
+/* SEARAH WSJ-Grade style — minimal, professional, serif body, narrow margins */
+@page {
+  size: A4;
+  margin: 1.6cm 1.8cm 2cm 1.8cm;
+  @top-center {
+    content: "SEARAH LIMITED × PETROS: The RM70 Billion Question";
+    font-family: 'Liberation Serif', 'Georgia', serif;
+    font-size: 9pt;
+    color: #888;
+    border-bottom: 0.5pt solid #ccc;
+    padding-bottom: 4pt;
+  }
+  @bottom-right {
+    content: counter(page);
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 9pt;
+    color: #999;
+  }
+  @bottom-left {
+    content: "arifOS Federation Intelligence · 999 SEAL";
+    font-family: 'Liberation Sans', sans-serif;
+    font-size: 8pt;
+    color: #999;
+  }
+}
+
+body {
+  font-family: 'Liberation Serif', 'Georgia', 'Times New Roman', serif;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  text-align: justify;
+  hyphens: auto;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Liberation Sans', 'Helvetica', sans-serif;
+  font-size: 22pt;
+  font-weight: bold;
+  color: #111;
+  margin: 0 0 0.2em 0;
+  text-align: left;
+  border-bottom: 2.5pt solid #CC0000;
+  padding-bottom: 0.15em;
+  line-height: 1.15;
+}
+
+h1.title {
+  font-size: 26pt;
+  line-height: 1.1;
+  text-align: left;
+}
+
+h2.subtitle {
+  font-family: 'Liberation Serif', serif;
+  font-size: 13pt;
+  font-style: italic;
+  color: #555;
+  font-weight: normal;
+  margin: 0.3em 0 1.2em 0;
+  border-bottom: 0.5pt solid #ddd;
+  padding-bottom: 0.4em;
+}
+
+.author, .date {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10pt;
+  color: #555;
+  margin: 0;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Liberation Sans', 'Helvetica', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #111;
+  margin: 1.6em 0 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1pt solid #111;
+  padding-bottom: 0.15em;
+}
+
+h3 {
+  font-family: 'Liberation Sans', 'Helvetica', sans-serif;
+  font-size: 11.5pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin: 1.4em 0 0.4em 0;
+}
+
+h4 {
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10.5pt;
+  font-weight: bold;
+  color: #333;
+  margin: 1em 0 0.3em 0;
+}
+
+p {
+  margin: 0 0 0.7em 0;
+  text-align: justify;
+}
+
+strong {
+  font-weight: bold;
+  color: #111;
+}
+
+em {
+  font-style: italic;
+}
+
+code {
+  font-family: 'DejaVu Sans Mono', 'Consolas', monospace;
+  font-size: 9pt;
+  background: #f4f4f4;
+  padding: 0.5pt 2pt;
+  border-radius: 1pt;
+}
+
+ul, ol {
+  margin: 0 0 0.8em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+hr {
+  border: 0;
+  border-top: 1pt solid #ccc;
+  margin: 1.5em 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 9pt;
+  margin: 0.8em 0 1.2em 0;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+  padding: 6pt 8pt;
+  border: 0.5pt solid #999;
+  color: #111;
+}
+
+td {
+  padding: 5pt 8pt;
+  border: 0.5pt solid #ccc;
+  vertical-align: top;
+}
+
+tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+blockquote {
+  border-left: 3pt solid #CC0000;
+  margin: 0.8em 0;
+  padding: 0.4em 0 0.4em 1em;
+  font-style: italic;
+  color: #333;
+  background: #fafafa;
+}
+
+a {
+  color: #CC0000;
+  text-decoration: none;
+}
+
+#toc {
+  background: #f8f8f8;
+  border: 0.5pt solid #ccc;
+  padding: 0.8em 1.2em;
+  margin: 0 0 1.5em 0;
+  font-family: 'Liberation Sans', sans-serif;
+  font-size: 10pt;
+}
+
+#toc-title {
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+#toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
