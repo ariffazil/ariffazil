@@ -92,13 +92,13 @@ Seven verbs. Seven owners. Zero overlap. This is the actual execution path.
 ### Flow-Plane Laws (F0-F6)
 | ID | Name | Rule |
 |----|------|------|
-| **F0** | Flow Serves | arifFLOW transmits. It does not originate intent. |
-| **F1** | Flow Is Reversible | Every scheduled unit must have a defined rollback path. |
-| **F2** | Flow Is Verifiable | Every state transition produces a Merkle-anchored receipt. |
-| **F3** | Flow Is Plane-Isolated | State crosses plane boundaries only via signed envelopes. |
-| **F4** | Flow Is Observable | FQ, drift, cooling — everything measurable must be measured. |
-| **F5** | Flow Has Metabolic Closure | Every run ends: cooling receipt, leases closed, no orphans. |
-| **F6** | Flow Observes, Never Interprets | arifFLOW may measure and report. Interpretation belongs to ATLAS333/arifOS. |
+| **F0** | Flow transmits, never owns | arifFLOW routes governed intelligence. Intent originates from PLANE 0 (Human). |
+| **F1** | Flow schedules, never authorizes | Scheduling ≠ permission. Authorization comes from arifOS (PLANE 1). |
+| **F2** | Flow checkpoints, never judges | Merkle-anchored state at every super-step. Verdicts belong to arifOS. |
+| **F3** | Flow observes, never interprets | FQ, drift, cooling — measured and reported. Meaning belongs to ATLAS333/arifOS. |
+| **F4** | Flow routes execution, never becomes execution authority | Dispatches to A-FORGE. A-FORGE owns execution decisions. |
+| **F5** | Flow writes receipts, never owns memory | Appends to VAULT999. Sovereignty over memory belongs to ARIFFAZIL/arifOS. |
+| **F6** | Flow connects organs, never collapses organs | Schedules GEOX, WEALTH, WELL, HERMES. Does not merge, own, or interpret them. |
 
 ### Execution Invariants (A1-A6)
 | ID | Name | Rule |
