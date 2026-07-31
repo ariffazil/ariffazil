@@ -26,6 +26,7 @@
 |---------|---------|
 | [**000/**](./000/) | Principal Origin — boot chamber, principal doctrine, INIT protocol |
 | [**999/**](./999/) | Public Seal Index — seal window, witness protocol, public pointers |
+| [**DERITA/**](./DERITA/) | ⚠️ PRIVATE — RASA DERITA trauma architecture. 15 lessons, 5 axes, F1-F13 encoding. DO NOT COMMIT. |
 
 ## Key Documents
 
@@ -46,7 +47,7 @@
 
 ---
 
-> ⚠️ **Privacy boundary:** This repo contains private directories (HUMAN/, HAMPA/, PROPA/, LIFE/, SOVEREIGNTY/) that are gitignored and contain no public content. They are ARIF's personal organizational system — not part of the public federation surface.
+> ⚠️ **Privacy boundary:** This repo contains private directories (HUMAN/, HAMPA/, PROPA/, LIFE/, SOVEREIGNTY/, DERITA/) that are gitignored and contain no public content. They are ARIF's personal organizational system — not part of the public federation surface. DERITA/ contains the trauma-to-governance architecture (RASA DERITA) — 15 lessons of human suffering encoded into F1-F13 constitutional floors.
 
 ---
 
