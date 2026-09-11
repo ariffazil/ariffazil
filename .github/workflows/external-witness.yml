@@ -1,7 +1,7 @@
 name: External Witness Attestation (Gödel Lock)
 
-> **FORGED 2026-07-15.** CANON §8 declares no formal system can adjudicate itself.
-> The sovereign profile repo requires external witness for canonical changes.
+# FORGED 2026-07-15. CANON §8 declares no formal system can adjudicate itself.
+# The sovereign profile repo requires external witness for canonical changes.
 
 on:
   pull_request:
