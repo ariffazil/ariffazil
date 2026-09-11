@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v4
       - name: Validate FEDERATION.md
         run: |
           test -f FEDERATION.md || (echo "❌ Missing FEDERATION.md" && exit 1)
