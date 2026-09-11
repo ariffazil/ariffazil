@@ -1,3 +1,8 @@
+---
+role: CANON
+layer: L0
+---
+
 # FEDERATION.md — arifOS Federation Map
 
 > **SOT:** 2026-07-26 | **Authority:** ARIF / F13 SOVEREIGN  
