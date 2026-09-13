@@ -1,7 +1,8 @@
 <!-- SOT-MANIFEST
-federation_release: v2026.08.09
-last_verified: 2026-08-11T05:58:51Z
+federation_release: v2026.09.13
+last_verified: 2026-09-13T06:32:00Z
 scope: /root/ariffazil — human-facing sovereign profile
+apex_zen: A2A delegates ⊥ MCP equips ⊥ ACT mutates ⊥ arifOS governs ⊥ F13 decides
 epistemic_status: OBS (this is who Arif is; the system claims this is the person behind the federation)
 audit_basis: 333-AGI Δ MIND session (2026-08-11) — README gap audit
 -->
