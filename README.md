@@ -20,6 +20,10 @@ My core work is **arifOS** — a federated intelligence system built on one prin
 
 > *Intelligence must be governed before it acts.*
 
+**Enter here:** [arif-fazil.com](https://arif-fazil.com) · kernel [arifOS](https://github.com/ariffazil/arifOS) · earth [GEOX](https://github.com/ariffazil/GEOX) · hands [A-FORGE](https://github.com/ariffazil/A-FORGE) · gateway [AAA](https://github.com/ariffazil/AAA)
+
+This is not another chatbot wrapper. It is a personal institution: memory with a denylist, work with receipts, models you can replace without losing the house.
+
 ---
 
 ## Apa Yang Saya Bina
