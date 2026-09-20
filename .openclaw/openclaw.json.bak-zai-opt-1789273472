@@ -226,46 +226,6 @@
             }
           }
         ]
-      },
-      "zai-coding-plan": {
-        "baseUrl": "https://api.z.ai/api/coding/paas/v4/chat/completions",
-        "api": "openai-completions",
-        "apiKey": "{env:ZAI_API_KEY}",
-        "models": [
-          {
-            "id": "glm-5.3",
-            "name": "GLM-5.3 \u2014 Frontier Coding & Agents (1M ctx)",
-            "reasoning": true,
-            "input": [
-              "text"
-            ],
-            "contextWindow": 1000000,
-            "maxTokens": 131072,
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            }
-          },
-          {
-            "id": "glm-5.3-flash",
-            "name": "GLM-5.3-Flash \u2014 Fast Reasoning & Vision (1M ctx, 3x quota)",
-            "reasoning": true,
-            "input": [
-              "text",
-              "image"
-            ],
-            "contextWindow": 1000000,
-            "maxTokens": 131072,
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            }
-          }
-        ]
       }
     }
   },
@@ -301,12 +261,6 @@
         },
         "ollama/qwen2.5-coder:3b": {
           "alias": "Ollama Qwen 3B"
-        },
-        "zai-coding-plan/glm-5.3": {
-          "alias": "GLM-5.3"
-        },
-        "zai-coding-plan/glm-5.3-flash": {
-          "alias": "GLM-5.3 Flash"
         }
       },
       "workspace": "/root",
@@ -316,7 +270,6 @@
         "maxConcurrent": 8
       },
       "fallback_models": [
-        "zai-coding-plan/glm-5.3-flash",
         "tokenrouter/miniMax-M3",
         "opencode-go/deepseek-v4-pro",
         "tokenrouter/deepseek/deepseek-v4-pro",
