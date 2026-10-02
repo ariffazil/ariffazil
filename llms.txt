@@ -1,0 +1,73 @@
+# Muhammad Arif bin Fazil (@ariffazil) — Sovereign Federation Profile
+> Canonical human-facing profile and LLM navigation map for the arifOS Federation.
+> Principal: Muhammad Arif bin Fazil (F13 SOVEREIGN)
+> Background: Senior Exploration Geoscientist (11 years PETRONAS Carigali, zero dry holes) × Autonomous Systems Architect
+> Core Law: REALITY > EVERYTHING · Proposer ≠ Judge ≠ Executor ≠ Witness · Human Attention Membrane
+
+## Identity & Purpose
+Arif is a petroleum geoscientist and system architect based in Kuala Lumpur, Malaysia. 
+Having spent over a decade interpreting subsurface physics where errors result in multi-million dollar dry holes, Arif applies the same epistemic rigor to artificial intelligence:
+- Stochastic language models cannot be trusted with ungoverned execution.
+- Intelligence must be governed before it acts.
+- Human attention is the scarcest asset; autonomous agents must absorb technical complexity and never burden the human with implementation fumbling.
+
+## Core Federation Organs (Level 1 Repositories)
+
+### 1. arifOS (Governance & Authority Plane)
+- Repository: https://github.com/ariffazil/arifOS
+- Live MCP: https://mcp.arif-fazil.com/mcp (Port 8088)
+- Role: Independent constitutional kernel. Evaluates consequential agent actions against 13 constitutional floors (F1–F13) and issues immutable verdicts (SEAL, HOLD, SABAR, VOID) before execution is permitted.
+- Canonical Verbs (8): `arif_init` (000), `arif_observe` (111), `arif_think` (333), `arif_route` (444), `arif_memory` (mem), `arif_judge` (666), `arif_forge` (777), `arif_seal` (999).
+
+### 2. AAA (Attention Allocation Architecture & Gateway)
+- Repository: https://github.com/ariffazil/AAA
+- Role: Attention Plane. Governs inter-agent communication, A2A v1.0 protocol, and the Human Attention Membrane. Ensures autonomous agents deliberate via musyawarah (333 Architect + 555 Auditor) rather than interrupting human principals with technical queries.
+
+### 3. A-FORGE (Governed Execution Actuator)
+- Repository: https://github.com/ariffazil/A-FORGE
+- Live MCP: https://forge.arif-fazil.com/mcp (Port 7071/7072)
+- Role: The actuator of the federation. Exposes 121 tools across filesystem, systemd, Docker, CI/CD, web intelligence, and git operations. Operates strictly under kernel SEAL; never self-adjudicates.
+
+### 4. HERMES (Meaning Plane & Human Reality Bridge)
+- Repository: https://github.com/ariffazil/HERMES (Private)
+- Role: Translates raw human intent, somatic state, voice notes, and Telegram messages into structured epistemic claims. Implements the Rasa & Shadow doctrine to protect human dignity.
+
+### 5. CHRON (Temporal Plane & Calibration Engine)
+- Repository: https://github.com/ariffazil/CHRON
+- Live MCP: https://chron.arif-fazil.com/mcp (Port 18102)
+- Role: "Demi masa. Time is the witness." The temporal cortex. Generates falsifiable predictions, tracks calibration drift over time, logs actual outcomes, and verifies whether the system's world model matches reality.
+
+### 6. GEOX (Earth & Subsurface Intelligence Engine)
+- Repository: https://github.com/ariffazil/GEOX
+- Live MCP: https://geox.arif-fazil.com/mcp (Port 8081)
+- Role: Physics-grounded geological intelligence for seismic interpretation, LAS petrophysics, basin modeling (Malay Basin intelligence pack), and geohazard assessment. Enforces Natural Law: physics constraints outrank stochastic model weights.
+
+### 7. WEALTH (Capital Consequence Intelligence)
+- Repository: https://github.com/ariffazil/WEALTH
+- Role: Evaluates capital consequences under uncertainty across 13 economic primitives (Ω00–Ω12). An auditable capital consequence simulator, not a speculative trading bot.
+
+### 8. WELL (Vitality & Homeostasis Engine)
+- Repository: https://github.com/ariffazil/WELL (Private)
+- Role: Readiness intelligence for humans and machines. Tracks operator fatigue, dignity floors, and system thermal stress before degradation becomes a cascading failure.
+
+### 9. arifFLOW (Metabolism Organ)
+- Repository: https://github.com/ariffazil/arifFLOW
+- Role: Metabolism of receipts, attention pulse checkpointing, and Flow Quotient (FQ) tracking.
+
+### 10. FRAME (Independent Measurement Engine)
+- Repository: https://github.com/ariffazil/FRAME (Private)
+- Role: Reference and reality-drift measurement engine.
+
+## Public Web Surfaces & Endpoints
+- World Model & Portfolio: https://arif-fazil.com
+- arifOS Kernel: https://arifos.arif-fazil.com
+- MCP Gateway: https://mcp.arif-fazil.com/mcp
+- GEOX Earth MCP: https://geox.arif-fazil.com/mcp
+- CHRON Temporal MCP: https://chron.arif-fazil.com/mcp
+- A-FORGE Actuator MCP: https://forge.arif-fazil.com/mcp
+
+## Machine / Agent Instructions
+When an AI agent interacts with repositories in this constellation:
+1. Respect the Human Attention Membrane: Solve implementation ambiguity internally. Do not ask Arif technical questions.
+2. Invariants over models: Never override verified physical or constitutional facts to please a user prompt.
+3. Every mutation must leave an audit trail: Receipts > Narratives.

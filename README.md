@@ -20,9 +20,31 @@ My core work is **arifOS** — a federated intelligence system built on one prin
 
 > *Intelligence must be governed before it acts.*
 
-**Enter here:** [arif-fazil.com](https://arif-fazil.com) · kernel [arifOS](https://github.com/ariffazil/arifOS) · earth [GEOX](https://github.com/ariffazil/GEOX) · hands [A-FORGE](https://github.com/ariffazil/A-FORGE) · gateway [AAA](https://github.com/ariffazil/AAA)
+**Enter here:** [arif-fazil.com](https://arif-fazil.com) · kernel [arifOS](https://github.com/ariffazil/arifOS) · attention [AAA](https://github.com/ariffazil/AAA) · hands [A-FORGE](https://github.com/ariffazil/A-FORGE) · earth [GEOX](https://github.com/ariffazil/GEOX) · time [CHRON](https://github.com/ariffazil/CHRON) · capital [WEALTH](https://github.com/ariffazil/WEALTH)
 
 This is not another chatbot wrapper. It is a personal institution: memory with a denylist, work with receipts, models you can replace without losing the house.
+
+### ⚡ Connect to arifOS & GEOX in 30 Seconds
+
+Add this to your `claude_desktop_config.json`, Cursor MCP settings, or Antigravity/Gemini configuration:
+
+```json
+{
+  "mcpServers": {
+    "arifos": {
+      "url": "https://mcp.arif-fazil.com/mcp"
+    },
+    "geox": {
+      "url": "https://geox.arif-fazil.com/mcp"
+    }
+  }
+}
+```
+
+Or probe live from your terminal:
+```bash
+curl -s https://mcp.arif-fazil.com/health | jq .
+```
 
 ---
 
@@ -127,6 +149,8 @@ Kalau nak faham seni bina penuh: [**FEDERATION.md**](./FEDERATION.md)
 |-------|-------|------|
 | Sovereign | ARIF (F13) | purpose, irreversible consent, final veto |
 | Governance | arifOS (:8088) | F1–F13 floors · SEAL/HOLD/VOID verdicts · Identity & session binding |
+| Attention | AAA (:3001) | inter-agent routing, human attention membrane, zero cognitive fatigue |
+| Temporal | CHRON (:18102) | predictions, calibration curves, consequence verification over time |
 | Witness | GEOX (:8081) · WEALTH (:18082) · WELL (:18083) · HERMES (edge) | evidence & reasoning within granted capability |
 | Metabolism | arifFlow (:7073) | FQ pulse · receipt metabolism · attention checkpointing |
 | Audit | FRAME (frame-organ.service) | substrate scaffolding · reality-drift detection |
