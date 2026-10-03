@@ -151,14 +151,13 @@ Kalau nak faham seni bina penuh: [**FEDERATION.md**](./FEDERATION.md)
 | Governance | arifOS (:8088) | F1–F13 floors · SEAL/HOLD/VOID verdicts · Identity & session binding |
 | Attention | AAA (:3001) | inter-agent routing, human attention membrane, zero cognitive fatigue |
 | Temporal | CHRON (:18102) | predictions, calibration curves, consequence verification over time |
-| Witness | GEOX (:8081) · WEALTH (:18082) · WELL (:18083) · HERMES (edge) | evidence & reasoning within granted capability |
+| Earth Witness | GEOX (:8081) | subsurface physics, seismic, LAS logs, Malay Basin evidence |
+| Capital Witness | WEALTH (:18082) | capital consequence modeling under uncertainty (13 primitives) |
+| Human Witness | WELL (:18083) | *[Private Boundary]* vitality mirror, machine thermal health, dignity floors |
+| Meaning Edge | HERMES (Edge) | *[Private Boundary]* human reality bridge, Telegram gateway, Rasa/Shadow |
 | Metabolism | arifFlow (:7073) | FQ pulse · receipt metabolism · attention checkpointing |
-| Audit | FRAME (frame-organ.service) | substrate scaffolding · reality-drift detection |
-| Route | FED (:7074) | model/provider ranking · balance probe |
-| Reason | FLAME (:18901) | RM0 inference · free-loop model mesh |
-| Execution | A-FORGE (:7071/72) | controlled mutation after SEAL verdict |
-| Continuity | Postgres · Redis · Qdrant · organ stores | revisable state |
-| Truth | VAULT999 · OTel · metrics | immutable consequence |
+| Execution | A-FORGE (:7071/72) | controlled mutation after SEAL verdict (121 tools) |
+| Truth | VAULT999 | immutable consequence & hash-chained audit ledger |
 
 ---
 
