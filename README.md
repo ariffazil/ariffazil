@@ -156,7 +156,7 @@ Kalau nak faham seni bina penuh: [**FEDERATION.md**](./FEDERATION.md)
 | Human Witness | WELL (:18083) | *[Private Boundary]* vitality mirror, machine thermal health, dignity floors |
 | Meaning Edge | HERMES (Edge) | *[Private Boundary]* human reality bridge, Telegram gateway, Rasa/Shadow |
 | Metabolism | arifFlow (:7073) | FQ pulse · receipt metabolism · attention checkpointing |
-| Execution | A-FORGE (:7071/72) | controlled mutation after SEAL verdict (121 tools) |
+| Execution | A-FORGE (:7071/72) | controlled mutation after SEAL verdict (122 tools) |
 | Truth | VAULT999 | immutable consequence & hash-chained audit ledger |
 
 ---
