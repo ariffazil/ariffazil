@@ -1,0 +1,178 @@
+{
+  "patterns": [
+    {
+      "pattern_name": "T1->T2->T3->T4 timeline gap analysis: no two crisis threads start within the same week",
+      "query": "Compute start dates and gaps between T1 (Abah gangren), T2 (Nabilah-Mak rupture), T3 (Family kita long arc), T4 (Kawan Sehidup Semati).",
+      "result": {
+        "T1_start": "2024-01-16",
+        "T2_start": "2025-12-09",
+        "T3_start": "2015-04-19",
+        "T4_start": "2025-01-22",
+        "gaps_between_starts_days": {
+          "T3_to_T1": 3194,
+          "T1_to_T4": 372,
+          "T4_to_T2": 321
+        },
+        "end_to_start_lags_days": {
+          "T1_end_to_T4_start": 328,
+          "T1_end_to_T2_start": 649
+        },
+        "span_overlaps": {
+          "T1_x_T3": "44 days (T1 fully inside T3)",
+          "T2_x_T3": "97 days (T2 fully inside T3)",
+          "T2_x_T4": "82 days (T2 overlaps T4 from 2025-12-09 to 2026-03-01)",
+          "T3_x_T4": "403 days (T4 fully inside T3)",
+          "T1_x_T4": "0 days",
+          "T1_x_T2": "0 days"
+        }
+      },
+      "interpretation_hint_stay_neutral": "Thread start dates are separated by 9-11 months. No two crisis threads start within the same week, so a direct 'one crisis triggers another' temporal link is not visible from start dates alone. T2 (Dec 2025) and T4 (Jan 2025) overlap for 82 days, meaning Arif was simultaneously in the friend group and the mother-daughter crisis for the last quarter of 2025 and into early 2026.",
+      "essay_already_said_this": false
+    },
+    {
+      "pattern_name": "Person-archive overlap matrix: Arif is the only person in all 4 archives; Izzudin_kawan is the only non-Arif person in 3",
+      "query": "For each of the 19 people, compute in how many of the 4 archives their first_seen/last_seen dates place them.",
+      "result": {
+        "in_4_archives": [
+          "Arif"
+        ],
+        "in_3_archives": [
+          "Izzudin_kawan",
+          "Azwa"
+        ],
+        "in_2_archives": [
+          "Nabilah",
+          "Naazira_Jia",
+          "Mak",
+          "Fahim",
+          "Fattah",
+          "Rogaiya",
+          "Munirah",
+          "Zulkhari",
+          "Aliff_kawan"
+        ],
+        "in_1_archive": [
+          "Abah",
+          "Fahmi_friend",
+          "Pak_Njang",
+          "Mak_Long"
+        ],
+        "in_0_archives_null_dates": [
+          "Abang_Sani",
+          "Kak_Lydia",
+          "Amirah"
+        ],
+        "caveat": "The matrix uses a date-range heuristic. Nabilah, Mak, Jia, Fahim, Fattah all show as 'not in nabilah_mak archive' because their global last_seen (9/9/24) is 365 days before the archive's start (9/9/25). This is a JSON parsing limitation: last_seen is global, not per-archive."
+      },
+      "interpretation_hint_stay_neutral": "The essay claims Arif is the only person in all 3 crisis archives. The data extends this: Arif is in all 4 archives (including the friend group), and Izzudin_kawan is in 3 archives (family_kita, nabilah_mak, kawan_sehidup_semati), making him a second multi-archive connector not previously named in the essay.",
+      "essay_already_said_this": false
+    },
+    {
+      "pattern_name": "Money-flow routing: 58.8% of 80 sampled events are unclear attribution; Arif and Nabilah tied as most-named at 12.5% each",
+      "query": "Classify each money event by speaker attribution (Arif, Nabilah, Mak, Jia, Azwa, Abah, Fahim, unclear) using text-context patterns.",
+      "result": {
+        "sample_size": 80,
+        "global_projection_factor_unique_to_sample": "270/80 = 3.375x",
+        "attribution_counts_in_sample": {
+          "unclear": 47,
+          "Nabilah": 10,
+          "Arif": 10,
+          "Abah": 7,
+          "Mak": 2,
+          "Jia": 2,
+          "Azwa": 2
+        },
+        "attribution_percentages": {
+          "unclear": "58.8%",
+          "Nabilah": "12.5%",
+          "Arif": "12.5%",
+          "Abah": "8.8%",
+          "Mak": "2.5%",
+          "Jia": "2.5%",
+          "Azwa": "2.5%"
+        },
+        "projected_to_270_unique": {
+          "unclear": 159,
+          "Nabilah": 34,
+          "Arif": 34,
+          "Abah": 24,
+          "Mak": 7,
+          "Jia": 7,
+          "Azwa": 7
+        },
+        "explicit_transfer_patterns_found": [
+          "RM1500 (5/10/15) Abah->Kakak (Nabilah) CIMB bank-in",
+          "RM2000 (6/10/16) Abah->Kakak: 'Wang dari abah RM1000 dan emak RM1000'",
+          "RM900 (2024) 'kakak bayar RM900 guna duit kakak dulu' (Nabilah)",
+          "RM15000 (2024) 'Abang dah bayar rm15000' (Arif)",
+          "RM4000 (12/9/25) 'Kakak dah transfer rm4000 dkat abang sani' (Nabilah, from T2 key_dates, not in money sample)"
+        ]
+      },
+      "interpretation_hint_stay_neutral": "The money_events_sample has 0 events from nabilah_mak and 0 from kawan archives; 95% of 80 sampled events come from family_kita. Any attribution conclusion about T2 (the rupture thread) is based on 2 events listed in T2.key_dates, not the 270-event universe. The unclear majority (58.8%) reflects that many money mentions are non-transfer text (prices, salary ranges, balances, listings).",
+      "essay_already_said_this": false
+    },
+    {
+      "pattern_name": "Money event concentration: 95% of sampled money events live in family_kita; 13/13 large events (>=RM1000) are salary/range context, not transfers",
+      "query": "How are 270 unique money events distributed across the 4 archives? What is the size distribution?",
+      "result": {
+        "by_archive_sampled": {
+          "family_kita_2015_2026": "76 of 80 = 95.0%",
+          "discuss_abah_2024": "4 of 80 = 5.0%",
+          "nabilah_mak_2025_2026": "0 of 80",
+          "kawan_sehidup_semati_2025_2026": "0 of 80"
+        },
+        "size_distribution_of_sample": {
+          "small_RM10_to_RM100": "~50 events (62.5%)",
+          "medium_RM100_to_RM1000": "~17 events (21.3%)",
+          "large_RM1000_plus": "13 events (16.3%)"
+        },
+        "largest_single_event_RM": 20592,
+        "all_13_large_events_context": "All 13 are salary-range mentions (e.g. 'Gaji: RM1,352 - RM20,592', 'RM1,321 - RM8,594'), not actual transfers. Each is split into 2 events by the graph (min and max of the same line).",
+        "double_counting_observation": "Same source line 'RM1,353 - RM4,005' generates 2 events (RM1,353 and RM4,005). The 270 unique count likely overstates the number of distinct financial transactions."
+      },
+      "interpretation_hint_stay_neutral": "The 270 money events headline number is a lexical count, not a financial one. Many events are salary-band mentions, not discrete transactions, and the same line often produces 2 events. The essay notes one such case (RM20,592 is described as gaji Mak, bukan satu bayaran). This data-quality finding generalizes that observation to all 13 large events.",
+      "essay_already_said_this": false
+    },
+    {
+      "pattern_name": "Arif absence in nabilah_mak Mar 13-16 is structurally guaranteed by the 1:1 chat's participant set, not a choice",
+      "query": "Verify the essay's claim that Arif tidak muncul untuk jadi perisai in nabilah_mak thread. Check people.Arif.last_seen vs archive end, the relationships entry for Nabilah->Arif, and the file path structure.",
+      "result": {
+        "arif_global_last_seen": "9/9/25 9:20PM (= Sept 9, 2025)",
+        "nabilah_mak_archive_span": "2025-12-09 to 2026-03-16",
+        "gap_arif_last_to_archive_end_days": 187,
+        "thread_path": "/root/ariffazil/HUMAN/nabilah/whatsapp-dengan-mak-2025-2026/2025sept-2026mar-whatsapp-transcript.txt",
+        "thread_filename_meaning": "dengan-mak = 'with Mak'. The file is stored under /nabilah/ directory and named as a 1:1 chat between Nabilah and Mak only.",
+        "structural_implication": "Arif is not a participant of this thread by structural design. He is not in the chat at all, so his 'absence' is a fact of the chat's participant set, not a behavioral choice.",
+        "T2_key_dates_for_Mar_13_16": [
+          "2026-03-13: Mak resends Feb 26 messages; opens wound",
+          "2026-03-15: Mak: Apa jadi pun nak balik gelang tu",
+          "2026-03-16: Nabilah: Anggap saja kakak sudah mati bersama Abah"
+        ],
+        "relationship_entry_Nabilah_to_Arif": "type: sister; accuses Abang juga sudah lama membuat perkara yang sama; evidence: Mar 16 2026 Nabilah outburst",
+        "data_quality_warning": "Nabilah last_seen is 9/9/24 9:44AM, which is 365 days BEFORE nabilah_mak archive start (9/9/25). This is a global last_seen (across all 4 archives), not a per-archive field. The JSON cannot directly answer did Nabilah write after Mar 13 2026 from this field alone."
+      },
+      "interpretation_hint_stay_neutral": "The essay's claim that Arif tidak muncul untuk jadi perisai is partially verifiable from the JSON: people.Arif.last_seen is 187 days before the rupture date, and the file path confirms it is a 1:1 chat. The absence is structurally guaranteed by the chat's participant set. The essay's stronger claim that the absence is itself satu tindakan is interpretive, not graph-grounded.",
+      "essay_already_said_this": true
+    }
+  ],
+  "metadata": {
+    "total_queries": 5,
+    "queries_essay_already_covered": 1,
+    "queries_new_patterns": 4,
+    "json_source": "/root/ariffazil/HUMAN/memory-graph-2026-06-07/memory-graph.json",
+    "essay_5_cannot_see_territory_respected": [
+      "Apa yang Arif rasa bila sorang-sorang dalam kereta pukul 2 pagi",
+      "Apa yang Arif tak beritahu kepada sesiapa",
+      "Apa yang Arif percaya tentang dirinya (mungkin tidak benar)",
+      "Apa yang Arif percaya tentang dirinya (mungkin benar tapi graph tak nampak)",
+      "Apa yang Arif rasa terhadap abah — yang terakhir, paling peribadi"
+    ],
+    "data_quality_findings_uncovered": [
+      "13 of 13 large money events (>=RM1000) are salary-range mentions, not transfers",
+      "Same source line generates 2 events (min and max of a range), inflating the 270 unique count",
+      "0 money events in sample from nabilah_mak or kawan archives; 95% from family_kita",
+      "3 of 19 people (Abang_Sani, Kak_Lydia, Amirah) have null first_seen and last_seen despite mention counts of 2",
+      "people.* last_seen is global, not per-archive, so 365-day gaps between last_seen and archive start (e.g. Nabilah in nabilah_mak) are parsing artifacts"
+    ]
+  }
+}

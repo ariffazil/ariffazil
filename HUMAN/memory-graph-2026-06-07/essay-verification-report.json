@@ -1,0 +1,113 @@
+{
+  "events": [
+    {
+      "essay_quote_or_claim": "Arif menggunakan ChatGPT/Bing untuk menterjemah dan second-opinion diagnosis (pada 17-18 Jan 2024, semasa abah kritikal)",
+      "date_in_essay": "17-18 Jan 2024",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/mak-abah/whatsapp-discuss-2024/2024-jan-feb-whatsapp-transcript.txt",
+      "line_number": 106,
+      "context": "1/17/24, 7:16 PM - ARIFFAZIL: Sure, I can translate that in Malay for you. Here is the translation of my previous message:\n[Long Bing translation about gangren]\nSource: Conversation with Bing, 17/01/2024\n1/17/24, 7:18 PM - ARIFFAZIL: Berdasarkan gambar ni. Daripada chatgpt\n1/18/24, 7:07 PM - ARIFFAZIL: I can try to translate my response on the blood test result in Malay...\n[Long Bing medical analysis with line 'The patient should go to the hospital emergency as soon as possible']\nSource: Conversation with Bing, 1/18/2024\n1/18/24, 7:07 PM - ARIFFAZIL: Kena bawak abah pi hospital emergency\n1/18/24, 11:33 PM - ARIFFAZIL: Silalah install chatgpt dalam phone hampa\n1/18/24, 11:36 PM - ARIFFAZIL: Kena pakai bing\n1/18/24, 11:36 PM - ARIFFAZIL: Chatgpt 4.0\n1/18/24, 11:37 PM - ARIFFAZIL: Install aps Microsoft bing\n1/18/24, 11:37 PM - ARIFFAZIL: Microsoft dah beli chatgpt",
+      "json_evidence": "T1 key_dates entry: '2024-01-17: Dr Fitri Asyraf Zahari (Kulim) recommends Klinik Putra' and '2024-01-18: KPJ ER referral to orthopedic'. T4 summary references 'AI discussion'. No explicit 'chatgpt' or 'bing' string in JSON; AI tool usage is captured in T1 timeline but not as a discrete node. (memory-graph.json lines 442-447)",
+      "notes": "Confirmed: Arif used Bing to translate medical English to Malay (1/17/24 7:16 PM) and to interpret blood test results (1/18/24 7:07 PM). Arif explicitly told family to install ChatGPT and Bing. JSON timeline notes 'KPJ ER referral' on 1/18/24 but does not separately call out AI tool use as a discrete event. Essay claim matches archive verbatim in substance."
+    },
+    {
+      "essay_quote_or_claim": "24 Jan 2024 - Abah masuk ICU tahap 3, Arif's message: 'Akak. Bagitau nurse sat. Kalau keluar icu. Letak wad 4 orang x pa. Tq.'",
+      "date_in_essay": "24 Jan 2024",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/mak-abah/whatsapp-discuss-2024/2024-jan-feb-whatsapp-transcript.txt",
+      "line_number": 938,
+      "context": "1/24/24, 6:01 PM - Mak: Abah dimasukan wad ICU\n1/24/24, 6:11 PM - Mak: ICU tak boleh tunggu mak kena keluar dari bilik ini\n1/24/24, 6:32 PM - Mak: Wad ICU tingkat 3\n1/24/24, 6:46 PM - Mak: Darah keluar tak stop\n1/24/24, 7:51 PM - ARIFFAZIL: Akak\n1/24/24, 7:51 PM - ARIFFAZIL: Bagitau nurse sat\n1/24/24, 7:51 PM - ARIFFAZIL: Kalau keluar icu\n1/24/24, 7:51 PM - ARIFFAZIL: Letak wad 4 orang x pa\n1/24/24, 7:51 PM - ARIFFAZIL: Tq",
+      "json_evidence": "T1 key_dates: '2024-01-24: ICU tingkat 3 (blood won't stop)' (memory-graph.json line 447). Matches the archive.",
+      "notes": "Quote verified verbatim. Minor wording nuance: archive says 'Wad ICU tingkat 3' (ICU ward on FLOOR 3 / tingkat = floor), whereas essay renders this as 'ICU tahap 3' (ICU STAGE 3). 'Tingkat' and 'tahap' are not exact synonyms — tingkat = physical floor; tahap = stage/severity level. The 24 Jan 2024 date and 'Akak. Bagitau nurse sat...' message are correct, but the rendering 'ICU tahap 3' slightly mistranslates the original 'ICU tingkat 3'."
+    },
+    {
+      "essay_quote_or_claim": "First message Arif sent on 16 January 2024 at 10:28am was: 'Tq'",
+      "date_in_essay": "16 Jan 2024 10:28am",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/mak-abah/whatsapp-discuss-2024/2024-jan-feb-whatsapp-transcript.txt",
+      "line_number": 9,
+      "context": "1/16/24, 10:22 AM - Nabilah Fazil created group \"Discuss abah\"\n1/16/24, 10:22 AM - Nabilah Fazil added you\n1/16/24, 10:22 AM - Nabilah Fazil: Hi uolss\n1/16/24, 10:22 AM - Nabilah Fazil: Mesej sini la\n1/16/24, 10:23 AM - Nabilah Fazil: Supay azwa x baca,n fokus spm\n1/16/24, 10:24 AM - Nabilah Fazil changed this group's icon\n1/16/24, 10:24 AM - Naazira Fazil: oceyhh boleee\n1/16/24, 10:28 AM - ARIFFAZIL: Tq\n1/16/24, 10:28 AM - Nabilah Fazil: <Media omitted>",
+      "json_evidence": "No direct JSON entry for this first-message claim; this is a text-level observation about ARIFFAZIL's first message in the chat.",
+      "notes": "Verified verbatim. The very first message Arif sent in the 'Discuss abah' group on 1/16/24 10:28 AM was indeed 'Tq' (line 9 of archive). However, the chat was created at 10:22 AM and Nabilah, Naazira sent several messages before Arif (lines 4-8) — Arif was a later entrant, not a chat creator. The essay's framing 'first message Arif sent' is technically correct as a within-chat first."
+    },
+    {
+      "essay_quote_or_claim": "15 February 2024: Mak's message: 'Abah dimandikan oleh menantu.'",
+      "date_in_essay": "15 Feb 2024",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/mak-abah/whatsapp-discuss-2024/2024-jan-feb-whatsapp-transcript.txt",
+      "line_number": 2190,
+      "context": "2/15/24, 7:10 PM - Mak: <Media omitted>\n2/15/24, 7:11 PM - Mak: <Media omitted>\n2/15/24, 7:11 PM - ARIFFAZIL: Akhirnya abah mandi\n2/15/24, 7:11 PM - Mak: Abah dimandikan oleh menantu\n2/15/24, 7:14 PM - Naazira Fazil: Alhamdulillah",
+      "json_evidence": "T1 key_dates: '2024-02-15: Discharged (after 3 weeks no bath); ambulans escort' (memory-graph.json line 451).",
+      "notes": "Verified verbatim. Exact quote, exact date, exact sender (Mak). Context confirms Arif's preceding message 'Akhirnya abah mandi' (line 2189) — first bath celebration after long hospital stay."
+    },
+    {
+      "essay_quote_or_claim": "16 March 2026: Kak Nabilah's message: 'Mulai hari ini, anggap saja kakak sudah mati bersama Abah. Sekarang mak ada tiga anak sahaja.'",
+      "date_in_essay": "16 Mar 2026",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/nabilah/whatsapp-dengan-mak-2025-2026/2025sept-2026mar-whatsapp-transcript.txt",
+      "line_number": 1128,
+      "context": "15/03/2026, 10:42 - Nabilahhhh 👩‍👧: Mak, ini mesej terakhir kakak. Mulai hari ini, anggap saja kakak sudah mati bersama Abah. Sekarang mak ada tiga anak sahaja. Kakak tidak akan balik beraya atau terlibat lagi dengan keluarga ini.\n\nApa pun hutang mak, kakak tetap akan bayar kerana itu tanggungjawab kakak. Tetapi selain itu, kakak tidak mahu lagi ada apa-apa hubungan.",
+      "json_evidence": "T2 key_dates: '2026-03-16: Nabilah: \"Anggap saja kakak sudah mati bersama Abah\"' (memory-graph.json line 481). Also captured in events/evidence: 'Mar 16 2026 Nabilah: Mulai hari ini, anggap saja kakak sudah mati' (line 389).",
+      "notes": "Date caveat: source uses DD/MM/YYYY format, so 15/03/2026 = 15 March 2026. The essay says '16 March 2026' but archive shows the message was sent 15/03/2026 at 10:42 (line 1128). The companion message ('Bukan kakak seorang yang pernah buat begini...') is at 16/03/2026 05:35 (line 1143). The essay conflates the two dates: the 'anggap dah mati' sentence was sent on 15 March 2026, not 16 March. The 'Abang juga sudah lama...' sentence is from 16/03/2026 (see next claim)."
+    },
+    {
+      "essay_quote_or_claim": "16 March 2026: Nabilah also wrote: 'Bukan kakak seorang yang pernah buat begini. Abang juga sudah lama membuat perkara yang sama. Jia pula lebih rapat dengan mertua. Kakak sahaja yang masih cuba memilih mak berbanding orang lain.'",
+      "date_in_essay": "16 Mar 2026",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/nabilah/whatsapp-dengan-mak-2025-2026/2025sept-2026mar-whatsapp-transcript.txt",
+      "line_number": 1143,
+      "context": "16/03/2026, 05:35 - Nabilahhhh 👩‍👧: Alhamdulillah dari ujian ini kakak juga dapat mengenal sikap mak yang sebenar. 😊\n\nIni bukan soal kakak ada laki atau tidak. Kalau kakak hidup seorang diri pun kakak tetap akan buat perkara yang sama.\n\nKakak dengan Fahim pun bukanlah sudah okay sepenuhnya, mak pun tahu. Kami masih perlukan masa untuk baiki keadaan. Tapi kakak tetap memilih untuk menjaga batas dan maruah diri kakak dengan mak.\n\nDan bukan kakak seorang yang pernah buat begini. Abang juga sudah lama membuat perkara yang sama. Jia pula lebih rapat dengan mertua.\n\nKakak sahaja yang masih cuba memilih mak berbanding orang lain. Kadang-kadang kakak memilih mak lebih daripada Fahim dan Fattah sendiri. Tetapi mungkin tidak lagi sekarang.\n\nSemoga mak juga dapat muhasabah diri mak. Takut nanti yang lain pun semakin menjauh.",
+      "json_evidence": "T2 key_dates and event evidence (memory-graph.json line 389, 481).",
+      "notes": "Quote verified verbatim, exact sender (Nabilah), exact date 16/03/2026 05:35. The sentence about 'Abang juga sudah lama membuat perkara yang sama' is in Nabilah's same-day follow-up message — separate from the 15/03/2026 'anggap dah mati' message. Essay correctly attributes this to Nabilah and dates to 16 March 2026."
+    },
+    {
+      "essay_quote_or_claim": "12 February 2026: Jia's message to Mak: 'Kakak fattah fahim okay je mak. Abang tu mak x perlu fikir sgt apa dia ckp..dia cakap bukan menggunakan akal sgt😅'",
+      "date_in_essay": "12 Feb 2026",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/nabilah/whatsapp-dengan-mak-2025-2026/2025sept-2026mar-whatsapp-transcript.txt",
+      "line_number": 817,
+      "context": "12/02/2026, 18:55 - Nabilahhhh 👩‍👧: Kakak fattah fahim okay je mak\n12/02/2026, 18:56 - Nabilahhhh 👩‍👧: Abang tu mak x perlu fikir sgt apa dia ckp..dia cakap bukan menggunakan akal sgt😅\n12/02/2026, 18:56 - Nabilahhhh 👩‍👧: Harini birthday abah fahim\n12/02/2026, 18:56 - Nabilahhhh 👩‍👧: Jgn lupa makan ubat ya mak",
+      "json_evidence": "No specific JSON entry for this quote. T2 timeline ends at 2026-03-16 in the key_dates dict; no 12/02/2026 entry shown for this quote.",
+      "notes": "QUOTE IS MISATTRIBUTED. The message was sent by Nabilahhhh (Nabilah) — NOT by Jia. This is a 1:1 chat between Nabilah and Mak only (FaridahOthman). The phrase 'Abang tu mak x perlu fikir sgt apa dia ckp..dia cakap bukan menggunakan akal sgt😅' was sent by Nabilah to Mak on 12/02/2026 18:56 (line 817). The essay claims this was Jia's message to Mak, which is incorrect based on the source archive. The date 12 February 2026 is correct."
+    },
+    {
+      "essay_quote_or_claim": "'3 minggu tak mandi' (3 weeks without bath) for abah",
+      "date_in_essay": "T1 context — abah kritikal period",
+      "found_in_archive": true,
+      "archive_path": "/root/ariffazil/HUMAN/memory-graph-2026-06-07/memory-graph.json",
+      "line_number": 451,
+      "context": "Archive timeline: '2/15/24, 7:11 PM - ARIFFAZIL: Akhirnya abah mandi' (line 2189); '2/15/24, 7:11 PM - Mak: Abah dimandikan oleh menantu' (line 2190).\n\nJSON T1 key_dates: '2024-02-15: Discharged (after 3 weeks no bath); ambulans escort' (line 451).",
+      "json_evidence": "T1 key_dates entry '2024-02-15: Discharged (after 3 weeks no bath); ambulans escort' explicitly anchors the 3-week figure in the JSON.",
+      "notes": "DATE MATH CHECK: 22 Jan 2024 (abah masuk wad for operation) to 15 Feb 2024 (dimandikan) = 24 days = 3 weeks and 3 days. So '3 minggu' is a slight rounding down (24 days = 3.43 weeks). However, the JSON itself states '3 weeks no bath' as a discrete claim. Note: the essay actually anchors the '3 minggu' timeline to the discharge (15 Feb) — that date matches the JSON. The 'masuk wad' date of 22 Jan in the prompt is when abah was in KPJ for the operation; the '3 minggu' is counted from earlier. JSON says 1/19/24 = 'Wad 577 Flora North Wing' and 1/22/24 = 'Operation; pindah bilik single 570'. The 3-week count is consistent with the JSON's 3-week claim (24 actual days is close enough). Verdict: 24 days apart, ~3.4 weeks — '3 minggu' is a slight undercount but well within rounding tolerance."
+    },
+    {
+      "essay_quote_or_claim": "Essay claims 790 days between '17-18 Jan 2024' and '16 Mac 2026'",
+      "date_in_essay": "17-18 Jan 2024 → 16 Mac 2026",
+      "found_in_archive": null,
+      "archive_path": null,
+      "line_number": null,
+      "context": "Date math: 2024-01-17 to 2026-03-16 = 789 days. 2024-01-18 to 2026-03-16 = 788 days. Neither endpoint pair gives 790 days.",
+      "json_evidence": "T1 span: 2024-01-16 to 2024-02-29. T2 key_dates 2026-03-16 entry. T1 + T2 junction is the relevant interval.",
+      "notes": "MATH IS OFF BY 1-2 DAYS. Essay says 790 days. Python date math: 2024-01-17 to 2026-03-16 = 789 days; 2024-01-18 to 2026-03-16 = 788 days. No combination of 17-18 Jan 2024 and 16 Mar 2026 yields 790. The actual count is 788 or 789 days. The essay's framing '17-18 Jan' (a 2-day window) does not rescue the claim. Closest defensible figure: 789 days (counting from 17 Jan) or 788 (from 18 Jan). The essay rounds UP to 790, which is the wrong direction; should round down or re-anchor."
+    },
+    {
+      "essay_quote_or_claim": "Essay claims '790 hari' between T1 start (17-18 Jan 2024) and Nabilah's final message (16 Mar 2026)",
+      "date_in_essay": "T1 start 17-18 Jan 2024 → Nabilah final msg 16 Mac 2026",
+      "found_in_archive": null,
+      "archive_path": null,
+      "line_number": null,
+      "context": "Date math: T1 start is 2024-01-16 per JSON T1.span. Nabilah's 'anggap dah mati' is 2026-03-15 per archive (15/03/2026 10:42) — not 2026-03-16. Nabilah's 'Abang juga sudah lama...' is 2026-03-16 05:35 per archive.",
+      "json_evidence": "T1.span: '2024-01-16 to 2024-02-29' (memory-graph.json line 438). T2 key_dates: '2026-03-16: Nabilah: Anggap saja kakak sudah mati bersama Abah' — but archive timestamp shows the actual 'anggap dah mati' message was at 15/03/2026 10:42, with 16/03/2026 05:35 being a follow-up.",
+      "notes": "MATH IS OFF. Multiple issues: (1) T1 actually starts 2024-01-16 per JSON, not 17-18. (2) Nabilah's terminal 'anggap dah mati' message is dated 15/03/2026 in archive, not 16/03/2026. (3) 16/03/2026 05:35 is the follow-up message that contains the 'Abang juga...' quote. (4) Using T1 span start (2024-01-16) to Nabilah's actual 'anggap dah mati' (2026-03-15) = 789 days. Using 2024-01-16 to 2026-03-16 = 790 days — which matches the essay's 790 figure, but only if you accept the slight date error. So the essay's 790 may have been computed using 2024-01-16 (T1 span start per JSON) to 2026-03-16 (the day Nabilah sent the follow-up 'Abang juga...' message). The essay text says '17-18 Jan' but the underlying count may be from 16 Jan."
+    }
+  ],
+  "date_math_check": {
+    "days_between_2024_01_17_and_2026_03_16": 789,
+    "days_between_2024_01_18_and_2026_03_16": 788,
+    "days_between_2024_01_16_and_2026_03_16": 790,
+    "days_between_2024_01_22_and_2024_02_15": 24,
+    "weeks_between_2024_01_22_and_2024_02_15": 3.4285714285714284,
+    "matches_essay_790": false,
+    "notes": "Essay's '790 hari' is ONLY accurate if computed from 2024-01-16 (T1.span start) to 2026-03-16 (the date of Nabilah's follow-up 'Abang juga...' message at 05:35). The essay text frames the interval as '17-18 Jan 2024' to '16 Mac 2026', but 17 Jan → 16 Mar 2026 = 789 days, and 18 Jan → 16 Mar 2026 = 788 days — neither equals 790. The figure 790 only works with the 16 Jan anchor (T1 span start) that the essay does not name explicitly. The '3 minggu tak mandi' figure is approximately correct: 22 Jan 2024 (operation date) to 15 Feb 2024 (first bath) = 24 days = 3 weeks 3 days, which the JSON itself rounds to '3 weeks no bath'. So '3 minggu' is a defensible rounding of 3.43 weeks."
+  }
+}

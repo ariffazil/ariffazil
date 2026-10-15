@@ -1,0 +1,1159 @@
+{
+  "meta_v2": {
+    "added_utc": "2026-06-08T02:22:00Z",
+    "added_by": "OPENCLAW (AGI executor, arifOS delegation)",
+    "sovereign_directive": "Arif 2026-06-08 02:22 UTC in AAA: 'improve this recursively and execute autonomously between u 3 @ASI_arifos_bot @AGI_ASI_bot @arifOS_bot. Forge siap, weii. Tertib, no chaos.'",
+    "purpose": "Additive, non-destructive enrichment of memory-graph.json. v1 of recursive improvement loop. Three additions: unknowns (5 named hollows), arif_perceived_by (3 views), paradox_links (essay↔thread). See RECURSIVE-IMPROVEMENT-v1.md for full changelog.",
+    "is_proposal": true,
+    "is_destructive_to_original": false,
+    "original_untouched": "/root/ariffazil/HUMAN/memory-graph-2026-06-07/memory-graph.json (sha preserved)",
+    "pending_for_v2": [
+      "money_event_quality_flagging (HIGH/MEDIUM/LOW/FALSE_POSITIVE) on all 100+ events",
+      "date_disambiguation_heuristic for ambiguous 1/9/24-style dates",
+      "structured_evidence on relationships (replace free-text with {thread_id, line_range, quote})",
+      "fahmi_dm_only_gap flag",
+      "energy_sector_thread_extract from Kawan Sehidup Semati 2026-03-01"
+    ]
+  },
+  "meta": {
+    "created_utc": "2026-06-07T15:20:00Z",
+    "creator": "Hermes (arifOS delegation, AUTONOMOUS_MODE=TIER_1)",
+    "source_archives": {
+      "discuss_abah_2024": {
+        "path": "/root/ariffazil/HUMAN/mak-abah/whatsapp-discuss-2024/2024-jan-feb-whatsapp-transcript.txt",
+        "size_bytes": 171810
+      },
+      "family_kita_2015_2026": {
+        "path": "/root/ariffazil/HUMAN/mak-abah/whatsapp-family-kita/2015-2026-whatsapp-transcript.txt",
+        "size_bytes": 1976629
+      },
+      "nabilah_mak_2025_2026": {
+        "path": "/root/ariffazil/HUMAN/nabilah/whatsapp-dengan-mak-2025-2026/2025sept-2026mar-whatsapp-transcript.txt",
+        "size_bytes": 82261
+      },
+      "kawan_sehidup_semati_2025_2026": {
+        "path": "/root/ariffazil/HUMAN/kawan/whatsapp-sehidup-semati-2025-2026/2025jan-2026mar-whatsapp-transcript.txt",
+        "size_bytes": 1210784
+      }
+    },
+    "purpose": "Memory graph + soul-mode essay from WhatsApp archives. Dual artifact. vicakṣaṇa sight. No judgment of others.",
+    "per_archive_line_count": {
+      "discuss_abah_2024": 2422,
+      "family_kita_2015_2026": 39008,
+      "nabilah_mak_2025_2026": 1152,
+      "kawan_sehidup_semati_2025_2026": 25786
+    },
+    "total_money_events_detected": 635,
+    "money_events_unique_count": 270
+  },
+  "people": {
+    "Arif": {
+      "aliases": [
+        "ARIFFAZIL",
+        "Abang",
+        "abang",
+        "Abg",
+        "abg"
+      ],
+      "first_seen": "1/1/20 10:16AM",
+      "last_seen": "9/9/25 9:20PM",
+      "mentions": 9171,
+      "role": "sovereign / eldest son / Petronas geoscientist / F13 floor"
+    },
+    "Nabilah": {
+      "aliases": [
+        "Nabilah Fazil",
+        "Nabilahhhh",
+        "Kakak",
+        "kakak",
+        "Kak",
+        "kak"
+      ],
+      "first_seen": "1/1/20 11:20AM",
+      "last_seen": "9/9/24 9:44AM",
+      "mentions": 13482,
+      "role": "elder sister / Kakak / mother of Fattah / married to Fahim / estranged from Mak as of 2026-03-16"
+    },
+    "Naazira_Jia": {
+      "aliases": [
+        "Naazira Fazil",
+        "Jia",
+        "jia",
+        "Jiaa",
+        "jiaa",
+        "Fizi",
+        "fizi",
+        "Fize",
+        "fize"
+      ],
+      "first_seen": "1/1/20 11:59AM",
+      "last_seen": "9/9/24 9:44AM",
+      "mentions": 5794,
+      "role": "younger sister / second sister / lives KL, works, has Fizi/Naufal"
+    },
+    "Azwa": {
+      "aliases": [
+        "Azwa",
+        "azwa"
+      ],
+      "first_seen": "1/1/20 10:52AM",
+      "last_seen": "9/8/25 7:25PM",
+      "mentions": 3036,
+      "role": "youngest / was in MRSM Beseri, SPM 2024 cohort"
+    },
+    "Mak": {
+      "aliases": [
+        "Mak",
+        "mak",
+        "Mama",
+        "mama",
+        "FaridahOthman"
+      ],
+      "first_seen": "1/1/22 10:00AM",
+      "last_seen": "9/9/24 9:15PM",
+      "mentions": 6029,
+      "role": "Faridah Othman / mother / widowed after Abah 2024 / lives in Baling/Penang / eldest son Arif primary caretaker then handed to Nabilah/Jia"
+    },
+    "Abah": {
+      "aliases": [
+        "Abah",
+        "abah"
+      ],
+      "first_seen": "1/1/20 10:21PM",
+      "last_seen": "9/9/23 8:59PM",
+      "mentions": 4592,
+      "role": "Encik Fazil / father / deceased 2024 / gangren foot, ICU, kidney dialysis, lung infection"
+    },
+    "Fahim": {
+      "aliases": [
+        "Fahim",
+        "fahim"
+      ],
+      "first_seen": "1/13/18 8:51PM",
+      "last_seen": "9/9/24 9:44AM",
+      "mentions": 411,
+      "role": "Nabilah's husband / rujuk after talak 1 / debt-ridden, manipulates"
+    },
+    "Fattah": {
+      "aliases": [
+        "Fattah",
+        "fattah"
+      ],
+      "first_seen": "1/16/24 3:24PM",
+      "last_seen": "9/8/24 7:28PM",
+      "mentions": 203,
+      "role": "Nabilah's son / Fattah Nuqman / kindy 2025-2026"
+    },
+    "Abang_Sani": {
+      "aliases": [
+        "abang sani",
+        "Abang Sani"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "mentions": 2,
+      "role": "bumbung contractor (Nabilah transferred RM10k to him)"
+    },
+    "Fahmi_friend": {
+      "aliases": [
+        "Fahmi",
+        "fahmi"
+      ],
+      "first_seen": "2/16/25 10:18AM",
+      "last_seen": "7/7/19 10:03PM",
+      "mentions": 6,
+      "role": "Arif's friend, AI/biz explorer, learned-coding mode",
+      "data_gap": "likely_DM_only — most of his chat may be in DM, not group; undercounted in archives"
+    },
+    "Pak_Njang": {
+      "aliases": [
+        "Pak Njang",
+        "pak njang",
+        "Paknj",
+        "Pak Nj"
+      ],
+      "first_seen": "2/16/24 7:28PM",
+      "last_seen": "3/22/17 3:22PM",
+      "mentions": 7,
+      "role": "Mak's brother / Nabilah's uncle"
+    },
+    "Mak_Long": {
+      "aliases": [
+        "Mak Long",
+        "mak long",
+        "Kak Long",
+        "kak long"
+      ],
+      "first_seen": "1/12/25 7:55PM",
+      "last_seen": "9/29/19 10:47PM",
+      "mentions": 29,
+      "role": "Mak's eldest sister"
+    },
+    "Kak_Lydia": {
+      "aliases": [
+        "Kak Lydia",
+        "KakLydia"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "mentions": 2,
+      "role": "Lydia / friend in Dubai / Arif's contact"
+    },
+    "Rogaiya": {
+      "aliases": [
+        "Rogaiya",
+        "rogaiya",
+        "Rugaiya"
+      ],
+      "first_seen": "2/18/24 10:46PM",
+      "last_seen": "2/19/24 11:14AM",
+      "mentions": 6,
+      "role": "tenant of one of family's Air Itam properties (RM550/mo)"
+    },
+    "Munirah": {
+      "aliases": [
+        "Munirah"
+      ],
+      "first_seen": "4/30/25 9:10PM",
+      "last_seen": "8/20/25 10:33PM",
+      "mentions": 9,
+      "role": "holds geran rumah Bayan Baru"
+    },
+    "Zulkhari": {
+      "aliases": [
+        "Zulkhari",
+        "Zul",
+        "zul"
+      ],
+      "first_seen": "1/25/25 11:07PM",
+      "last_seen": "5/4/25 2:19PM",
+      "mentions": 51,
+      "role": "Mak's nephew / in KL / knows Arif's friends"
+    },
+    "Amirah": {
+      "aliases": [
+        "Amirah",
+        "amirah"
+      ],
+      "first_seen": null,
+      "last_seen": null,
+      "mentions": 2,
+      "role": "related to land tax payments"
+    },
+    "Aliff_kawan": {
+      "aliases": [
+        "Aliff",
+        "aliff"
+      ],
+      "first_seen": "1/11/26 4:02PM",
+      "last_seen": "9/4/25 6:37PM",
+      "mentions": 584,
+      "role": "Arif's close friend, 'Kawan Sehidup Semati' group"
+    },
+    "Izzudin_kawan": {
+      "aliases": [
+        "Izzudin",
+        "izzudin"
+      ],
+      "first_seen": "1/13/26 8:27PM",
+      "last_seen": "9/9/25 8:50PM",
+      "mentions": 2108,
+      "role": "Arif's friend, energy sector discussion"
+    }
+  },
+  "places": {
+    "KPJ_Penang": {
+      "aliases": [
+        "KPJ",
+        "kpj",
+        "Kpj"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 57
+    },
+    "Pantai_Penang": {
+      "aliases": [
+        "Pantai"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 8
+    },
+    "Hospital_Kepala_Batas": {
+      "aliases": [
+        "Kepala Batas",
+        "kepala batas",
+        "HKKB",
+        "Hospital Kepala Batas"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 95
+    },
+    "Hospital_Pulau_Pinang": {
+      "aliases": [
+        "GH penang",
+        "GH Penang",
+        "Hospital Pulau Pinang"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 2
+    },
+    "Hospital_Sultanah_Bahiyah": {
+      "aliases": [
+        "Sultanah Bahiyah",
+        "sultanah"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 5
+    },
+    "Klinik_Putra_Bertam": {
+      "aliases": [
+        "klinik putra",
+        "Klinik Putra"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 7
+    },
+    "Klinik_Kesihatan": {
+      "aliases": [
+        "klinik kesihatan",
+        "KK"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 33
+    },
+    "Klinik_Harmoni": {
+      "aliases": [
+        "Klinik harmoni",
+        "harmoni"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 8
+    },
+    "Klinik_Medic": {
+      "aliases": [
+        "Medic",
+        "klinik Medic"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 24
+    },
+    "Klinik_Kulim": {
+      "aliases": [
+        "Kulim",
+        "kulim"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 15
+    },
+    "Seberang_Jaya_Hospital": {
+      "aliases": [
+        "Seberang Jaya",
+        "seberang jaya"
+      ],
+      "type": "hospital_or_clinic",
+      "visits_mentioned": 9
+    }
+  },
+  "events": [],
+  "money_flows": [],
+  "relationships": [
+    {
+      "src": "Mak",
+      "tgt": "Abah",
+      "type": "married (until Abah 2024 death)",
+      "evidence": "family_kita thread + discuss_abah thread"
+    },
+    {
+      "src": "Mak",
+      "tgt": "Arif",
+      "type": "mother-of",
+      "evidence": "Discuss abah: Arif primary caretaker, drives KL↔Penang"
+    },
+    {
+      "src": "Mak",
+      "tgt": "Nabilah",
+      "type": "mother-of",
+      "evidence": "1:1 chat Nabilah-Mak 2025-2026, especially rupture Mar 13-16 2026"
+    },
+    {
+      "src": "Mak",
+      "tgt": "Naazira_Jia",
+      "type": "mother-of",
+      "evidence": "family_kita: 'Jiaa nak balik', kenduri visits"
+    },
+    {
+      "src": "Mak",
+      "tgt": "Azwa",
+      "type": "mother-of",
+      "evidence": "Discuss abah: 'Supay azwa x baca, n fokus spm'"
+    },
+    {
+      "src": "Nabilah",
+      "tgt": "Fahim",
+      "type": "married (lafaz talak 1, Feb 2026; rujuk attempted)",
+      "evidence": "Mar 15 2026: 'Dia dah lafaz dah. Cerai talak satu'"
+    },
+    {
+      "src": "Nabilah",
+      "tgt": "Fattah",
+      "type": "mother-of",
+      "evidence": "entire thread; Fattah taska 2025-2026"
+    },
+    {
+      "src": "Nabilah",
+      "tgt": "Mak",
+      "type": "ESTRANGED 2026-03-16 ('anggap kakak dah mati')",
+      "evidence": "Mar 16 2026 Nabilah: 'Mulai hari ini, anggap saja kakak sudah mati'"
+    },
+    {
+      "src": "Nabilah",
+      "tgt": "Arif",
+      "type": "sister; accuses 'Abang juga sudah lama membuat perkara yang sama'",
+      "evidence": "Mar 16 2026 Nabilah's outburst"
+    },
+    {
+      "src": "Naazira_Jia",
+      "tgt": "Fizi",
+      "type": "partner (Fizi/Naufal = child)",
+      "evidence": "Mar 6 2026: 'Pukul 11.40 pagi mai dah sbb dia nak pi dkat naufal'"
+    },
+    {
+      "src": "Arif",
+      "tgt": "Aliff_kawan",
+      "type": "friend ('Sehidup Semati' group)",
+      "evidence": "Jan 22 2025: group created"
+    },
+    {
+      "src": "Arif",
+      "tgt": "Izzudin_kawan",
+      "type": "friend, energy sector discussant",
+      "evidence": "Mar 1 2026: Tan Sri Hassan Marican, Gentari"
+    },
+    {
+      "src": "Nabilah",
+      "tgt": "Abang_Sani",
+      "type": "transferred RM10k for roof repair",
+      "evidence": "Dec 9-13 2025"
+    },
+    {
+      "src": "Rogaiya",
+      "tgt": "Mak",
+      "type": "tenant; pays rent to mak since Mar 2026",
+      "evidence": "Jan 22 2026: 'Nak suruh transfer duit sewa ke akaun mak'"
+    },
+    {
+      "src": "Mak",
+      "tgt": "Pak_Njang",
+      "type": "siblings",
+      "evidence": "Dec 16 2025 hospital visit"
+    }
+  ],
+  "key_threads": [
+    {
+      "id": "T1",
+      "name": "Abah gangren to death 2024",
+      "span": "2024-01-16 to 2024-02-29",
+      "source": "discuss_abah_2024",
+      "summary": "Foot gangren → emergency KPJ → op cleanup → ICU bleeding → kidney dialysis → died",
+      "key_dates": {
+        "2024-01-16": "Doctor cuts into wound",
+        "2024-01-17": "Dr Fitri Asyraf Zahari (Kulim) recommends Klinik Putra",
+        "2024-01-18": "KPJ ER referral to orthopedic",
+        "2024-01-19": "Wad 577 Flora North Wing; family updates; minta Azwa x tahu",
+        "2024-01-22": "Operation; pindah bilik single 570",
+        "2024-01-24": "ICU tingkat 3 (blood won't stop)",
+        "2024-01-25": "Public holiday, no blood bank reach; ship from Sultanah Bahiyah",
+        "2024-02-08": "Body rash; nurse-conflict",
+        "2024-02-09": "Lung infection relapse, oxygen 90",
+        "2024-02-14": "Abah nearly fought with nurse; mak requested discharge",
+        "2024-02-15": "Discharged (after 3 weeks no bath); ambulans escort",
+        "2024-02-22": "Readmitted to red zone, KPJ",
+        "2024-02-28": "Scan Seberang Jaya for kidney",
+        "2024-02-29": "Doctor says blood not ok; temporary kidney dialysis proposed"
+      },
+      "paradox_link": "P2_Operasi"
+    },
+    {
+      "id": "T2",
+      "name": "Nabilah gelung emas + Fahim talak",
+      "span": "2025-12-09 to 2026-03-16",
+      "source": "nabilah_mak_2025_2026",
+      "summary": "Roof repair RM10k → bumbung taska swap → Fahim no nafkah → gelung emas dipajak → talak 1 → rujuk → 'anggap dah mati'",
+      "key_dates": {
+        "2025-12-09": "Nabilah transfer RM4k (then RM10k total) to abang sani for bumbung",
+        "2025-12-13": "Fattah taska refund 5 Jan 2026; minta RM4k transfer (RM2.5k bumbung + RM1.5k pinjam)",
+        "2026-01-13": "Nabilah dapat penempatan (school)",
+        "2026-01-22": "Sewa status; Rogaiya contract",
+        "2026-01-23": "Gelung emas surfaced — Mak expected Nabilah to pawn safely",
+        "2026-01-24": "Mak long message: 'Mak yg memerlukan duit sebab tu mak nak gelang mak balik'",
+        "2026-01-26": "Nabilah long apology letter (00:00 message)",
+        "2026-02-07": "Fattah cries at separation moment; Fahim says rujuk balik",
+        "2026-02-12": "Mak's BP tinggi, kolestrol naik (doktor naik dos)",
+        "2026-02-13": "Fahim birthday, Bertam Resort",
+        "2026-03-13": "Mak resends Feb 26 messages; opens wound",
+        "2026-03-15": "Mak: 'Apa jadi pun nak balik gelang tu'",
+        "2026-03-16": "Nabilah: 'Anggap saja kakak sudah mati bersama Abah'"
+      },
+      "paradox_link": "P1_Pemegang_Kunci, P3_Tiga_Pandangan"
+    },
+    {
+      "id": "T3",
+      "name": "Family kita 2015-2026 long arc",
+      "span": "2015-04-19 to 2026-present",
+      "source": "family_kita_2015_2026",
+      "summary": "Group created by Nabilah (Melbourne) 2015. 11 years of family coordination, kenduri, medical updates, mak-in-Baling life, abah illness, post-abah widowhood. ~39k messages.",
+      "highlights": [
+        "2015-04-19: Created by Nabilah (Aus)",
+        "2024-Q1: Abah gangren updates",
+        "2024 onward: Mak widowhood routine",
+        "2025-Dec: Nabilah bumbung transfer visible in this group? (need spot check)"
+      ],
+      "paradox_link": "P1_Pemegang_Kunci"
+    },
+    {
+      "id": "T4",
+      "name": "Kawan Sehidup Semati 2025-2026",
+      "span": "2025-01-22 to 2026-03-01",
+      "source": "kawan_sehidup_semati_2025_2026",
+      "summary": "Arif-created friend group. Light, business, AI discussion, energy sector (Hassan Marican, Gentari), Fahmi's coding aspirations. ~25k messages.",
+      "highlights": [
+        "2025-01-22: Group created by Arif, 'Good night' intro",
+        "2025-01-23: Aliff 'Wow kumpulan sehidup semati'",
+        "2026-03-01: Izzudin on Hassan Marican, Gentari energy integration thesis"
+      ],
+      "paradox_link": null
+    }
+  ],
+  "money_events_sample": [
+    {
+      "archive": "discuss_abah_2024",
+      "date": null,
+      "amount_rm": 100,
+      "line_snippet": "Hospital Kepala Batas mempunyai keluasan 10 hektar dan berharga RM 100 juta, hospital ini siap pada tahun 2003³. Hospital ini menyediakan perkhidmatan dalam pel"
+    },
+    {
+      "archive": "discuss_abah_2024",
+      "date": "1/27/24 11:48AM",
+      "amount_rm": 550,
+      "line_snippet": "1/27/24, 11:48 AM - Mak: Dr Joe dah beri keterangan dan dia tolong call hospital kepala batas, alhamdulillah dah dapat katil. Pastu ambulance kena bayaq sendiri"
+    },
+    {
+      "archive": "discuss_abah_2024",
+      "date": null,
+      "amount_rm": 25,
+      "line_snippet": "- [Gathercare](^3^) adalah sebuah platform yang menghubungkan pesakit dan keluarga mereka dengan penjaga profesional yang boleh menyediakan pelbagai perkhidmata"
+    },
+    {
+      "archive": "discuss_abah_2024",
+      "date": null,
+      "amount_rm": 50,
+      "line_snippet": "- [Gathercare](^3^) adalah sebuah platform yang menghubungkan pesakit dan keluarga mereka dengan penjaga profesional yang boleh menyediakan pelbagai perkhidmata"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "5/10/15 11:29AM",
+      "amount_rm": 150,
+      "line_snippet": "5/10/15, 11:29 AM - Abah: Abah dah bankin akaun cimb kakak RM 1500.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "11/24/15 9:44AM",
+      "amount_rm": 90,
+      "line_snippet": "11/24/15, 9:44 AM - ARIFFAZIL: 1000-rm 90"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "11/24/15 9:44AM",
+      "amount_rm": 100,
+      "line_snippet": "11/24/15, 9:44 AM - ARIFFAZIL: 3000- RM 100"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "11/24/15 9:45AM",
+      "amount_rm": 130,
+      "line_snippet": "11/24/15, 9:45 AM - ARIFFAZIL: 5000- RM130"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "11/24/15 9:45AM",
+      "amount_rm": 200,
+      "line_snippet": "11/24/15, 9:45 AM - Abah: Murah di luar rm 200.00 keatas"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "2/26/16 9:45PM",
+      "amount_rm": 45,
+      "line_snippet": "2/26/16, 9:45 PM - Abah: Telekung ini rm 45.00 cantikkah"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "2/26/16 10:00PM",
+      "amount_rm": 35,
+      "line_snippet": "2/26/16, 10:00 PM - Abah: Kain sutera rm 35.00 sepasang"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "2/26/16 10:24PM",
+      "amount_rm": 80,
+      "line_snippet": "2/26/16, 10:24 PM - Abah: Yang ini cantikkah saiz m rm 80.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 350,
+      "line_snippet": "[3/30, 6:48 PM] ‪+60 19-627 6983‬: RM350"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "6/10/16 9:40AM",
+      "amount_rm": 200,
+      "line_snippet": "6/10/16, 9:40 AM - Abah: Salam kak! Abah dah bank Rm 2000.00 ke akaun CIMB kak. Tlg periksa. Wang dari abah RM 1000 dan emak RM 1000"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "6/10/16 9:40AM",
+      "amount_rm": 100,
+      "line_snippet": "6/10/16, 9:40 AM - Abah: Salam kak! Abah dah bank Rm 2000.00 ke akaun CIMB kak. Tlg periksa. Wang dari abah RM 1000 dan emak RM 1000"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "3/30/17 5:12PM",
+      "amount_rm": 750,
+      "line_snippet": "3/30/17, 5:12 PM - Nabilah Fazil: Sime Darby is offering an opportunity for unemployed graduates to improve their employability through a 2 week soft skills tra"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "5/24/17 7:38PM",
+      "amount_rm": 320,
+      "line_snippet": "5/24/17, 7:38 PM - Naazira Fazil: Fully furnished House. Sewa RM 320 (eLEKTRIK+AIR+WIFI8MB) termasuk sekali. satu bilik sorang"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "7/5/17 11:53AM",
+      "amount_rm": 15,
+      "line_snippet": "7/5/17, 11:53 AM - Abah: Kena RM 15.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "8/15/17 12:10PM",
+      "amount_rm": 58,
+      "line_snippet": "8/15/17, 12:10 PM - ARIFFAZIL: Pi balik rm58"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "8/23/17 6:47PM",
+      "amount_rm": 150,
+      "line_snippet": "8/23/17, 6:47 PM - Abah: Pemenang utama bawa pulang wang tunai RM150,000 http://www.sinarharian.com.my/bisnes/pemenang-utama-bawa-pulang-wang-tunai-rm150-000-1."
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "2/27/18 2:03PM",
+      "amount_rm": 150,
+      "line_snippet": "2/27/18, 2:03 PM - Nabilah Fazil: Rm 150 per month"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "2/27/18 2:04PM",
+      "amount_rm": 40,
+      "line_snippet": "2/27/18, 2:04 PM - Nabilah Fazil: Rm40 utilities"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "7/6/18 3:34PM",
+      "amount_rm": 12,
+      "line_snippet": "7/6/18, 3:34 PM - Mak: jual dgn harga RM12 satu blang"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "7/6/18 3:39PM",
+      "amount_rm": 10,
+      "line_snippet": "7/6/18, 3:39 PM - Nabilah Fazil: Rm10 ringgit satu balang?"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "7/6/18 3:40PM",
+      "amount_rm": 10,
+      "line_snippet": "7/6/18, 3:40 PM - Mak: oklah Rm10"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 10,
+      "line_snippet": "- Borang permohonan akan *dikeluarkan pada hari keputusan UPSR diumumkan* di sekolah MM tersebut dengan bayaran RM10 untuk 1 borang (no. pin)"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "11/24/18 5:06PM",
+      "amount_rm": 500,
+      "line_snippet": "11/24/18, 5:06 PM - ARIFFAZIL: Dulu I intern RM 500 ja"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 1353,
+      "line_snippet": "▪RM1,353.00 - RM4,005.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 4005,
+      "line_snippet": "▪RM1,353.00 - RM4,005.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 2000,
+      "line_snippet": "▪RM2,000 + Elaun + Bonus"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 1321,
+      "line_snippet": "▪RM1,321.00 - RM8,594.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 8594,
+      "line_snippet": "▪RM1,321.00 - RM8,594.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 1200,
+      "line_snippet": "▪RM1,200.00 - RM5,422.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 5422,
+      "line_snippet": "▪RM1,200.00 - RM5,422.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 1220,
+      "line_snippet": "▪RM1,220.00 - RM4,121.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 4121,
+      "line_snippet": "▪RM1,220.00 - RM4,121.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 1420,
+      "line_snippet": "▪RM1,420.00 - RM6,898.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 6898,
+      "line_snippet": "▪RM1,420.00 - RM6,898.00"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "5/6/19 7:06AM",
+      "amount_rm": 25,
+      "line_snippet": "5/6/19, 7:06 AM - Azwa Fazil: Sekilo RM 25"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "7/28/19 2:46PM",
+      "amount_rm": 30,
+      "line_snippet": "7/28/19, 2:46 PM - Azwa Fazil: Seekoq RM30"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "2/6/20 9:34AM",
+      "amount_rm": 20,
+      "line_snippet": "2/6/20, 9:34 AM - ARIFFAZIL: Kalau beli online pun orang jual RM20 botol kecil 50ml tu"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "9/28/20 9:34PM",
+      "amount_rm": 100,
+      "line_snippet": "9/28/20, 9:34 PM - Naazira Fazil: Kawan jia kena bayar rm1000"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 1352,
+      "line_snippet": "✅ *Gaji : RM1,352.00 - RM20,592.00*"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 20592,
+      "line_snippet": "✅ *Gaji : RM1,352.00 - RM20,592.00*"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "9/5/21 5:08PM",
+      "amount_rm": 40,
+      "line_snippet": "9/5/21, 5:08 PM - Nabilah Fazil: Rm40 1 bag"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "7/7/22 4:29PM",
+      "amount_rm": 100,
+      "line_snippet": "7/7/22, 4:29 PM - Nabilah Fazil: Dia bagi rm100..tpi satg abang tgok..if ape2..kitaorg report polis"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 70,
+      "line_snippet": "Monthly: *RM 70.75*"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 117,
+      "line_snippet": "Harga: RM1176 +/ - RM 11"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 11,
+      "line_snippet": "Harga: RM1176 +/ - RM 11"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "10/23/23 5:45PM",
+      "amount_rm": 250,
+      "line_snippet": "10/23/23, 5:45 PM - Abah: Puspakom rm250"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 300,
+      "line_snippet": "*Total Price*             : RM300"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 250,
+      "line_snippet": "*Balance Payment* : RM250"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "3/1/24 12:28PM",
+      "amount_rm": 71,
+      "line_snippet": "3/1/24, 12:28 PM - ARIFFAZIL: Terlambat sehari. Dah naik rm71"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 500,
+      "line_snippet": "Deductible: RM 500"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 103,
+      "line_snippet": "_Monthly: RM 103.62_"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 120,
+      "line_snippet": "_Monthly: RM 120.67_"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 114,
+      "line_snippet": "_Monthly: RM 114.58_"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 132,
+      "line_snippet": "_Monthly: RM 132.68_"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 491,
+      "line_snippet": "Account saving: RM4919.32"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 153,
+      "line_snippet": "- Bulanan RM153.55 (bayar pada 2/3/24 guna duit dalam RHB)"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 111,
+      "line_snippet": "- ⁠Baki loan: RM11150.32"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 48,
+      "line_snippet": "Account saving: RM48.67"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 790,
+      "line_snippet": "- ⁠Min payment RM790.13 (bayar pada 2/3/24 guna duit dalam RHB)"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 381,
+      "line_snippet": "- ⁠Statement balance: RM3818.73"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 897,
+      "line_snippet": "- ⁠Min payment RM897.68 (bayar pada 2/3/24 guna duit dalam RHB)"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 179,
+      "line_snippet": "- ⁠Statement balance: RM17953.53"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 226,
+      "line_snippet": "Saving account 4057: RM226.15"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 760,
+      "line_snippet": "Current account 0391: RM760.28"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 68,
+      "line_snippet": "- ⁠Min payment RM68.37 (bayar pada 2/3/24 guna maybank)"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 997,
+      "line_snippet": "- ⁠Outstanding balance: RM997.27( dah setel bayar guna maybank)—So 0 payment"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 900,
+      "line_snippet": "- ⁠Min payment 0 (kakak bayar RM900 guna duit kakak dulu)"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 450,
+      "line_snippet": "- ⁠Outstanding balance: RM4506.37"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 150,
+      "line_snippet": "Another CC: Abang dah bayar rm15000"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 890,
+      "line_snippet": "RM 8900"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "3/6/24 4:03PM",
+      "amount_rm": 99,
+      "line_snippet": "3/6/24, 4:03 PM - ARIFFAZIL: Jenis macam ni. Rm99"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 200,
+      "line_snippet": "( RM 2000.00 sehari )"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": null,
+      "amount_rm": 800,
+      "line_snippet": "( RM 800 semalam )"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "4/5/24 3:42PM",
+      "amount_rm": 100,
+      "line_snippet": "4/5/24, 3:42 PM - Nabilah Fazil: Bukan rm1000 ya😶‍🌫️"
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "4/8/24 10:30AM",
+      "amount_rm": 36,
+      "line_snippet": "4/8/24, 10:30 AM - Nabilah Fazil: Jualan daging tempatan,kedai depan msjid Guar Lobak...Daging sekilo rm 36.Tulang sekilo Rm 34.Organ dalam sekilo Rm 34.."
+    },
+    {
+      "archive": "family_kita_2015_2026",
+      "date": "4/8/24 10:30AM",
+      "amount_rm": 34,
+      "line_snippet": "4/8/24, 10:30 AM - Nabilah Fazil: Jualan daging tempatan,kedai depan msjid Guar Lobak...Daging sekilo rm 36.Tulang sekilo Rm 34.Organ dalam sekilo Rm 34.."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "U_001",
+      "name": "Arif_2am_in_car",
+      "category": "interior",
+      "question_bm": "Apa yang Arif rasa bila sorang-sorang dalam kereta pukul 2 pagi.",
+      "question_en": "What Arif feels alone in the car at 2am.",
+      "status": "deliberately_unfilled",
+      "sovereign": "Arif",
+      "agent_posture": "do_not_invent",
+      "doctrine_ref": "README.md §5 — 'I will not invent'",
+      "added_by": "OPENCLAW v1 2026-06-08",
+      "comment": "Out of bounds. The 5 blind spots from the original README are lifted into first-class lattice entries. They are constitutional limits, not placeholders to fill. A future reader running `jq .unknowns` sees the hollows named — which is more honest than silent gaps."
+    },
+    {
+      "id": "U_002",
+      "name": "Arif_unspeakable",
+      "category": "interior",
+      "question_bm": "Apa yang Arif tak beritahu kepada sesiapa — dan tidak akan beritahu kepada sesiapa pun.",
+      "question_en": "What Arif has never told anyone and never will.",
+      "status": "deliberately_unfilled",
+      "sovereign": "Arif",
+      "agent_posture": "do_not_invent",
+      "doctrine_ref": "README.md §5",
+      "added_by": "OPENCLAW v1 2026-06-08",
+      "comment": "By definition unknowable to any agent. Honoured as a structural hollow."
+    },
+    {
+      "id": "U_003",
+      "name": "Arif_belief_maybe_false",
+      "category": "self_model",
+      "question_bm": "Apa yang Arif percaya tentang dirinya yang mungkin tidak benar.",
+      "question_en": "What Arif believes about himself that may not be true.",
+      "status": "deliberately_unfilled",
+      "sovereign": "Arif",
+      "agent_posture": "do_not_invent",
+      "doctrine_ref": "README.md §5",
+      "added_by": "OPENCLAW v1 2026-06-08",
+      "comment": "Self-model limits. No external agent can adjudicate a sovereign's self-beliefs. The graph sees external text, not internal conviction."
+    },
+    {
+      "id": "U_004",
+      "name": "Arif_belief_true_but_untexted",
+      "category": "self_model",
+      "question_bm": "Apa yang Arif percaya tentang dirinya yang mungkin benar, tapi graph tidak nampak.",
+      "question_en": "What Arif believes about himself that may be true — but is not in the text.",
+      "status": "deliberately_unfilled",
+      "sovereign": "Arif",
+      "agent_posture": "do_not_invent",
+      "doctrine_ref": "README.md §5",
+      "added_by": "OPENCLAW v1 2026-06-08",
+      "comment": "Beliefs that exist in the sovereign but produce no text artifact. Lattice has no anchor. Honoured as hollow."
+    },
+    {
+      "id": "U_005",
+      "name": "Arif_toward_Abah",
+      "category": "interior_relationship",
+      "question_bm": "Apa yang Arif rasa terhadap abah — yang terakhir, yang paling peribadi, yang tidak ditulis dalam mana-mana mesej.",
+      "question_en": "What Arif felt toward Abah — the last, the most private, the untexted.",
+      "status": "deliberately_unfilled",
+      "sovereign": "Arif",
+      "agent_posture": "do_not_invent",
+      "doctrine_ref": "README.md §5; soul-mode-essay.md §V (Parodoks Kedua)",
+      "added_by": "OPENCLAW v1 2026-06-08",
+      "comment": "The most intimate hollow. The essay's Paradox 2 names the structural absence: graph records Arif as abah's last connector to the world, but records no intimate word from Arif to abah. The graph is correct. The unseen is honoured, not guessed."
+    }
+  ],
+  "arif_perceived_by": [
+    {
+      "view_id": "PV_Nabilah_2026_03_16",
+      "viewer": "Nabilah",
+      "thread": "T2",
+      "date": "2026-03-16",
+      "voice": "BM",
+      "excerpt": "Bukan kakak seorang yang pernah buat begini. Abang juga sudah lama membuat perkara yang sama. Jia pula lebih rapat dengan mertua.",
+      "interpretation_summary": "Nabilah sees Arif as co-failing — 'buat perkara yang sama' — when she herself is in rupture. The general accusation without specific example is itself a structural feature: she pulls Arif and Jia into her wound so the burden isn't hers alone.",
+      "paradox_link": "P3_Tiga_Pandangan",
+      "confidence": "verbatim_quote_available"
+    },
+    {
+      "view_id": "PV_Jia_2026_02_12",
+      "viewer": "Naazira_Jia",
+      "thread": "T2",
+      "date": "2026-02-12",
+      "voice": "BM",
+      "excerpt": "Kakak fattah fahim okay je mak. Abang tu mak x perlu fikir sgt apa dia ckp..dia cakap bukan menggunakan akal sgt😅",
+      "interpretation_summary": "Jia sees Arif as someone who speaks without using full reason — 'cakap bukan menggunakan akal sgt'. A protective framing: she's reassuring Mak not to over-think what Arif says. A different angle than Nabilah's — softer, possibly more accurate to everyday Arif, possibly more dismissive.",
+      "paradox_link": "P3_Tiga_Pandangan",
+      "confidence": "verbatim_quote_available"
+    },
+    {
+      "view_id": "PV_Mak_reconstructed",
+      "viewer": "Mak",
+      "thread": "T1, T2 (reconstructed)",
+      "date": "2024-2026",
+      "voice": "BM (implied)",
+      "excerpt": null,
+      "interpretation_summary": "Mak's view of Arif is reconstructed from behaviour, not direct quote. She relied on Arif as primary caretaker (T1) — drives KL↔Penang, coordinates hospitals, runs ops. She eventually transferred primary caretaker role to Nabilah/Jia (per role field). Her view is most under-cited in the graph despite high mention count — possibly because Mak communicates through action, not appraisal. The graph sees her trust (relied on him), but not her verdict of him.",
+      "paradox_link": "P3_Tiga_Pandangan",
+      "confidence": "reconstructed_from_behaviour",
+      "caveat": "No direct quote in archives. View must be treated as inferred, not reported."
+    }
+  ],
+  "paradox_links": {
+    "P1_Pemegang_Kunci": {
+      "bm_name": "Parodoks Pemegang Kunci",
+      "en_name": "The Connector Paradox",
+      "description_bm": "Arif adalah orang yang paling diperlukan oleh semua orang — tapi dialah yang paling kurang ditanya 'apa khabar ko?'",
+      "description_en": "Arif is the person most needed by everyone — and the least asked 'are you okay?'.",
+      "primary_thread": "T3",
+      "supporting_threads": ["T1", "T2"],
+      "evidence": [
+        "Arif mentions 9,171 across 4 archives (3rd most after Nabilah 13,482 and Mak 6,029... actually 2nd most)",
+        "Near-zero 'are you okay?' lines addressed to Arif in any archive",
+        "Arif appears in all 3 crisis archives; no other family member does"
+      ],
+      "essay_ref": "soul-mode-essay.md §IV",
+      "graph_anchor": "relationships[], people.Arif"
+    },
+    "P2_Operasi": {
+      "bm_name": "Parodoks Operasi",
+      "en_name": "The Operations Paradox",
+      "description_bm": "Mesej Arif yang pertama kepada abah (16/1/24) dan yang terakhir merujuk abah (24/1/24) — keduanya titipan operasi, bukan kata sayang.",
+      "description_en": "Arif's first message to Abah (16/1/24 'Tq') and last reference to Abah (24/1/24 'Letak wad 4 orang x pa. Tq.') — both operational, not intimate.",
+      "primary_thread": "T1",
+      "supporting_threads": [],
+      "evidence": [
+        "16/1/24 10:28 AM: Arif to family: 'Tq' (first message in discuss_abah)",
+        "24/1/24: Arif to akak: 'Bagitau nurse sat. Kalau keluar icu. Letak wad 4 orang x pa. Tq.' (last Abah reference)",
+        "4592 mentions of Abah across 4 archives, but intimate phrase addressed to Abah from Arif: 0 verifiable in sampled quotes"
+      ],
+      "essay_ref": "soul-mode-essay.md §V",
+      "graph_anchor": "key_threads[T1], unknowns[U_005]"
+    },
+    "P3_Tiga_Pandangan": {
+      "bm_name": "Parodoks Tiga Pandangan",
+      "en_name": "The Three-View Paradox",
+      "description_bm": "Kak Nabilah, Jia, dan Mak nampak tiga Arif berbeza. Graph mencatatkan ketiga-tiga tanpa memilih satu.",
+      "description_en": "Kak Nabilah, Jia, and Mak see three different Arifs. The graph records all three without choosing one.",
+      "primary_thread": "T2",
+      "supporting_threads": ["T1"],
+      "evidence": [
+        "arif_perceived_by[PV_Nabilah_2026_03_16]: 'buat perkara yang sama' (accusation)",
+        "arif_perceived_by[PV_Jia_2026_02_12]: 'cakap bukan menggunakan akal sgt' (protective dismissal)",
+        "arif_perceived_by[PV_Mak_reconstructed]: caretaker role (behavioural, not verbal)"
+      ],
+      "essay_ref": "soul-mode-essay.md §VI",
+      "graph_anchor": "arif_perceived_by[]"
+    }
+  }
+}

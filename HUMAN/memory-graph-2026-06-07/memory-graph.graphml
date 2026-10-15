@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphstruct.org/xmlns">
+  <key id="role" for="node" attr.name="role" attr.type="string"/>
+  <key id="type" for="node" attr.name="type" attr.type="string"/>
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="rtype" for="edge" attr.name="type" attr.type="string"/>
+  <key id="evidence" for="edge" attr.name="evidence" attr.type="string"/>
+  <graph id="HUMAN" edgedefault="directed">
+    <node id="P_Arif">
+      <data key="label">Arif (n=9171)</data>
+      <data key="type">person</data>
+      <data key="role">sovereign / eldest son / Petronas geoscientist / F13 floor</data>
+    </node>
+    <node id="P_Nabilah">
+      <data key="label">Nabilah (n=13482)</data>
+      <data key="type">person</data>
+      <data key="role">elder sister / Kakak / mother of Fattah / married to Fahim / estranged from Mak as of 2026-03-16</data>
+    </node>
+    <node id="P_Naazira_Jia">
+      <data key="label">Naazira_Jia (n=5794)</data>
+      <data key="type">person</data>
+      <data key="role">younger sister / second sister / lives KL, works, has Fizi/Naufal</data>
+    </node>
+    <node id="P_Azwa">
+      <data key="label">Azwa (n=3036)</data>
+      <data key="type">person</data>
+      <data key="role">youngest / was in MRSM Beseri, SPM 2024 cohort</data>
+    </node>
+    <node id="P_Mak">
+      <data key="label">Mak (n=6029)</data>
+      <data key="type">person</data>
+      <data key="role">Faridah Othman / mother / widowed after Abah 2024 / lives in Baling/Penang / eldest son Arif primary caretaker then handed to Nabilah/Jia</data>
+    </node>
+    <node id="P_Abah">
+      <data key="label">Abah (n=4592)</data>
+      <data key="type">person</data>
+      <data key="role">Encik Fazil / father / deceased 2024 / gangren foot, ICU, kidney dialysis, lung infection</data>
+    </node>
+    <node id="P_Fahim">
+      <data key="label">Fahim (n=411)</data>
+      <data key="type">person</data>
+      <data key="role">Nabilah&#x27;s husband / rujuk after talak 1 / debt-ridden, manipulates</data>
+    </node>
+    <node id="P_Fattah">
+      <data key="label">Fattah (n=203)</data>
+      <data key="type">person</data>
+      <data key="role">Nabilah&#x27;s son / Fattah Nuqman / kindy 2025-2026</data>
+    </node>
+    <node id="P_Abang_Sani">
+      <data key="label">Abang_Sani (n=2)</data>
+      <data key="type">person</data>
+      <data key="role">bumbung contractor (Nabilah transferred RM10k to him)</data>
+    </node>
+    <node id="P_Fahmi_friend">
+      <data key="label">Fahmi_friend (n=6)</data>
+      <data key="type">person</data>
+      <data key="role">Arif&#x27;s friend, AI/biz explorer, learned-coding mode</data>
+    </node>
+    <node id="P_Pak_Njang">
+      <data key="label">Pak_Njang (n=7)</data>
+      <data key="type">person</data>
+      <data key="role">Mak&#x27;s brother / Nabilah&#x27;s uncle</data>
+    </node>
+    <node id="P_Mak_Long">
+      <data key="label">Mak_Long (n=29)</data>
+      <data key="type">person</data>
+      <data key="role">Mak&#x27;s eldest sister</data>
+    </node>
+    <node id="P_Kak_Lydia">
+      <data key="label">Kak_Lydia (n=2)</data>
+      <data key="type">person</data>
+      <data key="role">Lydia / friend in Dubai / Arif&#x27;s contact</data>
+    </node>
+    <node id="P_Rogaiya">
+      <data key="label">Rogaiya (n=6)</data>
+      <data key="type">person</data>
+      <data key="role">tenant of one of family&#x27;s Air Itam properties (RM550/mo)</data>
+    </node>
+    <node id="P_Munirah">
+      <data key="label">Munirah (n=9)</data>
+      <data key="type">person</data>
+      <data key="role">holds geran rumah Bayan Baru</data>
+    </node>
+    <node id="P_Zulkhari">
+      <data key="label">Zulkhari (n=51)</data>
+      <data key="type">person</data>
+      <data key="role">Mak&#x27;s nephew / in KL / knows Arif&#x27;s friends</data>
+    </node>
+    <node id="P_Amirah">
+      <data key="label">Amirah (n=2)</data>
+      <data key="type">person</data>
+      <data key="role">related to land tax payments</data>
+    </node>
+    <node id="P_Aliff_kawan">
+      <data key="label">Aliff_kawan (n=584)</data>
+      <data key="type">person</data>
+      <data key="role">Arif&#x27;s close friend, &#x27;Kawan Sehidup Semati&#x27; group</data>
+    </node>
+    <node id="P_Izzudin_kawan">
+      <data key="label">Izzudin_kawan (n=2108)</data>
+      <data key="type">person</data>
+      <data key="role">Arif&#x27;s friend, energy sector discussion</data>
+    </node>
+    <node id="L_KPJ_Penang">
+      <data key="label">KPJ_Penang (visits=57)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Pantai_Penang">
+      <data key="label">Pantai_Penang (visits=8)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Hospital_Kepala_Batas">
+      <data key="label">Hospital_Kepala_Batas (visits=95)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Hospital_Pulau_Pinang">
+      <data key="label">Hospital_Pulau_Pinang (visits=2)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Hospital_Sultanah_Bahiyah">
+      <data key="label">Hospital_Sultanah_Bahiyah (visits=5)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Klinik_Putra_Bertam">
+      <data key="label">Klinik_Putra_Bertam (visits=7)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Klinik_Kesihatan">
+      <data key="label">Klinik_Kesihatan (visits=33)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Klinik_Harmoni">
+      <data key="label">Klinik_Harmoni (visits=8)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Klinik_Medic">
+      <data key="label">Klinik_Medic (visits=24)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Klinik_Kulim">
+      <data key="label">Klinik_Kulim (visits=15)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <node id="L_Seberang_Jaya_Hospital">
+      <data key="label">Seberang_Jaya_Hospital (visits=9)</data>
+      <data key="type">hospital_or_clinic</data>
+    </node>
+    <edge id="E0" source="P_Mak" target="P_Abah">
+      <data key="rtype">married (until Abah 2024 death)</data>
+      <data key="evidence">family_kita thread + discuss_abah thread</data>
+    </edge>
+    <edge id="E1" source="P_Mak" target="P_Arif">
+      <data key="rtype">mother-of</data>
+      <data key="evidence">Discuss abah: Arif primary caretaker, drives KL↔Penang</data>
+    </edge>
+    <edge id="E2" source="P_Mak" target="P_Nabilah">
+      <data key="rtype">mother-of</data>
+      <data key="evidence">1:1 chat Nabilah-Mak 2025-2026, especially rupture Mar 13-16 2026</data>
+    </edge>
+    <edge id="E3" source="P_Mak" target="P_Naazira_Jia">
+      <data key="rtype">mother-of</data>
+      <data key="evidence">family_kita: &#x27;Jiaa nak balik&#x27;, kenduri visits</data>
+    </edge>
+    <edge id="E4" source="P_Mak" target="P_Azwa">
+      <data key="rtype">mother-of</data>
+      <data key="evidence">Discuss abah: &#x27;Supay azwa x baca, n fokus spm&#x27;</data>
+    </edge>
+    <edge id="E5" source="P_Nabilah" target="P_Fahim">
+      <data key="rtype">married (lafaz talak 1, Feb 2026; rujuk attempted)</data>
+      <data key="evidence">Mar 15 2026: &#x27;Dia dah lafaz dah. Cerai talak satu&#x27;</data>
+    </edge>
+    <edge id="E6" source="P_Nabilah" target="P_Fattah">
+      <data key="rtype">mother-of</data>
+      <data key="evidence">entire thread; Fattah taska 2025-2026</data>
+    </edge>
+    <edge id="E7" source="P_Nabilah" target="P_Mak">
+      <data key="rtype">ESTRANGED 2026-03-16 (&#x27;anggap kakak dah mati&#x27;)</data>
+      <data key="evidence">Mar 16 2026 Nabilah: &#x27;Mulai hari ini, anggap saja kakak sudah mati&#x27;</data>
+    </edge>
+    <edge id="E8" source="P_Nabilah" target="P_Arif">
+      <data key="rtype">sister; accuses &#x27;Abang juga sudah lama membuat perkara yang sama&#x27;</data>
+      <data key="evidence">Mar 16 2026 Nabilah&#x27;s outburst</data>
+    </edge>
+    <edge id="E9" source="P_Naazira_Jia" target="P_Fizi">
+      <data key="rtype">partner (Fizi/Naufal = child)</data>
+      <data key="evidence">Mar 6 2026: &#x27;Pukul 11.40 pagi mai dah sbb dia nak pi dkat naufal&#x27;</data>
+    </edge>
+    <edge id="E10" source="P_Arif" target="P_Aliff_kawan">
+      <data key="rtype">friend (&#x27;Sehidup Semati&#x27; group)</data>
+      <data key="evidence">Jan 22 2025: group created</data>
+    </edge>
+    <edge id="E11" source="P_Arif" target="P_Izzudin_kawan">
+      <data key="rtype">friend, energy sector discussant</data>
+      <data key="evidence">Mar 1 2026: Tan Sri Hassan Marican, Gentari</data>
+    </edge>
+    <edge id="E12" source="P_Nabilah" target="P_Abang_Sani">
+      <data key="rtype">transferred RM10k for roof repair</data>
+      <data key="evidence">Dec 9-13 2025</data>
+    </edge>
+    <edge id="E13" source="P_Rogaiya" target="P_Mak">
+      <data key="rtype">tenant; pays rent to mak since Mar 2026</data>
+      <data key="evidence">Jan 22 2026: &#x27;Nak suruh transfer duit sewa ke akaun mak&#x27;</data>
+    </edge>
+    <edge id="E14" source="P_Mak" target="P_Pak_Njang">
+      <data key="rtype">siblings</data>
+      <data key="evidence">Dec 16 2025 hospital visit</data>
+    </edge>
+  </graph>
+</graphml>
