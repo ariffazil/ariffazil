@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="DejaVu Sans, Liberation Sans, sans-serif">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1e24"/>
+      <stop offset="1" stop-color="#14161a"/>
+    </linearGradient>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#5a6270"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#fade)"/>
+
+  <!-- Title -->
+  <text x="60" y="104" fill="#f2f4f7" font-size="54" font-weight="700">ARIF FAZ</text>
+  <text x="60" y="146" fill="#d4a853" font-size="21" letter-spacing="4">FROM SUBSURFACE UNCERTAINTY TO GOVERNED INTELLIGENCE</text>
+
+  <!-- Human authority above -->
+  <rect x="460" y="186" width="360" height="52" rx="12" fill="none" stroke="#d4a853" stroke-width="2.5"/>
+  <text x="640" y="219" fill="#d4a853" font-size="20" font-weight="700" text-anchor="middle">HUMAN AUTHORITY</text>
+  <path d="M640,238 V268 H505 V300" fill="none" stroke="#d4a853" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+  <!-- Left: layered subsurface strata -->
+  <g>
+    <rect x="70" y="330" width="240" height="26" rx="4" fill="#2a2f38" stroke="#3a4250"/>
+    <rect x="70" y="362" width="240" height="34" rx="4" fill="#232830" stroke="#3a4250"/>
+    <rect x="70" y="402" width="240" height="30" rx="4" fill="#2a241c" stroke="#5a4a33"/>
+    <rect x="70" y="438" width="240" height="38" rx="4" fill="#1d2229" stroke="#3a4250"/>
+    <rect x="70" y="482" width="240" height="28" rx="4" fill="#241d16" stroke="#5a4a33"/>
+    <text x="190" y="322" fill="#9aa4b2" font-size="15" text-anchor="middle">subsurface uncertainty</text>
+    <text x="190" y="536" fill="#9aa4b2" font-size="13" text-anchor="middle">seismic · wells · basins</text>
+  </g>
+
+  <!-- Arrow strata -> gate -->
+  <g stroke="#5a6270" stroke-width="2.5" marker-end="url(#ah)">
+    <line x1="316" y1="408" x2="382" y2="408"/>
+  </g>
+
+  <!-- Center: the governed gate -->
+  <g>
+    <rect x="390" y="300" width="230" height="216" rx="16" fill="#1a1d22" stroke="#d4a853" stroke-width="2.5"/>
+    <text x="505" y="352" fill="#d4a853" font-size="22" font-weight="700" text-anchor="middle">GOVERNED</text>
+    <text x="505" y="382" fill="#d4a853" font-size="22" font-weight="700" text-anchor="middle">GATE</text>
+    <text x="505" y="422" fill="#9aa4b2" font-size="14" text-anchor="middle">propose · judge ·</text>
+    <text x="505" y="444" fill="#9aa4b2" font-size="14" text-anchor="middle">authorize · witness</text>
+    <text x="505" y="484" fill="#f2f4f7" font-size="14" font-weight="700" text-anchor="middle">reversible first</text>
+    <rect x="470" y="302" width="70" height="12" rx="4" fill="#d4a853"/>
+  </g>
+
+  <!-- Arrow gate -> signals -->
+  <g stroke="#5a6270" stroke-width="2.5" marker-end="url(#ah)">
+    <line x1="626" y1="408" x2="692" y2="408"/>
+  </g>
+
+  <!-- Right: agentic signals becoming bounded actions -->
+  <g>
+    <rect x="700" y="330" width="240" height="34" rx="8" fill="#16302c" stroke="#3fbf7f" stroke-width="1.8"/>
+    <text x="820" y="353" fill="#3fbf7f" font-size="15" text-anchor="middle">bounded action</text>
+    <rect x="700" y="374" width="240" height="34" rx="8" fill="#1d2229" stroke="#4fd1c5" stroke-width="1.8"/>
+    <text x="820" y="397" fill="#4fd1c5" font-size="15" text-anchor="middle">receipt + provenance</text>
+    <rect x="700" y="418" width="240" height="34" rx="8" fill="#3a2f16" stroke="#d4a853" stroke-width="1.8"/>
+    <text x="820" y="441" fill="#d4a853" font-size="15" text-anchor="middle">human veto preserved</text>
+    <rect x="700" y="462" width="240" height="34" rx="8" fill="#3a1a1a" stroke="#d9534f" stroke-width="1.8"/>
+    <text x="820" y="485" fill="#d9534f" font-size="15" text-anchor="middle">irreversible → 888_HOLD</text>
+    <text x="820" y="528" fill="#9aa4b2" font-size="13" text-anchor="middle">agents propose · they do not authorize themselves</text>
+  </g>
+
+  <!-- Right margin: motto stack -->
+  <text x="1010" y="330" fill="#9aa4b2" font-size="15">DITEMPA</text>
+  <text x="1010" y="356" fill="#9aa4b2" font-size="15">BUKAN</text>
+  <text x="1010" y="382" fill="#d4a853" font-size="15" font-weight="700">DIBERI</text>
+
+  <!-- Footer -->
+  <text x="60" y="606" fill="#9aa4b2" font-size="17">Governed capability, not just capability.</text>
+  <text x="1220" y="606" fill="#d4a853" font-size="16" letter-spacing="3" text-anchor="end">FORGED, NOT GIVEN</text>
+</svg>

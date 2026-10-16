@@ -1,245 +1,117 @@
-<!-- SOT-MANIFEST
-federation_release: v2026.09.13
-last_verified: 2026-09-13T06:32:00Z
-scope: /root/ariffazil — human-facing sovereign profile
-apex_zen: A2A delegates ⊥ MCP equips ⊥ ACT mutates ⊥ arifOS governs ⊥ F13 decides
-epistemic_status: OBS (this is who Arif is; the system claims this is the person behind the federation)
-audit_basis: 333-AGI Δ MIND session (2026-08-11) — README gap audit
--->
+<p align="center">
+  <img src="docs/assets/arif-faz-hero.png" alt="ARIF FAZ — from subsurface uncertainty to governed intelligence: layered strata, a governed gate, agentic signals becoming bounded actions, human authority above" width="100%">
+</p>
 
-# Muhammad Arif bin Fazil
+# ARIF FAZ
 
-> Senior Exploration Geoscientist. Builder of governed intelligence.  
-> **DITEMPA BUKAN DIBERI — Forged, Not Given.**
+### Exploration geoscientist building governed intelligence.
 
-Saya Arif. Geologist by training. System architect by necessity.
+**DITEMPA BUKAN DIBERI · Forged, Not Given**
 
-I spent 11 years at PETRONAS reading the subsurface — seismic, wells, basins. Zero dry holes. Then I left to build something different: a constitutional AI system that treats intelligence the way geology treats uncertainty. Data is incomplete. Good judgment must still hold.
+I am Arif, a geologist by training and a systems architect by necessity.
 
-My core work is **arifOS** — a federated intelligence system built on one principle:
+After 11 years in exploration geoscience — seismic, wells, basins — I began building something different: a constitutional AI system that treats intelligence the way geology treats uncertainty. The subsurface is incomplete. Judgment must still hold.
 
-> *Intelligence must be governed before it acts.*
+I now apply that discipline to AI systems:
 
-**Enter here:** [arif-fazil.com](https://arif-fazil.com) · kernel [arifOS](https://github.com/ariffazil/arifOS) · attention [AAA](https://github.com/ariffazil/AAA) · hands [A-FORGE](https://github.com/ariffazil/A-FORGE) · earth [GEOX](https://github.com/ariffazil/GEOX) · time [CHRON](https://github.com/ariffazil/CHRON) · capital [WEALTH](https://github.com/ariffazil/WEALTH)
+> **Intelligence must be governed before it acts.**
 
-This is not another chatbot wrapper. It is a personal institution: memory with a denylist, work with receipts, models you can replace without losing the house.
+## What I build
 
-### ⚡ Connect to arifOS & GEOX in 30 Seconds
+My core work is **arifOS**, a federated runtime that separates:
 
-Add this to your `claude_desktop_config.json`, Cursor MCP settings, or Antigravity/Gemini configuration:
+- intelligence from authority
+- attention from judgment
+- judgment from execution
+- execution from witnessing
+- memory from narrative
+
+Agents may propose. They do not authorize themselves.
+Humans retain the final veto.
+Consequential actions produce inspectable receipts.
+
+```text
+Human intent
+    ↓
+AAA prioritizes
+    ↓
+arifOS judges (666 JUDGE)
+    ↓
+A-FORGE executes after authorization (777 FORGE)
+    ↓
+FRAME witnesses · VAULT999 preserves the record (999 SEAL)
+```
+
+**Priority is not authority. Capability is not permission.**
+(`888_HOLD` remains the sovereign-escalation verdict when irreversible consent is needed.)
+
+## Enter the federation
+
+- [arifOS](https://github.com/ariffazil/arifOS) — authority and constitutional judgment
+- [AAA](https://github.com/ariffazil/AAA) — attention and agent discovery
+- [A-FORGE](https://github.com/ariffazil/A-FORGE) — governed execution
+- [GEOX](https://github.com/ariffazil/GEOX) — earth and subsurface intelligence
+- [arif-fazil.com](https://arif-fazil.com) — public entry point
+
+The full map (all organs, boundary services, memory and metabolism planes) lives in the federation repository — this page is a doorway, not a directory.
+
+## Connect in 30 seconds
 
 ```json
 {
   "mcpServers": {
-    "arifos": {
-      "url": "https://mcp.arif-fazil.com/mcp"
-    },
-    "geox": {
-      "url": "https://geox.arif-fazil.com/mcp"
-    }
+    "arifos": { "url": "https://mcp.arif-fazil.com/mcp" },
+    "geox":   { "url": "https://geox.arif-fazil.com/mcp" }
   }
 }
 ```
 
-Or probe live from your terminal:
+Probe the public authority surface:
+
 ```bash
 curl -s https://mcp.arif-fazil.com/health | jq .
 ```
 
----
+Public endpoints expose bounded capabilities. Mutation remains subject to identity, authority and runtime governance.
 
-## Apa Yang Saya Bina
+## Why this exists
 
-Saya bina sistem yang memastikan setiap tindakan AI ada:
+Most AI systems optimize capability. I focus on governed capability:
 
-- **Sumber kuasa yang jelas** — siapa benarkan?
-- **Sempadan yang nyata** — apa yang tak boleh disentuh?
-- **Rekod yang kekal** — kenapa keputusan ini dibuat?
-- **Resit selepas tindakan** — apa akibatnya?
+- Who authorized the action?
+- What must remain untouched?
+- Which evidence supported the decision?
+- What consequence actually occurred?
+- Can a human still refuse?
 
-Most AI systems focus on capability. I focus on **governed capability.**
+## Working principles
 
-Dalam bahasa arifOS:
+- Name uncertainty early.
+- Preserve provenance.
+- Do not confuse elegance with truth.
+- Witness before mutation.
+- Prefer reversible action.
+- Keep human veto final.
+- Record consequences, not just intentions.
 
-```
-ARIF menentukan.          ← niat              (Sovereign plane)
-arifOS menghukum.         ← undang-undang      (Governance plane)
-ATLAS333 berfikir.        ← fikiran            (Intelligence plane)
-arifFlow mengalirkan.     ← saraf              (Metabolism plane)
-A-FORGE melaksanakan.     ← tangan             (Execution plane)
-Organs membaca realiti.   ← bumi, modal, manusia, jambatan (Witness organs)
-VAULT999 menyimpan saksi. ← memori kekal       (Truth plane)
-```
+## Boundaries
 
-**Sepuluh kata kerja. Sepuluh pemilik. Sifar pertindanan.**
+Personal relationships, family reality and private life records are not published in these repositories.
 
-The four infrastructure organs (arifFlow, FRAME, FED, FLAME) sit between governance and execution — they metabolize, audit, route, and reason at the lowest layer of the federation, never adjudicating.
+Public code is not personal memory. A representation of a person is not the person.
 
----
+## Start here
 
-## 🗺️ The External Loop (Human-in-the-Loop View)
+- [Federation architecture](FEDERATION.md)
+- [Constitutional canon](CANON.md)
+- [Repository index](INDEX.md)
+- [Current verified state](https://arif-fazil.com/governance/)
+- [Security and disclosure](SECURITY.md)
 
-```mermaid
-flowchart LR
-  ARIF["👑 Muhammad Arif bin Fazil<br/>F13 SOVEREIGN<br/>(this human)"]
+## Contact
 
-  subgraph Intent["Intent enters (000)"]
-    ARIFOS_INIT["arifOS<br/>arif_init"]
-  end
+- Website: [arif-fazil.com](https://arif-fazil.com)
+- LinkedIn: [Arif Fazil](https://linkedin.com/in/ariffazil)
+- Email: arifbfazil@gmail.com
 
-  subgraph Governance["Kernel (111-888)"]
-    ARIFOS_THINK["arifOS<br/>observe → think → route"]
-    ARIFOS_JUDGE["arifOS<br/>arif_judge<br/>(SEAL · HOLD · VOID)"]
-  end
-
-  subgraph Witness["Evidence"]
-    GEOX["🌍 GEOX"]
-    WEALTH["💰 WEALTH"]
-    WELL["🫀 WELL"]
-  end
-
-  subgraph Execution["Mutation (777)"]
-    AFORGE["A-FORGE<br/>(after SEAL only)"]
-  end
-
-  subgraph Truth["Receipt (999)"]
-    VAULT["VAULT999"]
-  end
-
-  ARIF ==>|1. intent / veto| ARIFOS_INIT
-  ARIFOS_INIT ==>|2. session + SCT| ARIFOS_THINK
-  ARIFOS_THINK -->|"route intent"| Witness
-  Witness -->|"evidence + epistemic label"| ARIFOS_THINK
-  ARIFOS_THINK ==>|"3. SEAL verdict"| ARIFOS_JUDGE
-  ARIFOS_JUDGE ==>|"4. forge under SEAL"| AFORGE
-  AFORGE ==>|"5. execute + verify"| VAULT
-  VAULT ==>|"6. sealed receipt"| ARIF
-
-  ARIF ==>"888_HOLD<br/>(irreversible consent)"| AFORGE
-
-  classDef sovereign fill:#FF6B35,stroke:#000,color:#fff,stroke-width:3px
-  classDef intent fill:#FFE0B2,stroke:#000
-  classDef governance fill:#A42E2E,stroke:#000,color:#fff
-  classDef witness fill:#4285F4,stroke:#000,color:#fff
-  classDef execution fill:#2E7D32,stroke:#000,color:#fff
-  classDef truth fill:#000,stroke:#000,color:#fff
-  class ARIF sovereign
-```
-
-**Reading the loop:**
-
-1. **Arif gives intent** (000): I want X.
-2. **arifOS binds session + asks organs** (111-333-444): what evidence?
-3. **Witness organs report** (GEOX, WEALTH, WELL): here's the data, with epistemic labels.
-4. **arifOS judges** (888): SEAL (proceed) · HOLD (pause) · VOID (blocked).
-5. **A-FORGE executes under SEAL** (777): only after verdict.
-6. **VAULT999 seals** (999): immutable receipt.
-
-**The only return path is VAULT999 → Arif.** Every other edge is internal.
-
----
-
-Kalau nak faham seni bina penuh: [**FEDERATION.md**](./FEDERATION.md)
-
----
-
-## The 10-Organ Federation
-
-| Plane | Owner | Role |
-|-------|-------|------|
-| Sovereign | ARIF (F13) | purpose, irreversible consent, final veto |
-| Governance | arifOS (:8088) | F1–F13 floors · SEAL/HOLD/VOID verdicts · Identity & session binding |
-| Attention | AAA (:3001) | inter-agent routing, human attention membrane, zero cognitive fatigue |
-| Temporal | CHRON (:18102) | predictions, calibration curves, consequence verification over time |
-| Earth Witness | GEOX (:8081) | subsurface physics, seismic, LAS logs, Malay Basin evidence |
-| Capital Witness | WEALTH (:18082) | capital consequence modeling under uncertainty (13 primitives) |
-| Human Witness | WELL (:18083) | *[Private Boundary]* vitality mirror, machine thermal health, dignity floors |
-| Meaning Edge | HERMES (Edge) | *[Private Boundary]* human reality bridge, Telegram gateway, Rasa/Shadow |
-| Metabolism | arifFlow (:7073) | FQ pulse · receipt metabolism · attention checkpointing |
-| Execution | A-FORGE (:7071/72) | controlled mutation after SEAL verdict (122 tools) |
-| Truth | VAULT999 | immutable consequence & hash-chained audit ledger |
-
----
-
-## Kenapa Benda Ni Wujud
-
-Saya tak percaya kecerdasan patut dinilai semata-mata oleh apa yang ia **boleh** buat.
-
-Ia patut dinilai oleh:
-
-- Apa yang ia **enggan** buat
-- Sejauh mana ia **ingat** akibat
-- Sama ada ia boleh **jelaskan** kuasanya
-- Sama ada ia **lindungi** manusia di belakang sistem
-
-Ini datang dari latihan geologi saya:
-
-> *Bawah permukaan tak kemas. Data tak lengkap. Good judgment hold anyway.*
-
----
-
-## Pegangan
-
-1. Namakan uncertainty awal — jangan tunggu
-2. Hormat apa yang data tak nak cakap
-3. Jangan konfus elegance dengan truth
-4. Setiap output mesti kurangkan kekacauan (ΔS ≤ 0)
-5. Minta tri-witness sebelum consequence
-6. Jaga apa yang tak boleh ditulis semula
-7. Kekal berguna. Kekal manusia. Kekal ditempa.
-8. Arkib adalah memori, bukan kematian
-9. Veto manusia adalah muktamad
-
----
-
-## Sempadan
-
-Ini repo awam. Realiti peribadi saya — keluarga, kawan, ofis, keputusan hidup — **tidak** tinggal di sini.
-
-| Folder | Isi | Status |
-|--------|-----|--------|
-| **HUMAN/** | Keluarga | Peribadi |
-| **HAMPA/** | Kawan kerja | Peribadi |
-| **PROPA/** | Ofis | Peribadi |
-| **LIFE/** | Keputusan hidup | Peribadi |
-| **SOVEREIGNTY/** | Kawalan & pengaruh | Peribadi |
-
-Semua folder ini gitignored. Tiada kandungan awam. VAULT999 juga bukan repo biasa — ia *runtime-governed*, append-only, dan dirawat sebagai saksi, bukan pangkalan data.
-
----
-
-## Nak Mula Dari Mana?
-
-Kalau pertama kali sampai:
-
-1. [**FEDERATION.md**](./FEDERATION.md) — susun atur penuh (10-organ anatomy)
-2. [**CANON.md**](./CANON.md) — apa yang benar secara perlembagaan (F1–F13)
-3. [**INDEX.md**](./INDEX.md) — peta repositori
-4. [arif-fazil.com](https://arif-fazil.com) — public surface
-5. [arifos.arif-fazil.com](https://arifos.arif-fazil.com) — kernel proof surface
-
----
-
-## Hubungi
-
-- **Email:** arifbfazil@gmail.com
-- **Telegram:** [t.me/ariffazil](https://t.me/ariffazil)
-- **LinkedIn:** [Arif Fazil](https://linkedin.com/in/ariffazil)
-- **Website:** [arif-fazil.com](https://arif-fazil.com)
-
----
-
-<div align="center">
-
-**DITEMPA BUKAN DIBERI — Forged, Not Given.**
-
----
-
-## 🏅 Federation Certification
-
-[![Federation](https://img.shields.io/endpoint?url=https%3A%2F%2Farif-fazil.com%2F.well-known%2Fbadge%2Ffederation.json&style=flat-square&label=federation)](https://arifos.arif-fazil.com/health)
-[![VAULT999](https://img.shields.io/endpoint?url=https%3A%2F%2Farif-fazil.com%2F.well-known%2Fbadge%2Fvault999.json&style=flat-square&label=VAULT999)](https://arif-fazil.com/999/verify)
-[![F1–F13](https://img.shields.io/endpoint?url=https%3A%2F%2Farif-fazil.com%2F.well-known%2Fbadge%2Ffloors.json&style=flat-square)](https://github.com/ariffazil/arifos/blob/main/GENESIS/000_KERNEL_CANON.md)
-[![F13 SOVEREIGN](https://img.shields.io/badge/F13_SOVEREIGN-Arif-FF6B35?style=flat-square)](https://arif-fazil.com)
-
-</div>
+**DITEMPA BUKAN DIBERI · Forged, Not Given**
