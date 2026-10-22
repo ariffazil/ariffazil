@@ -108,6 +108,19 @@ Public code is not personal memory. A representation of a person is not the pers
 - [Current verified state](https://arif-fazil.com/governance/)
 - [Security and disclosure](SECURITY.md)
 
+## External Footprint & Discovery
+
+arifOS is publicly discoverable beyond first-party domains.
+
+- **Discoverable:** YES (GitHub, PyPI, MCP Directories, External Catalogs)
+- **Installable:** YES (`pip install arifos`)
+- **Inspectable & Forkable:** YES
+- **Independent Validation:** NOT YET ESTABLISHED
+
+*Discoverability should not be interpreted as endorsement, certification, commercial adoption, or proof of effectiveness.*
+
+Canonical Ledger: [EXTERNAL_WITNESS_LEDGER.md](https://github.com/ariffazil/arifOS/blob/main/docs/EXTERNAL_WITNESS_LEDGER.md)
+
 ## Contact
 
 - Website: [arif-fazil.com](https://arif-fazil.com)
