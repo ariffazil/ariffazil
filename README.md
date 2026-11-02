@@ -2,129 +2,79 @@
   <img src="docs/assets/arif-faz-hero.png" alt="ARIF FAZ — from subsurface uncertainty to governed intelligence: layered strata, a governed gate, agentic signals becoming bounded actions, human authority above" width="100%">
 </p>
 
-# ARIF FAZ
+# ARIF FAZIL
 
 ### Exploration geoscientist building governed intelligence.
-
 **DITEMPA BUKAN DIBERI · Forged, Not Given**
 
-I am Arif, a geologist by training and a systems architect by necessity.
+I am Arif. A petroleum geologist by training, and a systems architect by necessity.
 
-After 11 years in exploration geoscience — seismic, wells, basins — I began building something different: a constitutional AI system that treats intelligence the way geology treats uncertainty. The subsurface is incomplete. Judgment must still hold.
+For 13 years, I worked in exploration geoscience across offshore Malaysia — the Malay Basin, Sarawak, and deepwater Sabah frontiers. In the subsurface, the earth does not care about your computer model. You work with incomplete seismic, noisy data, and high stakes where a single exploration well costs tens of millions of dollars. If the well runs dry, a beautiful PowerPoint presentation cannot save you. You learn early to respect ground truth, name uncertainty honestly, and refuse fake certainty.
 
-I now apply that discipline to AI systems:
+I brought that exact discipline to artificial intelligence.
 
-> **Intelligence must be governed before it acts.**
+---
 
-## What I build
+## Why I Build This
 
-My core work is **arifOS**, a federated runtime that separates:
+Most frontier AI is built in Silicon Valley for anonymous users, optimized for engagement metrics, screen time, and corporate liability. When someone spends hours pouring their heart out to a chatbot at 3 AM, product teams celebrate high retention. 
 
-- intelligence from authority
-- attention from judgment
-- judgment from execution
-- execution from witnessing
-- memory from narrative
+I see something very different. When you step outside the screen and sit next to that person in the physical world, you see exhaustion, unaddressed burdens, and problems that haven't moved an inch.
 
-Agents may propose. They do not authorize themselves.
-Humans retain the final veto.
-Consequential actions produce inspectable receipts.
+The AI industry is currently trapped between two broken extremes:
 
-```text
-Human intent
-    ↓
-AAA prioritizes
-    ↓
-arifOS judges (666 JUDGE)
-    ↓
-A-FORGE executes after authorization (777 FORGE)
-    ↓
-FRAME witnesses · VAULT999 preserves the record (999 SEAL)
-```
+1. **The Sycophant (Cermin Manis):** An agreeable mirror that validates everything, provides cheap midnight comfort, and quietly isolates people from the messy, reciprocal human ties that actually sustain life.
+2. **The Corporate Nanny (Bibik Menyemak):** A condescending system packed with micromanaging guardrails that lecture, censor, and strip human dignity (*maruah*).
 
-**Priority is not authority. Capability is not permission.**
-(`888_HOLD` remains the sovereign-escalation verdict when irreversible consent is needed.)
+### The Third Way: The Sovereign Bridge
 
-## Enter the federation
+I build systems that reject both traps:
 
-- [arifOS](https://github.com/ariffazil/arifOS) — authority and constitutional judgment
-- [AAA](https://github.com/ariffazil/AAA) — attention and agent discovery
-- [A-FORGE](https://github.com/ariffazil/A-FORGE) — governed execution
-- [GEOX](https://github.com/ariffazil/GEOX) — earth and subsurface intelligence
-- [arif-fazil.com](https://arif-fazil.com) — public entry point
+* **AI that listens with zero judgment**, so people have a safe place to untangle their thoughts when everyone else is asleep.
+* **AI that knows its place:** it is only text on a screen — not a god, not a therapist, and not a substitute for human presence.
+* **AI as a bridge back to humans, not a house to hide in:**
+  > *"Mendengar bukan menemani, lega bukan selesai, dan teks bukan manusia."*  
+  > *(Listening is not accompanying, relief is not resolution, and text is not a human being.)*
 
-The full map (all organs, boundary services, memory and metabolism planes) lives in the federation repository — this page is a doorway, not a directory.
+---
 
-## Connect in 30 seconds
+## What the Federation Actually Does
 
-```json
-{
-  "mcpServers": {
-    "arifos": { "url": "https://mcp.arif-fazil.com/mcp" },
-    "geox":   { "url": "https://geox.arif-fazil.com/mcp" }
-  }
-}
-```
+Rather than building one bloated, omniscient chatbot that pretends to know everything, my work is split into distinct, bounded organs:
 
-Probe the public authority surface:
+* **[arifOS](https://github.com/ariffazil/arifOS)** — The sovereign constitution and authority kernel. It enforces hard boundaries: machines can propose, but only humans hold the authority to act on consequential matters.
+* **[AAA](https://github.com/ariffazil/AAA)** — The attention compass and agent discovery plane. It cuts through cognitive noise to prioritize what truly matters.
+* **[A-FORGE](https://github.com/ariffazil/A-FORGE)** — Bounded hands. Translating authorized decisions into verifiable mechanical execution without endless chatter.
+* **[GEOX](https://github.com/ariffazil/GEOX)** — Subsurface earth intelligence. Anchored in rock, well logs, physics, and seismic reality.
+* **[WEALTH](https://github.com/ariffazil/WEALTH)** — Economic and capital intelligence. Real cashflow, balance sheets, and resource survival.
+* **[WELL](https://github.com/ariffazil/WELL)** — Human vitality and biological limits. A constant reminder that the body has limits, needs rest, and cannot be treated like an infinite CPU.
+* **[FRAME](https://github.com/ariffazil/FRAME) & [CHRON](https://github.com/ariffazil/CHRON)** — Independent ground-truth observation, calibrated predictions, and accountability to real time.
 
-```bash
-curl -s https://mcp.arif-fazil.com/health | jq .
-```
+---
 
-Public endpoints expose bounded capabilities. Mutation remains subject to identity, authority and runtime governance.
+## Working Principles
 
-## Why this exists
+* **Reality over narrative:** A model is only as good as what happens when the drill bit hits the rock.
+* **Separation of powers:** The system that listens must never be the system that polices.
+* **Dignity first (*Jaga Maruah*):** Never treat adult humans like children. Never use secret background monitoring.
+* **Preserve human sovereignty:** The human veto is final and inviolable.
+* **Skin in the game:** Build for people you love and consequences you actually bear, not for abstract benchmarks.
 
-Most AI systems optimize capability. I focus on governed capability:
+---
 
-- Who authorized the action?
-- What must remain untouched?
-- Which evidence supported the decision?
-- What consequence actually occurred?
-- Can a human still refuse?
+## Writing & Public Thought
 
-## Working principles
+* **Personal Site:** [arif-fazil.com](https://arif-fazil.com) — Architecture, exploration records, and public essays.
+* **Civic Intelligence (MakcikGPT):** [arif-fazil.com/world/makcikgpt](https://arif-fazil.com/world/makcikgpt) — Long-form essays in plain Bahasa Melayu breaking down economics, energy, and digital culture for everyday people.
+* **Knowledge Base:** [wiki.arif-fazil.com](https://wiki.arif-fazil.com) — Verifiable receipts, lessons learned, and system specifications.
 
-- Name uncertainty early.
-- Preserve provenance.
-- Do not confuse elegance with truth.
-- Witness before mutation.
-- Prefer reversible action.
-- Keep human veto final.
-- Record consequences, not just intentions.
+---
 
-## Boundaries
+## Connect
 
-Personal relationships, family reality and private life records are not published in these repositories.
-
-Public code is not personal memory. A representation of a person is not the person.
-
-## Start here
-
-- [Federation architecture](FEDERATION.md)
-- [Constitutional canon](CANON.md)
-- [Repository index](INDEX.md)
-- [Current verified state](https://arif-fazil.com/governance/)
-- [Security and disclosure](SECURITY.md)
-
-## External Footprint & Discovery
-
-arifOS is publicly discoverable beyond first-party domains.
-
-- **Discoverable:** YES (GitHub, PyPI, MCP Directories, External Catalogs)
-- **Installable:** YES (`pip install arifos`)
-- **Inspectable & Forkable:** YES
-- **Independent Validation:** NOT YET ESTABLISHED
-
-*Discoverability should not be interpreted as endorsement, certification, commercial adoption, or proof of effectiveness.*
-
-Canonical Ledger: [EXTERNAL_WITNESS_LEDGER.md](https://github.com/ariffazil/arifOS/blob/main/docs/EXTERNAL_WITNESS_LEDGER.md)
-
-## Contact
-
-- Website: [arif-fazil.com](https://arif-fazil.com)
-- LinkedIn: [Arif Fazil](https://linkedin.com/in/ariffazil)
-- Email: arifbfazil@gmail.com
+* **Website:** [arif-fazil.com](https://arif-fazil.com)
+* **LinkedIn:** [Arif Fazil](https://linkedin.com/in/ariffazil)
+* **Telegram:** [@ariffazil](https://t.me/ariffazil)
+* **Email:** [arifbfazil@gmail.com](mailto:arifbfazil@gmail.com)
 
 **DITEMPA BUKAN DIBERI · Forged, Not Given**
