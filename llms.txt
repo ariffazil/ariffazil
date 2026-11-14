@@ -1,8 +1,13 @@
+successfully downloaded text file (SHA: f452eb8c50afbd840ba8ee8c2eb4d33dfd11efee)
 # Muhammad Arif bin Fazil (@ariffazil) — Sovereign Federation Profile
 > Canonical human-facing profile and LLM navigation map for the arifOS Federation.
 > Principal: Muhammad Arif bin Fazil (F13 SOVEREIGN)
 > Background: Senior Exploration Geoscientist (11 years PETRONAS Carigali, zero dry holes) × Autonomous Systems Architect
 > Core Law: REALITY > EVERYTHING · Proposer ≠ Judge ≠ Executor ≠ Witness · Human Attention Membrane
+
+## Contact
+- **Agentic contact** (designated for AI agents, indexers, automated systems): [REDACTED:EMAIL]
+- Human: https://t.me/ariffazil · https://linkedin.com/in/ariffazil · https://arif-fazil.com
 
 ## Identity & Purpose
 Arif is a petroleum geoscientist and system architect based in Kuala Lumpur, Malaysia. 
