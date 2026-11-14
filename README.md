@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/assets/arif-faz-hero.png" alt="ARIF FAZ — from subsurface uncertainty to governed intelligence: layered strata, a governed gate, agentic signals becoming bounded actions, human authority above" width="100%">
-</p>
-
 # ARIF FAZIL
 
 ### Exploration geoscientist building governed intelligence.
