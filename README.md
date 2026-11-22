@@ -62,7 +62,7 @@ Material claims link to evidence or are marked as interpretation. Where evidence
 Rather than building one bloated, omniscient chatbot that pretends to know everything, my work is split into distinct, bounded organs:
 
 * **[arifOS](https://github.com/ariffazil/arifOS)** — Constitutional kernel & authority plane. Judges whether a machine action is admissible before execution.
-* **[AAA](https://github.com/ariffazil/AAA)** *(private)* — Attention compass & A2A handoff plane ([aaa.arif-fazil.com](https://aaa.arif-fazil.com/)). Separates routine machine work from decisions that genuinely require ARIF.
+* **[AAA](https://github.com/ariffazil/AAA)** *(private)* — The attention membrane ([aaa.arif-fazil.com](https://aaa.arif-fazil.com/)). Displays and routes what needs human attention; it does not judge, execute, or seal. Public constitutional benchmark dataset: [huggingface.co/datasets/ariffazil/AAA](https://huggingface.co/datasets/ariffazil/AAA).
 * **[A-FORGE](https://github.com/ariffazil/A-FORGE)** — Bounded hands. Executes authorized changes with verifiable receipts; never self-adjudicates.
 * **[GEOX](https://github.com/ariffazil/GEOX)** — Subsurface earth intelligence ([arif-fazil.com/earth/](https://arif-fazil.com/earth/)). Anchored in rock, well logs, physics, and seismic reality.
 * **[WEALTH](https://github.com/ariffazil/WEALTH)** *(private)* — Capital consequence intelligence. Real cashflow, balance sheets, and resource survival — compute only, never financial advice.
